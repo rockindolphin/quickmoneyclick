@@ -1,0 +1,42 @@
+//- VARS
+- var imgFolder = '../images/'
+
+mixin head(title)
+	- function pDate() {return new Date().getTime();}
+	head
+		if !title
+			title Zagorskoe
+		else
+			title #{title}
+		link(rel="stylesheet", href="../css/style.css?ver=" + pDate())
+		link(rel="shortcut icon", type="image/png", href="../images/favicon.png")
+		meta(charset='utf-8')
+		meta(name="viewport", content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+		meta(name="mobile-web-app-capable", content="yes")
+		meta(name="apple-mobile-web-app-capable", content="yes")
+		link(href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&amp;subset=cyrillic,cyrillic-ext", rel="stylesheet")
+		if config.images.generateSpritePng
+			link(rel="stylesheet", href="../css/sprite.css")
+
+mixin picture(opts)
+	- var name = path.parse(opts.src).name
+	- var ext = path.parse(opts.src).ext.substr(1)
+	- var srcFile = path.resolve('src','images',opts.src)
+	- var alt = opts.alt ? opts.alt : name;
+	- var className = opts.class;
+	- var data = opts.data ? opts.data : '';
+	- function setQuality(quality){ images( srcFile, quality ); }
+	if opts.quality
+		#{setQuality(opts.quality)}
+	if config.images.sizes.length > 0 || images.webp
+		picture
+			each size in config.images.sizes
+				if config.images.webp
+					source(srcset=`${imgFolder}${name}-${size}.webp` type="image/webp" media=`(max-width: ${size}px)`)
+				source(srcset=`${imgFolder}${name}-${size}.${ext}` type=`image/${ext}` media=`(max-width: ${size}px)`)
+			if config.images.webp
+				source(srcset=`${imgFolder}${name}.webp` type="image/webp" )
+			source(srcset=`${imgFolder}${name}.${ext}` type=`image/${ext}`)
+			img(src=`${imgFolder}${name}.${ext}` class=className alt=alt )&attributes(data)
+	else
+		img(src=`${imgFolder}${name}.${ext}` class=className alt=alt )&attributes(data)

@@ -1,0 +1,37 @@
+include ./mixins.pug
+doctype html
+html(lang="ru")
+	+head('Племенная продукция')
+	body.page
+		.page__body
+			include partials/header.pug
+			main.main.page__main
+				.page__wrapper
+					ul.list.breadcrumbs
+						li.list__item.breadcrumbs__item
+							a.link(href="catalog.html")
+								| Каталог
+						li.list__item.breadcrumbs__item
+							a.link(href="catalog-4.html")
+								| Племенная продукция
+					h2.page__title
+						| Племенная продукция					
+					.blog
+						.blog__content
+							.catalog
+								.catalog__items
+									a.catalog__item(href="cross.html")
+										span.item__pic
+											img.img(src="../images/catalog-3-1.jpg", alt="catalog item" data-bg="true")
+										span.item__title
+											| Cross Hisex
+									a.catalog__item(href="cross.html")
+										span.item__pic
+											img.img(src="../images/catalog-3-2.jpg", alt="catalog item" data-bg="true")
+										span.item__title
+											| Cross 789
+						aside.blog__aside
+							.aside__nav
+								.nav__wrapper
+									include partials/products_nav.pug
+			include partials/footer.pug
