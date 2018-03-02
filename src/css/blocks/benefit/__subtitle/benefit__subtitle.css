@@ -1,0 +1,9 @@
+
+.benefit__subtitle{
+	text-align: center;
+	font-weight: var(--fw-light);
+	line-height: 1.1;
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+

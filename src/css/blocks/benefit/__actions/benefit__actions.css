@@ -1,0 +1,14 @@
+
+.benefit__actions{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	& > .btn{
+		min-width: 235px;
+		&:not(:last-of-type){
+			margin-right: 14px;
+		}
+	}
+}
+

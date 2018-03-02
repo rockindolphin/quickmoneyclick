@@ -1,0 +1,12 @@
+
+.list--din{
+	list-style: none;
+	&>li{
+		line-height: 1.6em;
+		&::before{
+			content: '\2713';
+			margin-right: 0.5em;
+		}
+	}
+}
+

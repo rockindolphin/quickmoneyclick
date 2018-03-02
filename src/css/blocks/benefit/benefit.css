@@ -1,0 +1,9 @@
+
+.benefit{
+	width: 100%;
+	& .list{
+		font-size: 24px;
+		padding-left: 0;
+	}
+}
+

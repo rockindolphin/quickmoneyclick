@@ -1,0 +1,13 @@
+
+.header__side{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	&:first-of-type{
+		justify-content: flex-start;
+	}
+	&:last-of-type{
+		justify-content: flex-end;
+	}
+}
+

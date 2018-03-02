@@ -1,0 +1,33 @@
+
+.slider--main{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: stretch;
+	& .slider__container{
+		width: 100%;
+		flex-grow: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: stretch;		
+	}
+	& .slider__wrapper{
+		width: 100%;
+		flex-grow: 1;
+		display: flex;
+		flex-direction: row;
+		align-items: stretch;
+		justify-content: flex-start;		
+	}
+	& .slider__slide{
+		height: auto;
+		/*width: 100% !important;*/
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
+

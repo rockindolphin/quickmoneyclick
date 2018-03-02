@@ -1,0 +1,11 @@
+
+.benefit__pic{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: color(#102741 alpha(50%));
+	width: 260px;
+	height: 260px;
+	border-radius: 50%;
+}
+

@@ -4,150 +4,213 @@ html(lang="ru")
 	+head()
 	body.page
 		.page__body
-			include partials/header.pug
-			main.main.page__main
-				section.section.section--full-width
-					.section__content
-						.slider--front
-							.slider--front-pics
-								.swiper-container
-									.swiper-wrapper
-										.swiper-slide 
-											img.slider__img(src="../images/slide-1.jpg", alt="slide-1", data-bg="true")
-										.swiper-slide 
-											img.slider__img(src="../images/slide-2.jpg", alt="slide-2", data-bg="true")
-										.swiper-slide 
-											img.slider__img(src="../images/slide-1.jpg", alt="slide-3", data-bg="true")
-							.page__wrapper
-								.slider.slider--front-text
-									.swiper-container
-										.swiper-wrapper
-											.swiper-slide 
-												.slide__content
-													h3
-														| Экспериментальное хозяйство института — производственная база для проведения научных исследований, касающихся разведения птицы. 
-											.swiper-slide 
-												.slide__content
-													h3
-														| Экспериментальное хозяйство института — производственная база для проведения научных исследований, касающихся разведения птицы.
-											.swiper-slide 
-												.slide__content
-													h3
-														| Экспериментальное хозяйство института — производственная база для проведения научных исследований, касающихся разведения птицы.
-										.swiper-pagination
-										.swiper-button-prev
-											svg.icon.icon--active.icon--arrow-left
-												use(xlink:href="../images/sprite.svg#arrow-left")
-										.swiper-button-next
-											svg.icon.icon--active.icon--arrow-right
-												use(xlink:href="../images/sprite.svg#arrow-right")
+			header.header
+				.header__wrapper
+					.header__side
+						.btn.btn--menu.header__menu
+							i.fas.fa-bars
+						.logo.header__logo
+						.toolbar.header__languages
+							ul.list.list--reset
+								li.list__item
+									a.link.link--active(href="#")
+										| RU
+								li.list__item
+									a.link(href="#")
+										| EN
+								li.list__item
+									a.link(href="#")
+										| CZ
+					.header__side
+						.toolbar.header__socials
+							a.link(href="#")
+								i.fab.fa-vk
+							a.link(href="#")
+								i.fab.fa-facebook-f
+							a.link(href="#")
+								i.fab.fa-twitter
+						.toolbar.header__actions
+							.btn.btn--sm
+								| Войти
+							.btn.btn--sm.btn--inverse
+								| Зарегистрироваться
+			main.main
+				.slider.slider--main.slider--main-pics
+					.slider__container.swiper-container
+						.slider__wrapper.swiper-wrapper
+							.slider__slide.swiper-slide 
+								img.slide__img(src="../images/slide-0.jpg", alt="slide-0" data-bg="true")
+							.slider__slide.swiper-slide 
+								img.slide__img(src="../images/slide-1.jpg", alt="slide-1" data-bg="true")
+							.slider__slide.swiper-slide 
+								img.slide__img(src="../images/slide-2.jpg", alt="slide-2" data-bg="true")
+							.slider__slide.swiper-slide 
+								img.slide__img(src="../images/slide-3.jpg", alt="slide-3" data-bg="true")
+							.slider__slide.swiper-slide 
+								img.slide__img(src="../images/slide-4.jpg", alt="slide-4" data-bg="true")
 				.page__wrapper
-					.blog
-						.blog__content
-							.input__wrapper--tabs
-								input.input(type="radio", name="tabs", id="tab-1" data-tab="1" checked)
-								label.input__label(for="tab-1")
-									span
-										| О хозяйстве
-									svg.icon.icon--active.icon--chewron-down
-										use(xlink:href="../images/sprite.svg#chewron-down")
-								.input__content(data-tab="1")
-									h6
-										| Селекционная работа в хозяйстве началась с первых месяцев основания института – в 1930 г.  Из-за рубежа были завезены для размножения куры разных пород, и в 1953 году в стаде уже насчитывалось около 10 тысяч высокопродуктивных несушек. 
-									p
-										| Еще в довоенные годы хозяйство было постоянным участником ВСХВ и удостаивалось различных наград. В тяжелые для страны военные годы работники ЭПХ сумели сохранить резервный генофонд птицы, а в дальнейшем регулярно пополняли его. 
-									p
-										| Экспериментальная база института стала настоящим полигоном для проведения научно-исследовательских работ и апробации законченных разработок-способов содержания птицы, ее кормления, приемов и методов селекции.
-								input.input(type="radio", name="tabs", id="tab-2" data-tab="2" )
-								label.input__label(for="tab-2")
-									span
-										| Документы
-									svg.icon.icon--active.icon--chewron-down
-										use(xlink:href="../images/sprite.svg#chewron-down")
-								.input__content(data-tab="2")
-									.gallery--docs
-										.gallery__items
-											.gallery__item
-												a.item__pic(href="../images/docs-1.png", data-lightbox="docs")
-													img.img(src="../images/docs-1.png", alt="")
-											.gallery__item
-												a.item__pic(href="../images/docs-2.png", data-lightbox="docs")
-													img.img(src="../images/docs-2.png", alt="")
-									p
-										| Свидетельства о регистрации в<br> государственном племенном регистре
-								input.input(type="radio", name="tabs", id="tab-3" data-tab="3" )
-								label.input__label(for="tab-3")
-									span
-										| Награды
-									svg.icon.icon--active.icon--chewron-down
-										use(xlink:href="../images/sprite.svg#chewron-down")
-								.input__content(data-tab="3")
-									p
-										| Предприятий неоднократно награжденено<br> почётными граммотами и наградами
-									.gallery--docs
-										.gallery__items
-											.gallery__item
-												a.item__pic(href="../images/diploms-1.png", data-lightbox="diploms")
-													img.img(src="../images/diploms-1.png", alt="")
-											.gallery__item
-												a.item__pic(href="../images/diploms-2.png", data-lightbox="diploms")
-													img.img(src="../images/diploms-2.png", alt="")
-						aside.blog__aside
-							.slider.slider--articles
-								h6.slider__title
-									| Что нового
-								.swiper-container
-									.swiper-wrapper
-										.swiper-slide
-											article.article
-												.article__pic
-													img.img(src="../images/article-1.jpg", alt="pic", data-bg="true")
-												.article__categories
-													span.article__category
-														| Научная деятельность
-												a.link.article__title( href="news-open.html")
-													| Характеристика орловской породы кур ситцевой разновидности по полиморфизму локусов
-												.article__date
-													| 12 декабря, 2017
-										.swiper-slide
-											article.article
-												.article__pic
-													img.img(src="../images/article-1.jpg", alt="pic", data-bg="true")
-												.article__categories
-													span.article__category
-														| Научная деятельность
-												a.link.article__title( href="news-open.html")
-													| Характеристика орловской породы кур ситцевой разновидности по полиморфизму локусов
-												.article__date
-													| 12 декабря, 2017
-										.swiper-slide
-											article.article
-												.article__pic
-													img.img(src="../images/article-1.jpg", alt="pic", data-bg="true")
-												.article__categories
-													span.article__category
-														| Научная деятельность
-												a.link.article__title( href="news-open.html")
-													| Характеристика орловской породы кур ситцевой разновидности по полиморфизму локусов
-												.article__date
-													| 12 декабря, 2017
-										.swiper-slide
-											article.article
-												.article__pic
-													img.img(src="../images/article-1.jpg", alt="pic", data-bg="true")
-												.article__categories
-													span.article__category
-														| Научная деятельность
-												a.link.article__title( href="news-open.html")
-													| Характеристика орловской породы кур ситцевой разновидности по полиморфизму локусов
-												.article__date
-													| 12 декабря, 2017
-									.slider__controls
-										.swiper-button-prev
-											svg.icon.icon--active.icon--chewron-left
-												use(xlink:href="../images/sprite.svg#chewron-left")
-										.swiper-pagination
-										.swiper-button-next
-											svg.icon.icon--active.icon--chewron-right
-												use(xlink:href="../images/sprite.svg#chewron-right")
-			include partials/footer.pug
+					.slider.slider--main.slider--main-text
+						.slider__container.swiper-container
+							.slider__wrapper.swiper-wrapper
+								.slider__slide.swiper-slide
+									.benefit
+										h2.benefit__title
+											| Возможности QMC
+										h4.benefit__subtitle
+											| Лучше, чем банк!
+										.benefit__wrapper
+											.wrapper__side
+												.benefit__pic
+													//-
+														svg.icon.icon--active.icon--wallet
+															use(xlink:href="../images/sprite.svg#wallet")
+													.icon--wallet
+														include ../images/sprites/svg/wallet.svg
+											.wrapper__side
+												ul.list.list--din
+													li.list__item
+														| Открытие аккаунта
+													li.list__item
+														| Пополнение аккаунта
+													li.list__item
+														| Вывод средств
+													li.list__item
+														| Мгновенные переводы
+										.benefit__actions
+											.btn
+												| Узнать больше
+											.btn.btn--inverse
+												| Открыть аккаунт
+								.slider__slide.swiper-slide
+									.benefit
+										h2.benefit__title
+											| Бизнес-аккаунт
+										h4.benefit__subtitle
+											| Ваш персональный счёт
+										.benefit__wrapper
+											.wrapper__side
+												.benefit__pic
+													//-
+														svg.icon.icon--active.icon--man
+															use(xlink:href="../images/sprite.svg#man")
+													.icon--man
+														include ../images/sprites/svg/man.svg
+											.wrapper__side
+												ul.list.list--din
+													li.list__item
+														| Валюта расчета доллар, евро, чешская крона
+													li.list__item
+														| Взаиморасчёты
+													li.list__item
+														| Все сегменты бизнеса
+													li.list__item
+														| Персонализированный подход
+										.benefit__actions
+											.btn
+												| Узнать больше
+											.btn.btn--inverse
+												| Открыть аккаунт
+								.slider__slide.swiper-slide
+									.benefit
+										h2.benefit__title
+											| Мерчант-аккаунт
+										h4.benefit__subtitle
+											| Решение для вашего бизнеса
+										.benefit__wrapper
+											.wrapper__side
+												.benefit__pic
+													//-
+														svg.icon.icon--active.icon--hands
+															use(xlink:href="../images/sprite.svg#hands")
+													.icon--hands
+														include ../images/sprites/svg/hands.svg														
+											.wrapper__side
+												ul.list.list--din
+													li.list__item
+														| Приём онлайн-платежей со всего мира
+													li.list__item
+														| Обратные выплаты
+													li.list__item
+														| Работа с различными видами бизнеса
+													li.list__item
+														| Индивидуальные решения
+										.benefit__actions
+											.btn
+												| Узнать больше
+											.btn.btn--inverse
+												| Открыть аккаунт
+								.slider__slide.swiper-slide
+									.benefit
+										h2.benefit__title
+											| Блокчейн технологии
+										h4.benefit__subtitle
+											| Технологичные транзакции
+										.benefit__wrapper
+											.wrapper__side
+												.benefit__pic
+													//-
+														svg.icon.icon--active.icon--chain
+															use(xlink:href="../images/sprite.svg#chain")
+													.icon--chain
+														include ../images/sprites/svg/chain.svg															
+											.wrapper__side
+												ul.list.list--din
+													li.list__item
+														| Пополнение аккаунта USD и EUR криптовалютой
+													li.list__item
+														| Выплаты на криптоадреса
+													li.list__item
+														| Генерация собственного криптоадреса
+													li.list__item
+														| Автоконвертация криптовалюты в USD и EUR
+										.benefit__actions
+											.btn
+												| Узнать больше
+											.btn.btn--inverse
+												| Открыть аккаунт
+						.swiper-pagination.slider__pagination
+						.swiper-button-prev
+						.swiper-button-next
+						.slider__cap
+							.benefit.benefit--logo
+								h4.benefit__subtitle
+									| Электронный кошелек для бизнес решений
+								.benefit__pic
+									img.img(src="../images/logo.png", alt="QuickMoneyClick")
+								h1.benefit__title
+									| Лучше, чем банк!
+								.benefit__actions
+									.btn.btn--inverse
+										| Открыть аккаунт
+						nav.slider__nav
+							input#slide-1(type="radio", name="slider")
+							label.nav__item(for="slide-1")
+								span.label__title
+									| Возможности QMC
+								span.label__caption
+									| Лучше, чем банк!
+							input#slide-2(type="radio", name="slider")
+							label.nav__item(for="slide-2")
+								span.label__title
+									| Бизнес-аккаунт
+								span.label__caption
+									| Ваш персональный счет
+							input#slide-3(type="radio", name="slider")
+							label.nav__item(for="slide-3")
+								span.label__title
+									| Мерчант-аккаунт
+								span.label__caption
+									| Решение для Вашего бизнеса
+							input#slide-4(type="radio", name="slider")
+							label.nav__item(for="slide-4")
+								span.label__title
+									| Блокчейн технологии
+								span.label__caption
+									| Технологичные транзакции
+			footer.footer
+				.page__wrapper
+			script(defer, src="https://use.fontawesome.com/releases/v5.0.7/js/all.js")
+			script(src="../js/vendors/jquery-3.2.1.min.js")
+			script(src="../js/vendors/swiper.min.js")
+			script(src="../js/app.js")
+

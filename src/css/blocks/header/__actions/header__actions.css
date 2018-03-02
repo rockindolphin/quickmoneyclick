@@ -1,0 +1,10 @@
+
+.header__actions{
+	color: var(--blue_006);
+	& .btn{
+		&:not(:last-of-type){
+			margin-right: 20px;
+		}
+	}
+}
+

@@ -1,0 +1,22 @@
+
+.header__socials{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 40px;
+	color: var(--blue_006);
+	&>.link{
+		margin-left: 10px;
+		margin-right: 10px;
+		&:hover,
+		&:active{
+			color: var(--blue_194);
+		}
+	}
+	& .svg-inline--fa{
+		width: 1.5em;
+		height: 1.5em;
+	}	
+}
+

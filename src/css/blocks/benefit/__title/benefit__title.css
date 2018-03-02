@@ -1,0 +1,9 @@
+
+.benefit__title{
+	text-align: center;
+	font-weight: var(--fw-bold);
+	line-height: 1.1;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+

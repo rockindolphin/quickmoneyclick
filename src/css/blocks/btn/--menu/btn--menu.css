@@ -1,0 +1,23 @@
+
+.btn--menu{
+	border-radius: 0;
+	padding: 0;
+	min-width: 44px;
+	min-height: 44px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--blue_006);
+	background: transparent;
+	& .svg-inline--fa{
+		width: 2em;
+		height: 2em;
+	}
+    &:hover,
+    &:active{
+        background-color: transparent;
+        color: var(--blue_194);
+        border-color: color(#000000 alpha(15%));
+    }	
+}
+

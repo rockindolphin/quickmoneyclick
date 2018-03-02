@@ -1,0 +1,23 @@
+
+.header__languages{
+	margin-right: 30px;
+	font-size: 14px;
+	&>.list{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+		& .list__item{
+			&:not(:last-child){
+				&::after{
+					content: '|';
+					display: inline-block;
+					color: var(--black);
+					margin-left: 10px;
+					margin-right: 10px;
+				}
+			}
+		}		
+	}
+}
+

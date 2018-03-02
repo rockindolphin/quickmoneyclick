@@ -1,0 +1,11 @@
+
+.btn--sm{
+    font-size: 16px;
+    line-height: 2em;
+    height: 32px;
+    border-radius: 16px;
+    padding-left: 25px;
+    padding-right: 25px;    
+    text-transform: capitalize;
+}
+

@@ -261,7 +261,6 @@ module.exports = function BEM(args, items){
 	opts.element = opts.element !== null ? opts.element[1].match(/.*[a-zA-Z0-9]/) : null;
 	opts.element = opts.element !== null ? opts.element[0] : null;
 	opts.modificator = opts.modificator !== null ? opts.modificator[1] : null;	
-	console.log(opts);
 	try{
 		if(opts.block&&opts.element&&opts.modificator){	//block__elem--mod
 			let modificator = new _Modificator(opts);
