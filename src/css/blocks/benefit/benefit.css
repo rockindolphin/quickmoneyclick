@@ -1,9 +1,21 @@
 
 .benefit{
 	width: 100%;
+	user-select: none;
 	& .list{
-		font-size: 24px;
+		font-size: 14px;
 		padding-left: 0;
 	}
+	@media (--pre-medium-viewport){
+		& .list{
+			font-size: 24px;
+		}
+	}
+	@media (--medium-viewport){
+
+	}
+	@media (--large-viewport) {
+
+	}	
 }
 

@@ -1,21 +1,31 @@
 
 .benefit__wrapper{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: stretch;
 	justify-content: center;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 	& > .wrapper__side{
 		flex-basis: 50%;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		&:first-child{
-			justify-content: center;
-		}
-		&:last-child{
-			justify-content: flex-start;
-		}
+		justify-content: center;
 	}
+	@media (--pre-medium-viewport){
+		
+	}
+	@media (--medium-viewport){
+		flex-direction: row;
+		margin-bottom: 60px;
+		& > .wrapper__side{
+			&:last-child{
+				justify-content: flex-start;
+			}
+		}		
+	}
+	@media (--large-viewport) {
+
+	}	
 }
 

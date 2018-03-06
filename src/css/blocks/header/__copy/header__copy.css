@@ -1,0 +1,20 @@
+
+.header__copy{
+	font-size: 12px;
+	color: color(#ffffff alpha(50%));
+	line-height: 1.5;
+	& p{
+		margin-top: 0;
+		margin-bottom: 0.3em;
+	}
+	@media (--pre-medium-viewport){
+					
+	}
+	@media (--medium-viewport){
+					
+	}
+	@media (--large-viewport){
+			
+	}	
+}
+

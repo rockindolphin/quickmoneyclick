@@ -7,6 +7,7 @@
 	margin-right: 40px;
 	color: var(--blue_006);
 	&>.link{
+		display: block;
 		margin-left: 10px;
 		margin-right: 10px;
 		&:hover,
@@ -17,6 +18,12 @@
 	& .svg-inline--fa{
 		width: 1.5em;
 		height: 1.5em;
-	}	
+	}
+	@media (--medium-viewport){
+	
+	}
+	@media (--large-viewport){
+		
+	}		
 }
 

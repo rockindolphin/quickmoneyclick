@@ -1,0 +1,14 @@
+
+.popup__header{
+	color: var(--blue_102);
+	position: relative;
+	margin-bottom: 80px;
+	& :--all-headers{
+		display: block;
+		margin-right: 2em;
+		margin-top: 0;
+		margin-bottom: 0;
+		font-weight: var(--fw-normal);
+	}	
+}
+

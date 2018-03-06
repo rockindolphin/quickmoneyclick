@@ -29,50 +29,7 @@
 		
 
 		//sliders		
-		/*var navShift = 1;
 
-		function removeFirstSlide(){
-			navShift = 0;
-			sliderPics.removeSlide(0);
-			sliderText.removeSlide(0);
-		}
-
-		function toggleSlider(toggleTo){
-			console.log('toggleSlider');
-			sliderText.slideTo(toggleTo);
-		}
-
-		function toggleTabs(toggleTo){
-			console.log('toggleTabs');
-			var tab = $('.slider__nav input').get(toggleTo);
-			$(tab).prop('checked', true);
-		}
-
-		function toggleAll(toggleTo, initFrom){
-			switch(initFrom){
-				case 'tabs':
-					toggleTo+= navShift;
-					toggleSlider(toggleTo);
-				break;
-				case 'slider':
-					toggleTo-= navShift;
-					toggleTabs(toggleTo);
-				break;
-				default:
-					console.log('uknown initFrom');
-				break;
-			}
-		}*/		
-	    window.requestAnimFrame = (function(){
-	      return  window.requestAnimationFrame       || 
-	              window.webkitRequestAnimationFrame || 
-	              window.mozRequestAnimationFrame    || 
-	              window.oRequestAnimationFrame      || 
-	              window.msRequestAnimationFrame     || 
-	              function(/* function */ callback, /* DOMElement */ element){
-	                window.setTimeout(callback, 1000 / 60);
-	              };
-	    })();
 
 		var sliderPics = new Swiper('.slider--main-pics>.swiper-container', {
 			slidesPerView: 1,
@@ -81,7 +38,7 @@
 			effect: 'fade',
 			fadeEffect: {
 				crossFade: true
-			},									
+			}												
 		});
 
 		var sliderText = new Swiper('.slider--main-text>.swiper-container', {
@@ -105,31 +62,43 @@
 						this.controller.control = sliderPics;
 						sliderPics.controller.control = this;
 
-						this.params.initialSlide = true;
-						this.params.removeInitial = function(){
-							if( this.params.initialSlide ){
-								console.log('remove');
-								this.removeSlide(0);
-								sliderPics.removeSlide(0);
-								this.params.initialSlide = false;
-								this.update();
-							}
-						}.bind(this);
 						this.params.tabs = [].slice.call( $('.slider__nav input') );
 						this.params.tabs.map(function(tab,index){
-							if( tab ){
-								$(tab).change(function(){
-									this.slideTo(index);
-								}.bind(this));
-							}
+							$(tab).change(function(){
+								this.slideTo(index);
+							}.bind(this));
 						}.bind(this));
+
 					},
 					slideChangeTransitionStart: function(){
 						$(this.params.tabs[this.activeIndex]).prop('checked', true);
+						$(this.$el).css({
+							overflow: this.activeIndex === 0 ? 'visible' : 'hidden'
+						});
 					}
 			}								
 		});		
 
+
+		//buttons
+		$('.header__menu-toggle').click(function(){
+			$('.header__menu').toggleClass('header__menu--open');
+		});
+
+		function togglePopup(id){
+			var popup = $('.popup[data-id='+id+']');
+			$(popup).toggleClass('popup--visible');
+		}
+
+		$('.popup__close').click(function(){
+			var popupId = $(this).closest('.popup').attr('data-id');
+			togglePopup(popupId);
+		});	
+
+		$('.btn[data-popup]').click(function(){
+			var popupId = $(this).attr('data-popup');
+			togglePopup(popupId);
+		});				
 
 	});	
 

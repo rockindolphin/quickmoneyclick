@@ -2,5 +2,11 @@
 .header{
 	width: 100%;
 	background-color: var(--white);
+	@media (--medium-viewport){
+					
+	}
+	@media (--large-viewport){
+		
+	}	
 }
 

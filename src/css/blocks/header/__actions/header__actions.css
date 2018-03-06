@@ -1,10 +1,20 @@
 
 .header__actions{
 	color: var(--blue_006);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
 	& .btn{
 		&:not(:last-of-type){
 			margin-right: 20px;
 		}
 	}
+	@media (--medium-viewport){
+		
+	}
+	@media (--large-viewport){
+		
+	}	
 }
 

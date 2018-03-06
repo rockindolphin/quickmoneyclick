@@ -1,0 +1,22 @@
+
+.header__lock{
+	color: var(--blue_006);
+	& .svg-inline--fa{
+		width: 1.5em;
+		height: 1.5em;
+		&:hover,
+		&:active{
+			color: var(--blue_194);
+		}		
+	}
+	@media (--medium-viewport){
+		& .svg-inline--fa{
+			width: 2em;
+			height: 2em;		
+		}					
+	}
+	@media (--large-viewport){
+		display: none;
+	}	
+}
+

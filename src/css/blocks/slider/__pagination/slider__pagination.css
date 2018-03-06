@@ -2,7 +2,22 @@
 .slider__pagination{
 	left: 50%;
 	transform: translateX(-50%);
-	bottom: 0;
-	display: none;
+	bottom: 15px;
+	& .swiper-pagination-bullet {
+		opacity: 0.35;
+		background:  var(--white);
+		&:not(:last-of-type){
+			margin-right: 12px;
+		}
+	}
+	& .swiper-pagination-bullet-active	{
+		opacity: 1;
+	}
+	@media (--medium-viewport){
+		display: none;				
+	}
+	@media (--large-viewport){
+		
+	}	
 }
 

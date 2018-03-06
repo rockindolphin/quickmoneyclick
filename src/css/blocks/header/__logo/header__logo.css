@@ -1,11 +1,16 @@
 
 .header__logo{
-	width: 132px;
-	height: 44px;
+	width: 94px;
+	height: 31px;
 	background-image: url('../images/logo.png');
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	margin-right: 30px;
+	@media (--medium-viewport){
+		width: 132px;
+		height: 44px;					
+	}
+	@media (--large-viewport){
+		margin-right: 30px;
+	}	
 }
-

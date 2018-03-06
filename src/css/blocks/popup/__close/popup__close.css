@@ -1,0 +1,22 @@
+
+.popup__close{
+	padding: 0;
+	border-radius: 0;
+	line-height: 4em;
+	text-align: right;
+	border:  none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	& .svg-inline--fa{
+		width: 2em;
+		height: 2em;
+	}
+    &:hover,
+    &:active{
+        background-color: transparent;
+        color: var(--blue_006);
+        border-color: transparent;
+    }	
+}
+

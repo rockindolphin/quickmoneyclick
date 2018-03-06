@@ -1,0 +1,26 @@
+
+.header__nav{
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	padding-bottom: 45px;
+	border-bottom: 1px solid;
+	border-color: color(#ffffff alpha(15%));
+	&:not(.ssi-class){
+		margin-bottom: 35px;
+	}
+	& .list__item{
+		&:not(:last-child){
+			margin-bottom: 0.7em;
+		}
+	}
+	@media (--pre-medium-viewport){
+					
+	}
+	@media (--medium-viewport){
+					
+	}
+	@media (--large-viewport){
+			
+	}	
+}
+

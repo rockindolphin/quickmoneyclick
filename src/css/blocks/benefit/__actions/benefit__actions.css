@@ -1,14 +1,26 @@
 
 .benefit__actions{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	& > .btn{
 		min-width: 235px;
-		&:not(:last-of-type){
-			margin-right: 14px;
-		}
+		margin-bottom: 14px;
 	}
+	@media (--pre-medium-viewport){
+		flex-direction: row;
+		& > .btn{
+			&:not(:last-of-type){
+				margin-right: 14px;
+			}
+		}					
+	}
+	@media (--medium-viewport){
+					
+	}
+	@media (--large-viewport){
+		
+	}	
 }
 

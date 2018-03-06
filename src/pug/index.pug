@@ -7,8 +7,56 @@ html(lang="ru")
 			header.header
 				.header__wrapper
 					.header__side
-						.btn.btn--menu.header__menu
+						.btn.btn--menu.header__menu-toggle
 							i.fas.fa-bars
+						.header__menu
+							.header__menu-wrapper
+								.toolbar.header__languages
+									ul.list.list--reset
+										li.list__item
+											a.link.link--active(href="#")
+												| RU
+										li.list__item
+											a.link(href="#")
+												| EN
+										li.list__item
+											a.link(href="#")
+												| CZ
+									.btn.btn--menu.header__menu-toggle
+										i.fas.fa-times
+								ul.list.list--reset.header__nav
+									li.list__item
+										a.link(href="#")
+											| FAQ
+									li.list__item
+										a.link(href="#")
+											| Коммисия и сборы
+									li.list__item
+										a.link(href="#")
+											| Условия и положения
+									li.list__item
+										a.link(href="#")
+											| Политика конфиденциальности
+									li.list__item
+										a.link(href="#")
+											| FAQ FATCA
+								.header__info
+									ul.list.list--reset
+										li.list__item
+											a.link(href="skype:sales@quickmoneyclick.com")
+												i.fab.fa-skype
+												span
+													| sales@quickmoneyclick.com
+										li.list__item
+											a.link(href="mailto:sales@quickmoneyclick.com")
+												i.fa.fa-envelope
+												span
+													| sales@quickmoneyclick.com
+								.header__copy
+									p
+										| Электронные кошельки предоставляются: FSV Money Pte. Ltd (Сингапур), владеющий правом  stored value facility (SVF). 
+									p
+										| Регистрационный номер 201619216W. FATCA GIIN:CZCKZE.99999.SL.702
 						.logo.header__logo
 						.toolbar.header__languages
 							ul.list.list--reset
@@ -21,6 +69,8 @@ html(lang="ru")
 								li.list__item
 									a.link(href="#")
 										| CZ
+						.header__lock
+							i.fas.fa-lock
 					.header__side
 						.toolbar.header__socials
 							a.link(href="#")
@@ -53,6 +103,17 @@ html(lang="ru")
 						.slider__container.swiper-container
 							.slider__wrapper.swiper-wrapper
 								.slider__slide.swiper-slide
+									.benefit.benefit--logo
+										h4.benefit__subtitle
+											| Электронный кошелек для бизнес решений
+										.benefit__pic
+											img.img(src="../images/logo.png", alt="QuickMoneyClick")
+										h1.benefit__title
+											| Лучше, чем банк!
+										.benefit__actions
+											.btn.btn--inverse
+												| Открыть аккаунт
+								.slider__slide.swiper-slide
 									.benefit
 										h2.benefit__title
 											| Возможности QMC
@@ -77,7 +138,7 @@ html(lang="ru")
 													li.list__item
 														| Мгновенные переводы
 										.benefit__actions
-											.btn
+											.btn(data-popup="1")
 												| Узнать больше
 											.btn.btn--inverse
 												| Открыть аккаунт
@@ -106,7 +167,7 @@ html(lang="ru")
 													li.list__item
 														| Персонализированный подход
 										.benefit__actions
-											.btn
+											.btn(data-popup="2")
 												| Узнать больше
 											.btn.btn--inverse
 												| Открыть аккаунт
@@ -135,7 +196,7 @@ html(lang="ru")
 													li.list__item
 														| Индивидуальные решения
 										.benefit__actions
-											.btn
+											.btn(data-popup="3")
 												| Узнать больше
 											.btn.btn--inverse
 												| Открыть аккаунт
@@ -164,25 +225,17 @@ html(lang="ru")
 													li.list__item
 														| Автоконвертация криптовалюты в USD и EUR
 										.benefit__actions
-											.btn
+											.btn(data-popup="4")
 												| Узнать больше
 											.btn.btn--inverse
 												| Открыть аккаунт
 						.swiper-pagination.slider__pagination
-						.swiper-button-prev
-						.swiper-button-next
-						.slider__cap
-							.benefit.benefit--logo
-								h4.benefit__subtitle
-									| Электронный кошелек для бизнес решений
-								.benefit__pic
-									img.img(src="../images/logo.png", alt="QuickMoneyClick")
-								h1.benefit__title
-									| Лучше, чем банк!
-								.benefit__actions
-									.btn.btn--inverse
-										| Открыть аккаунт
+						.swiper-button-prev.slider__btn
+						.swiper-button-next.slider__btn
 						nav.slider__nav
+							input#slide-0(type="radio", disabled, name="slider")
+							//-
+								label.nav__item(for="slide-0")
 							input#slide-1(type="radio", name="slider")
 							label.nav__item(for="slide-1")
 								span.label__title
@@ -209,8 +262,76 @@ html(lang="ru")
 									| Технологичные транзакции
 			footer.footer
 				.page__wrapper
+			.popup(data-id="1")
+				.page__wrapper
+					.popup__wrapper
+						.popup__header
+							h3.popup__title
+								| Наши возможности
+							.btn.popup__close
+								i.fas.fa-times
+						.popup__main
+							.benefit.benefit--popup
+								ol.list
+									li.list__item
+										.benefit__caption
+											| Открытие аккаунта. Доллары, Евро, Чешская крона.
+										.benefit__pic
+											include ../images/popup-1.1.svg
+									li.list__item
+										.benefit__caption
+											| Пополнение аккаунта: банковской картой, банковским переводом, криптовалютой.
+										.benefit__pic
+											include ../images/popup-1.2.svg
+									li.list__item
+										.benefit__caption
+											| Вывод с аккаунта: на банковскую карту, на банковский счёт или на криптоаккаунт.
+										.benefit__pic
+											include ../images/popup-1.3.svg
+									li.list__item
+										.benefit__caption
+											| Мгновенные переводы. Внутри аккаунта - между своими счетами. Между аккаунтами в системе QMC.
+										.benefit__pic
+											include ../images/popup-1.4.svg
+								.benefit__actions
+									h4
+										| Откройте счет и начните работу
+									.btn.btn--inverse
+										| Открыть аккаунт
+			.popup(data-id="2")
+				.page__wrapper
+					.popup__wrapper
+						.popup__header
+							h3.popup__title
+								| Решение для бизнеса
+							h4.popup__subtitle
+								| Взаиморасчеты в сегментах b2b, b2p, p2p
+							.btn.popup__close
+								i.fas.fa-times
+						.popup__main
+							.benefit.benefit--popup
+								ol.list
+									li.list__item
+										.benefit__caption
+											| Взаиморасчеты между покупателем и продавцом без участия банковских структур.
+										.benefit__pic
+											include ../images/popup-2.1.svg
+									li.list__item
+										.benefit__caption
+											| Выплаты за работы, услуги
+										.benefit__pic
+											include ../images/popup-2.2.svg
+									li.list__item
+										.benefit__caption
+											| Оптимизация налогообложения при использования QMC
+										.benefit__pic
+											include ../images/popup-2.3.svg
+								.benefit__actions
+									h4
+										| Откройте счет и начните работу
+									.btn.btn--inverse
+										| Открыть аккаунт
 			script(defer, src="https://use.fontawesome.com/releases/v5.0.7/js/all.js")
 			script(src="../js/vendors/jquery-3.2.1.min.js")
 			script(src="../js/vendors/swiper.min.js")
 			script(src="../js/app.js")
-

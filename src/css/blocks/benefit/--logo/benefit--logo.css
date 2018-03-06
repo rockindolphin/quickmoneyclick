@@ -40,8 +40,10 @@
 	.benefit--logo{
 		& .benefit__pic{
 			&::before{
-				width: 530px;
-				height: 320px;
+				width: 100%;
+				max-width: 530px;
+				/*height: 320px;*/
+				padding-top: 33%;
 				filter: blur(50px);
 				box-shadow: none;
 			}

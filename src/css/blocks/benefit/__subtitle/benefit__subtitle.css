@@ -4,6 +4,15 @@
 	font-weight: var(--fw-light);
 	line-height: 1.1;
 	margin-top: 0;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
+	@media (--pre-medium-viewport){
+		margin-bottom: 40px;
+	}
+	@media (--medium-viewport){
+	
+	}
+	@media (--large-viewport) {
+		
+	}		
 }
 

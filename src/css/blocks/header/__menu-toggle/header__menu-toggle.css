@@ -1,0 +1,17 @@
+
+.header__menu-toggle{
+	border:  none;
+	min-width: 32px;
+	min-height: 32px;
+	height: 32px;
+	@media (--medium-viewport){
+					
+	}
+	@media (--large-viewport){
+		margin-right: 20px;
+		padding-right: 20px;	
+		border-right: 1px solid;
+		border-color: color(#000000 alpha(15%));			
+	}	
+}
+

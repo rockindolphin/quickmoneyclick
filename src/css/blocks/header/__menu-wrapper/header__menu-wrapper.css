@@ -1,0 +1,11 @@
+
+.header__menu-wrapper{
+	overflow-y: scroll;
+	padding-left: var(--menu-gap);
+	padding-right: var(--menu-gap);
+	/*margin-right: calc( var(--scrollbar-width)*-1 );	*/
+	margin-right: -17px;
+	max-width: none;
+	height: 100%;	
+}
+

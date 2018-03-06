@@ -1,0 +1,32 @@
+
+.header__info{
+	&:not(.ssi-class){
+		margin-bottom: 60px;
+	}
+	& .list__item{
+		&:not(:last-child){
+			margin-bottom: 0.5em;
+		}
+		& .link{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: flex-start;
+		}
+	}
+	& .svg-inline--fa{
+		margin-right: 0.5em;
+		width: 2em;
+		height: 2em;
+	}
+	@media (--pre-medium-viewport){
+					
+	}
+	@media (--medium-viewport){
+					
+	}
+	@media (--large-viewport){
+			
+	}
+}
+

@@ -1,5 +1,6 @@
 
 .header__languages{
+	display: none;
 	margin-right: 30px;
 	font-size: 14px;
 	&>.list{
@@ -12,12 +13,17 @@
 				&::after{
 					content: '|';
 					display: inline-block;
-					color: var(--black);
 					margin-left: 10px;
 					margin-right: 10px;
 				}
 			}
 		}		
 	}
+	@media (--medium-viewport){
+					
+	}
+	@media (--large-viewport){
+		display: block;
+	}	
 }
 
