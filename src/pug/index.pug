@@ -108,6 +108,9 @@ html(lang="ru")
 								img.slide__img(src="../images/slide-4.jpg", alt="slide-4" data-bg="true")
 				.page__wrapper
 					.slider.slider--main.slider--main-text
+						.swiper-button-prev.slider__btn
+							svg.icon.icon--active.icon--chewron-left
+								use(xlink:href="../images/sprite.svg#chewron-left")
 						.slider__container.swiper-container
 							.slider__wrapper.swiper-wrapper
 								.slider__slide.swiper-slide
@@ -226,9 +229,6 @@ html(lang="ru")
 											.btn.btn--inverse
 												| Открыть аккаунт
 						.swiper-pagination.slider__pagination
-						.swiper-button-prev.slider__btn
-							svg.icon.icon--active.icon--chewron-left
-								use(xlink:href="../images/sprite.svg#chewron-left")
 						.swiper-button-next.slider__btn
 							svg.icon.icon--active.icon--chewron-right
 								use(xlink:href="../images/sprite.svg#chewron-right")
@@ -305,7 +305,7 @@ html(lang="ru")
 						.popup__header
 							h3.popup__title
 								| Решение для бизнеса
-							h4.popup__subtitle
+							h5.popup__subtitle
 								| Взаиморасчеты в сегментах b2b, b2p, p2p
 							.btn.popup__close
 								svg.icon.icon--active.icon--close
@@ -339,7 +339,7 @@ html(lang="ru")
 						.popup__header
 							h3.popup__title
 								| Мерчант аккаунт
-							h4.popup__subtitle
+							h5.popup__subtitle
 								| Счет торговца для бизнеса в интернете в системе QMC
 							.btn.popup__close
 								svg.icon.icon--active.icon--close
@@ -402,7 +402,7 @@ html(lang="ru")
 						.popup__header
 							h3.popup__title
 								| Блокчейн технологии
-							h4.popup__subtitle
+							h5.popup__subtitle
 								| Технологичные транзакции
 							.btn.popup__close
 								svg.icon.icon--active.icon--close

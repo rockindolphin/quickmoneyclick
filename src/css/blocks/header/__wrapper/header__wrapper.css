@@ -14,18 +14,17 @@
 	padding-top: 6px;
 	padding-bottom: 6px;
 	@media (--pre-medium-viewport){
-					
-	}	
-	@media (--medium-viewport){
 		min-height: 74px;
 		padding-top: 14px;
 		padding-bottom: 14px;
-	}
-
-	@media (--large-viewport) {
+	}	
+	@media (--medium-viewport){
 		min-height: 64px;
 		padding-top: 8px;
 		padding-bottom: 8px;
+	}
+	@media (--large-viewport) {
+	
 	}
 }
 

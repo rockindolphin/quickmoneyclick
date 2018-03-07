@@ -39,10 +39,12 @@
 }
 
 
-@custom-media --pre-medium-viewport (width > 539px);
-@custom-media --medium-viewport (width > 1139px);
-@custom-media --large-viewport (width > 1239px);
-@custom-media --header-hlp-viewport (width > 1116px);
+@custom-media --pre-medium-viewport (width > 563px);
+@custom-media --medium-viewport (width > 1023px);
+@custom-media --large-viewport (width > 1279px);
+@custom-media --header-hlp-viewport (width > 1919px);
+
+@custom-media --slider-nav-visible (width > 1179px);
 
 @custom-selector :--all-headers h1, h2, h3, h4, h5, h6;
 @custom-selector :--table-cell td, th;
@@ -134,8 +136,11 @@ h1{
 }
 h2{
 	font-size: 1.875rem; /*30px*/
-	@media (--medium-viewport){
+	@media (--pre-medium-viewport){
 		font-size: 3rem; /*48px*/
+	}	
+	@media (--medium-viewport){
+		font-size: 3.75rem; /*60px*/
 	}
 	@media (--large-viewport){
 		font-size: 3.75rem; /*60px*/		
@@ -152,9 +157,12 @@ h3{
 }
 h4{
 	font-size: 1.125rem; /*18px*/	
-	@media (--medium-viewport){
+	@media (--pre-medium-viewport){
 		font-size: 1.5rem; /*24px*/	
 	}
+	@media (--medium-viewport){
+		font-size: 1.875rem; /*30px*/
+	}	
 	@media (--large-viewport){
 		font-size: 1.875rem; /*30px*/	
 	}	

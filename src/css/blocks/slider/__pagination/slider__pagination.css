@@ -13,8 +13,11 @@
 	& .swiper-pagination-bullet-active	{
 		opacity: 1;
 	}
+	@media (--pre-medium-viewport){
+
+	}	
 	@media (--medium-viewport){
-		display: none;				
+
 	}
 	@media (--large-viewport){
 		

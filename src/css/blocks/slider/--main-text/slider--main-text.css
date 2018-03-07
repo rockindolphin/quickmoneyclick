@@ -12,7 +12,7 @@
 		padding-bottom: 40px;		
 	}
 	& .slider__btn{
-		display: none;		
+		display: none;
 	}	
 	& .slider__text{
 		
@@ -26,8 +26,8 @@
 	}
 	@media (--pre-medium-viewport){
 		& .slider__btn{
-			display: block;
-		}			
+			display: block;	
+		}		
 	}
 	@media (--medium-viewport){
 		& .slider__slide{
@@ -35,7 +35,9 @@
 		}			
 	}
 	@media (--large-viewport){
-		
+		& .slider__btn{
+			display: none;	
+		}					
 	}	
 }
 

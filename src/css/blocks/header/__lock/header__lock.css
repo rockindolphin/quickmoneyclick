@@ -4,14 +4,17 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	@media (--medium-viewport){
+	@media (--pre-medium-viewport){
 		& .icon{
 			width: 2em;
 			height: 2em;		
 		}					
+	}	
+	@media (--medium-viewport){
+		display: none;					
 	}
 	@media (--large-viewport){
-		display: none;
+
 	}	
 }
 

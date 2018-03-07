@@ -38,8 +38,7 @@
 			effect: 'fade',
 			fadeEffect: {
 				crossFade: true
-			},
-			allowTouchMove: false,												
+			},														
 		});
 
 		var sliderText = new Swiper('.slider--main-text>.swiper-container', {
@@ -58,6 +57,13 @@
 			fadeEffect: {
 				crossFade: true
 			},
+			longSwipesRatio: 0.2,
+			allowTouchMove: false,	
+			breakpoints: {
+				1179: {
+					allowTouchMove: true,	
+				},
+			},			
 			allowTouchMove: false,
 			on: {
 					init: function(){

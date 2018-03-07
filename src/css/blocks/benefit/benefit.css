@@ -2,17 +2,29 @@
 .benefit{
 	width: 100%;
 	user-select: none;
-	& .list{
-		font-size: 14px;
-		padding-left: 0;
-	}
-	@media (--pre-medium-viewport){
-		& .list{
-			font-size: 24px;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	& .list--din{
+		font-size: 16px;
+		line-height: 1;
+		margin-top: 0;
+		margin-bottom: 25px;
+		& > .list__item{
+			margin-bottom: 0.6em;
 		}
 	}
-	@media (--medium-viewport){
-
+	@media (--pre-medium-viewport){
+		padding-left: 50px;
+		padding-right: 50px;		
+		& .list--din{
+			font-size: 24px;
+			margin-bottom: 90px;			
+		}
+	}
+	@media (--medium-viewport){		
+		& .list--din{
+			margin-bottom: 0px;			
+		}
 	}
 	@media (--large-viewport) {
 

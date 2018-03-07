@@ -8,8 +8,8 @@
 	color: var(--blue_006);
 	&>.link{
 		display: block;
-		margin-left: 10px;
-		margin-right: 10px;
+		margin-left: 11px;
+		margin-right: 11px;
 		&:hover,
 		&:active{
 			color: var(--blue_194);

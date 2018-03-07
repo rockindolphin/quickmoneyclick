@@ -4,7 +4,7 @@
 	font-weight: var(--fw-light);
 	line-height: 1.1;
 	margin-top: 0;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 	@media (--pre-medium-viewport){
 		margin-bottom: 40px;
 	}

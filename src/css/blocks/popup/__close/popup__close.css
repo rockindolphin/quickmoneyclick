@@ -5,14 +5,23 @@
 	text-align: right;
 	border:  none;
 	position: absolute;
-	top: 20px;
-	right: 35px;
+	top: var(--page-gap);
+	right: var(--page-gap);
 	color: var(--blue_122);
     &:hover,
     &:active{
         background-color: transparent;
         color: var(--blue_006);
         border-color: transparent;
-    }	
+    }
+	@media (--pre-medium-viewport){
+	  
+	}
+	@media (--medium-viewport){
+		right: calc( var(--page-gap)*2 );          
+	}
+	@media (--large-viewport){
+
+	}     	
 }
 

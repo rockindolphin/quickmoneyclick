@@ -13,17 +13,17 @@
 				&::after{
 					content: '|';
 					display: inline-block;
-					margin-left: 10px;
-					margin-right: 10px;
+					margin-left: 9px;
+					margin-right: 9px;
 				}
 			}
 		}		
 	}
 	@media (--medium-viewport){
-					
+		display: block;					
 	}
 	@media (--large-viewport){
-		display: block;
+		
 	}	
 }
 

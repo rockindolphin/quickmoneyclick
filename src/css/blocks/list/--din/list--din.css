@@ -1,10 +1,11 @@
 
 .list--din{
 	list-style: none;
+	padding-left: 1.3em;
 	&>li{
-		line-height: 1.6em;
 		&::before{
 			content: '\2713';
+			margin-left: -1.3em;			
 			margin-right: 0.5em;
 		}
 	}

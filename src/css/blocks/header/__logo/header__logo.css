@@ -6,11 +6,15 @@
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	@media (--medium-viewport){
+	@media (--pre-medium-viewport){
 		width: 132px;
 		height: 44px;					
+		margin-right: 30px;
+	}	
+	@media (--medium-viewport){
+	
 	}
 	@media (--large-viewport){
-		margin-right: 30px;
+
 	}	
 }
