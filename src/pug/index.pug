@@ -8,7 +8,8 @@ html(lang="ru")
 				.header__wrapper
 					.header__side
 						.btn.btn--menu.header__menu-toggle
-							i.fas.fa-bars
+							svg.icon.icon--active.icon--menu
+								use(xlink:href="../images/sprite.svg#menu")
 						.header__menu
 							.header__menu-wrapper
 								.toolbar.header__languages
@@ -23,7 +24,8 @@ html(lang="ru")
 											a.link(href="#")
 												| CZ
 									.btn.btn--menu.header__menu-toggle
-										i.fas.fa-times
+										svg.icon.icon--active.icon--times
+											use(xlink:href="../images/sprite.svg#times")
 								ul.list.list--reset.header__nav
 									li.list__item
 										a.link(href="#")
@@ -44,12 +46,14 @@ html(lang="ru")
 									ul.list.list--reset
 										li.list__item
 											a.link(href="skype:sales@quickmoneyclick.com")
-												i.fab.fa-skype
+												svg.icon.icon--active.icon--skype
+													use(xlink:href="../images/sprite.svg#skype")
 												span
 													| sales@quickmoneyclick.com
 										li.list__item
 											a.link(href="mailto:sales@quickmoneyclick.com")
-												i.fa.fa-envelope
+												svg.icon.icon--active.icon--envelope
+													use(xlink:href="../images/sprite.svg#envelope")
 												span
 													| sales@quickmoneyclick.com
 								.header__copy
@@ -70,15 +74,19 @@ html(lang="ru")
 									a.link(href="#")
 										| CZ
 						.header__lock
-							i.fas.fa-lock
+							svg.icon.icon--active.icon--padlock
+								use(xlink:href="../images/sprite.svg#padlock")
 					.header__side
 						.toolbar.header__socials
 							a.link(href="#")
-								i.fab.fa-vk
+								svg.icon.icon--active.icon--vkontakte
+									use(xlink:href="../images/sprite.svg#vkontakte")
 							a.link(href="#")
-								i.fab.fa-facebook-f
+								svg.icon.icon--active.icon--facebook
+									use(xlink:href="../images/sprite.svg#facebook")
 							a.link(href="#")
-								i.fab.fa-twitter
+								svg.icon.icon--active.icon--twitter
+									use(xlink:href="../images/sprite.svg#twitter")
 						.toolbar.header__actions
 							.btn.btn--sm
 								| Войти
@@ -122,9 +130,6 @@ html(lang="ru")
 										.benefit__wrapper
 											.wrapper__side
 												.benefit__pic
-													//-
-														svg.icon.icon--active.icon--wallet
-															use(xlink:href="../images/sprite.svg#wallet")
 													.icon--wallet
 														include ../images/sprites/svg/wallet.svg
 											.wrapper__side
@@ -151,9 +156,6 @@ html(lang="ru")
 										.benefit__wrapper
 											.wrapper__side
 												.benefit__pic
-													//-
-														svg.icon.icon--active.icon--man
-															use(xlink:href="../images/sprite.svg#man")
 													.icon--man
 														include ../images/sprites/svg/man.svg
 											.wrapper__side
@@ -180,11 +182,8 @@ html(lang="ru")
 										.benefit__wrapper
 											.wrapper__side
 												.benefit__pic
-													//-
-														svg.icon.icon--active.icon--hands
-															use(xlink:href="../images/sprite.svg#hands")
 													.icon--hands
-														include ../images/sprites/svg/hands.svg														
+														include ../images/sprites/svg/hands.svg
 											.wrapper__side
 												ul.list.list--din
 													li.list__item
@@ -192,13 +191,13 @@ html(lang="ru")
 													li.list__item
 														| Обратные выплаты
 													li.list__item
-														| Работа с различными видами бизнеса
+														| Работа с различными видами бизнеcа
 													li.list__item
 														| Индивидуальные решения
 										.benefit__actions
 											.btn(data-popup="3")
 												| Узнать больше
-											.btn.btn--inverse
+											.btn.btn--inverse(data-popup="3-2")
 												| Открыть аккаунт
 								.slider__slide.swiper-slide
 									.benefit
@@ -209,9 +208,6 @@ html(lang="ru")
 										.benefit__wrapper
 											.wrapper__side
 												.benefit__pic
-													//-
-														svg.icon.icon--active.icon--chain
-															use(xlink:href="../images/sprite.svg#chain")
 													.icon--chain
 														include ../images/sprites/svg/chain.svg															
 											.wrapper__side
@@ -231,7 +227,11 @@ html(lang="ru")
 												| Открыть аккаунт
 						.swiper-pagination.slider__pagination
 						.swiper-button-prev.slider__btn
+							svg.icon.icon--active.icon--chewron-left
+								use(xlink:href="../images/sprite.svg#chewron-left")
 						.swiper-button-next.slider__btn
+							svg.icon.icon--active.icon--chewron-right
+								use(xlink:href="../images/sprite.svg#chewron-right")
 						nav.slider__nav
 							input#slide-0(type="radio", disabled, name="slider")
 							//-
@@ -269,10 +269,11 @@ html(lang="ru")
 							h3.popup__title
 								| Наши возможности
 							.btn.popup__close
-								i.fas.fa-times
+								svg.icon.icon--active.icon--close
+									use(xlink:href="../images/sprite.svg#close")
 						.popup__main
 							.benefit.benefit--popup
-								ol.list
+								ol.list.list--blot
 									li.list__item
 										.benefit__caption
 											| Открытие аккаунта. Доллары, Евро, Чешская крона.
@@ -307,10 +308,11 @@ html(lang="ru")
 							h4.popup__subtitle
 								| Взаиморасчеты в сегментах b2b, b2p, p2p
 							.btn.popup__close
-								i.fas.fa-times
+								svg.icon.icon--active.icon--close
+									use(xlink:href="../images/sprite.svg#close")
 						.popup__main
 							.benefit.benefit--popup
-								ol.list
+								ol.list.list--blot
 									li.list__item
 										.benefit__caption
 											| Взаиморасчеты между покупателем и продавцом без участия банковских структур.
@@ -331,6 +333,103 @@ html(lang="ru")
 										| Откройте счет и начните работу
 									.btn.btn--inverse
 										| Открыть аккаунт
+			.popup(data-id="3")
+				.page__wrapper
+					.popup__wrapper
+						.popup__header
+							h3.popup__title
+								| Мерчант аккаунт
+							h4.popup__subtitle
+								| Счет торговца для бизнеса в интернете в системе QMC
+							.btn.popup__close
+								svg.icon.icon--active.icon--close
+									use(xlink:href="../images/sprite.svg#close")
+						.popup__main
+							.benefit.benefit--popup
+								ol.list.list--blot
+									li.list__item
+										.benefit__caption
+											| Обычный аккаунт с одной валютой и статусом мерчант
+										.benefit__pic.benefit__pic--lg
+											include ../images/popup-3.1.svg
+									li.list__item
+										.benefit__caption
+											| Неограниченные возможности по выплатам с мерчант аккаунта
+										.benefit__pic
+											include ../images/popup-3.2.svg
+								.benefit__actions
+									h4
+										| Откройте счет и начните работу
+									.btn.btn--inverse
+										| Открыть аккаунт
+			.popup(data-id="3-2")
+				.page__wrapper
+					.popup__wrapper
+						.popup__header
+							h3.popup__title
+								| Открыть мерчант аккаунт
+							.btn.popup__close
+								svg.icon.icon--active.icon--close
+									use(xlink:href="../images/sprite.svg#close")
+						.popup__main
+							.benefit.benefit--popup.benefit--popup-inline
+								.benefit__wrapper
+									.wrapper__side
+										.benefit__pic.benefit__pic--md
+											include ../images/popup-3-2.1.svg
+									.wrapper__side
+										ol.list
+											li.list__item
+												| Кликните по ссылке ниже, чтобы скачать форму заявки.
+											li.list__item
+												| Заполните ее и отправьте на почту info@quickmoneyclik.com
+											li.list__item
+												| Дождитесь одобрения заявки.
+											li.list__item
+												| Получите API для интеграции на Ваш сайт.
+											li.list__item
+												| Начните получать платежи и делать выплаты на своем сайте.
+										a.link.link--attach
+											svg.icon.icon--active.icon--pdf
+												use(xlink:href="../images/sprite.svg#pdf")
+											div
+												| Скачать форму 
+												br
+												| (324KB, PDF)
+			.popup(data-id="4")
+				.page__wrapper
+					.popup__wrapper
+						.popup__header
+							h3.popup__title
+								| Блокчейн технологии
+							h4.popup__subtitle
+								| Технологичные транзакции
+							.btn.popup__close
+								svg.icon.icon--active.icon--close
+									use(xlink:href="../images/sprite.svg#close")
+						.popup__main
+							.benefit.benefit--popup
+								ol.list.list--blot
+									li.list__item
+										.benefit__caption
+											| Принимайте криптовалюту за товары, работы, услуги без открытия криптоаккаунта. Риски большой волатильности курса отсутствуют.
+										.benefit__pic.benefit__pic--lg
+											include ../images/popup-4.1.svg
+									li.list__item
+										.benefit__caption
+											| При получении криптовалюты она по текущему курсу отображается у вас на аккаунте в долларах или евро.
+										.benefit__pic
+											include ../images/popup-4.2.svg
+									li.list__item
+										.benefit__caption
+											| Рассчитывайтесь в криптовалюте без наличия криптоаккаунта. У вас есть на аккаунте QMC доллары или евро: подайте заявку на вывод с указанием криптоадреса вашего продавца.
+										.benefit__pic
+											include ../images/popup-4.3.svg											
+								.benefit__actions
+									h4
+										| Откройте счет и начните работу
+									.btn.btn--inverse
+										| Открыть аккаунт									
 			script(defer, src="https://use.fontawesome.com/releases/v5.0.7/js/all.js")
 			script(src="../js/vendors/jquery-3.2.1.min.js")
 			script(src="../js/vendors/swiper.min.js")

@@ -2,16 +2,12 @@
 .popup__close{
 	padding: 0;
 	border-radius: 0;
-	line-height: 4em;
 	text-align: right;
 	border:  none;
 	position: absolute;
-	top: 0;
-	right: 0;
-	& .svg-inline--fa{
-		width: 2em;
-		height: 2em;
-	}
+	top: 20px;
+	right: 35px;
+	color: var(--blue_122);
     &:hover,
     &:active{
         background-color: transparent;

@@ -9,10 +9,6 @@
 	justify-content: center;
 	color: var(--blue_006);
 	background: transparent;
-	& .svg-inline--fa{
-		width: 2em;
-		height: 2em;
-	}
     &:hover,
     &:active{
         background-color: transparent;

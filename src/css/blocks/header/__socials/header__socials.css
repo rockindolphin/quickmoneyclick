@@ -15,10 +15,6 @@
 			color: var(--blue_194);
 		}
 	}
-	& .svg-inline--fa{
-		width: 1.5em;
-		height: 1.5em;
-	}
 	@media (--medium-viewport){
 	
 	}

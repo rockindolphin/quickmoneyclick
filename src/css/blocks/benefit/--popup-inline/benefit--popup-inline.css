@@ -1,0 +1,35 @@
+
+.benefit--popup-inline{
+	color: var(--blue_102);
+	& .list{
+		line-height: 1.85;
+		list-style-position: inside;
+	}
+	& .benefit__wrapper{
+		& > .wrapper__side{
+			&:last-child{
+				flex-direction: column;	
+				justify-content: center;
+				align-items: flex-start;
+				padding-left: 40px;		
+			}
+		}
+	}
+	& .link--attach{
+		color: var(--blue_0d7);
+		&:hover{
+			color: var(--blue_194);
+		}
+	}	
+	@media (--pre-medium-viewport){
+		& .list{
+			font-size: 16px;
+		}
+	}
+	@media (--medium-viewport){
+
+	}
+	@media (--large-viewport) {
+
+	}	
+}

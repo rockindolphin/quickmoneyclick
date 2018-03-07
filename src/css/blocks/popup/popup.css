@@ -2,6 +2,7 @@
 .popup{
 	transform: scale(0);
 	display: flex;
+	opacity: 0;
 	align-items: center;
 	justify-content: center;
 	position: absolute;

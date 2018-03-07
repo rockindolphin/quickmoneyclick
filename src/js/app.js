@@ -38,7 +38,8 @@
 			effect: 'fade',
 			fadeEffect: {
 				crossFade: true
-			}												
+			},
+			allowTouchMove: false,												
 		});
 
 		var sliderText = new Swiper('.slider--main-text>.swiper-container', {
@@ -57,6 +58,7 @@
 			fadeEffect: {
 				crossFade: true
 			},
+			allowTouchMove: false,
 			on: {
 					init: function(){
 						this.controller.control = sliderPics;
@@ -79,7 +81,6 @@
 			}								
 		});		
 
-
 		//buttons
 		$('.header__menu-toggle').click(function(){
 			$('.header__menu').toggleClass('header__menu--open');
@@ -87,7 +88,7 @@
 
 		function togglePopup(id){
 			var popup = $('.popup[data-id='+id+']');
-			$(popup).toggleClass('popup--visible');
+			$(popup).css({opacity:1}).toggleClass('popup--visible');
 		}
 
 		$('.popup__close').click(function(){

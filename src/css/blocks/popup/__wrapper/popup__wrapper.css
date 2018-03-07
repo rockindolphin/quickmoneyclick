@@ -1,12 +1,21 @@
 
 .popup__wrapper{
-	padding-left: calc( var(--page-gap)*2 );
-	padding-right: calc( var(--page-gap)*2 );
+	padding-left: var(--page-gap);
+	padding-right: var(--page-gap);
 	padding-top: var(--page-gap);
 	padding-bottom: var(--page-gap);
 	background-color: var(--white);
-
-    animation: slide-out-elliptic-bottom-fwd calc(var(--anim-dur)*3) cubic-bezier(0.250, 0.460, 0.450, 0.940) both;	
+  animation: slide-out-elliptic-bottom-fwd calc(var(--anim-dur)*3) cubic-bezier(0.250, 0.460, 0.450, 0.940) both;	
+  @media (--pre-medium-viewport){
+          
+  }
+  @media (--medium-viewport){
+    padding-left: calc( var(--page-gap)*2 );
+    padding-right: calc( var(--page-gap)*2 );          
+  }
+  @media (--large-viewport){
+    
+  } 
 }
 
 

@@ -14,10 +14,9 @@
 			justify-content: flex-start;
 		}
 	}
-	& .svg-inline--fa{
+	& .icon{
 		margin-right: 0.5em;
 		width: 2em;
-		height: 2em;
 	}
 	@media (--pre-medium-viewport){
 					

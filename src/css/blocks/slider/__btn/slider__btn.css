@@ -1,5 +1,18 @@
 
 .slider__btn{
-
+	width: 2rem;
+	height: 3.625rem;
+	color: var(--white);
+	&:hover{
+		color: var(--blue_006);
+	}
+	&.swiper-button-prev{
+		background-image: none;
+		left: var(--page-gap);
+	}
+	&.swiper-button-next{
+		background-image: none;
+		right: var(--page-gap);
+	}
 }
 

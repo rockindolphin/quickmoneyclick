@@ -1,0 +1,13 @@
+
+.link--attach{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	cursor: pointer;
+	font-size: 20px;
+	& .icon{
+		margin-right: 0.5em;
+	}
+}
+

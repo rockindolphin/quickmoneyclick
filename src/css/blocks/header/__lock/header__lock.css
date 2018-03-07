@@ -1,16 +1,11 @@
 
 .header__lock{
 	color: var(--blue_006);
-	& .svg-inline--fa{
-		width: 1.5em;
-		height: 1.5em;
-		&:hover,
-		&:active{
-			color: var(--blue_194);
-		}		
-	}
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	@media (--medium-viewport){
-		& .svg-inline--fa{
+		& .icon{
 			width: 2em;
 			height: 2em;		
 		}					

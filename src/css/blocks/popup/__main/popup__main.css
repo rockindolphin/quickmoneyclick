@@ -1,6 +1,15 @@
 
 .popup__main{
 	color: var(--blue_282);
-	margin-bottom: 80px;
+	margin-bottom: 20px;
+	@media (--pre-medium-viewport){
+		margin-bottom: 40px;			
+	}
+	@media (--medium-viewport){
+		margin-bottom: 60px;				
+	}
+	@media (--large-viewport){
+		margin-bottom: 80px;
+	}	
 }
 

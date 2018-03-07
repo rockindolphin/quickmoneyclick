@@ -20,6 +20,7 @@
 	--blue_51c:  #51ccff;
 	--blue_122:  #12253f;
 	--blue_282:  #282f39;
+	--blue_0d7:  #0d70b6;
 	
 	--gray_191:  #191919;
 
@@ -141,10 +142,10 @@ h2{
 	}
 }
 h3{
-	font-size: 16px;	
-	/*@media (--medium-viewport){
-		font-size: 32px;
-	}*/
+	font-size: 1.5rem; /*24px*/	
+	@media (--medium-viewport){
+		font-size: 1.875rem; /*30px*/
+	}
 	@media (--large-viewport){
 		font-size: 2.25rem; /*36px*/
 	}
