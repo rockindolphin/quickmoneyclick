@@ -90,3 +90,10 @@
 	}	
 }
 
+
+
+@media (-ms-high-contrast:none){
+	_:-ms-fullscreen, :root .slider__nav .nav__item{  /* IE11 */
+		margin-right: -1px;
+	}
+}

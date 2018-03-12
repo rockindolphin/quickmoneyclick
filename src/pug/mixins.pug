@@ -17,6 +17,10 @@ mixin head(title)
 		if config.images.generateSpritePng
 			link(rel="stylesheet", href="../css/sprite.css")
 
+
+//- example
+	+picture({'class':'slide__img', 'src':'../images/slide-0.jpg', 'alt':'slide-0', 'data':{'data-bg': 'true'}})
+
 mixin picture(opts)
 	- var name = path.parse(opts.src).name
 	- var ext = path.parse(opts.src).ext.substr(1)
@@ -27,7 +31,7 @@ mixin picture(opts)
 	- function setQuality(quality){ images( srcFile, quality ); }
 	if opts.quality
 		#{setQuality(opts.quality)}
-	if config.images.sizes.length > 0 || images.webp
+	if config.images.sizes.length > 0 || config.images.webp
 		picture
 			each size in config.images.sizes
 				if config.images.webp

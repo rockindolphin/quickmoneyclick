@@ -1,9 +1,6 @@
 
 .benefit__wrapper{
-	display: flex;
-	flex-direction: column;
-	align-items: stretch;
-	justify-content: center;
+	display: block;
 	margin-bottom: 20px;
 	& > .wrapper__side{
 		flex-basis: 50%;
@@ -16,7 +13,10 @@
 		
 	}
 	@media (--medium-viewport){
+		display: flex;
 		flex-direction: row;
+		align-items: stretch;
+		justify-content: center;
 		margin-bottom: 60px;
 		& > .wrapper__side{
 			&:last-child{

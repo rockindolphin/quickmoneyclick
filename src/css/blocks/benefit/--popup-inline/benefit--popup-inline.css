@@ -7,7 +7,8 @@
 		padding-left: 18px;
 	}
 	& .benefit__wrapper{
-		& > .wrapper__side{
+		& > .wrapper__side{	
+			align-items: stretch;	
 			&:last-child{
 				flex-direction: column;	
 				justify-content: center;

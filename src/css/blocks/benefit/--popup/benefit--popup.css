@@ -9,9 +9,9 @@
 		height: initial;
 		background-color: transparent;
 		border-radius: 0;
+		margin-bottom: 2em;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 2em;
 	}
 	& .benefit__pic--md{
 		max-width: 420px;

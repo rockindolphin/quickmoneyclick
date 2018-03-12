@@ -6,7 +6,7 @@
     border-color: currentcolor;
     display: inline-block;
     font-size: 16px;
-    line-height: 3em;
+    line-height: 48px;
     height: 48px;
     min-width: 44px;
     border-radius: 21px;
@@ -25,4 +25,3 @@
         border-color: var(--blue_006);
     }
 }
-

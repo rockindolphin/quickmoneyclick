@@ -28,3 +28,9 @@
     transform-origin: 50% -1400px;
   }
 }
+
+@media (-ms-high-contrast:none){
+	_:-ms-fullscreen, :root .popup--visible{  /* IE11 */
+		display: flex;
+	}
+}

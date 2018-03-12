@@ -3,7 +3,7 @@
 	flex-grow: 1;
 	color: var(--white);
 	& .slider__container{
-		overflow:  visible;
+
 	}
 	& .slider__wrapper{
 	
@@ -21,8 +21,8 @@
 		position: absolute;
 		z-index: 1;
 		bottom: 0;
-		left: 50%;
-		transform: translateX(-50%);
+		right: 50%;
+		transform: translateX(50%);
 	}
 	@media (--pre-medium-viewport){
 		& .slider__btn{

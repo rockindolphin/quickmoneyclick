@@ -2,7 +2,7 @@ include ./mixins.pug
 doctype html
 html(lang="ru")
 	+head()
-	body.page
+	body.page.page--overflow-fix
 		.page__body
 			header.header
 				.header__wrapper
@@ -97,15 +97,20 @@ html(lang="ru")
 					.slider__container.swiper-container
 						.slider__wrapper.swiper-wrapper
 							.slider__slide.swiper-slide 
-								img.slide__img(src="../images/slide-0.jpg", alt="slide-0" data-bg="true")
+								//-img.slide__img(src="../images/slide-0.jpg", alt="slide-0" data-bg="true")
+								+picture({'class':'slide__img', 'src':'../images/slide-0.jpg', 'alt':'slide-0', 'data':{'data-bg': 'true'}})
 							.slider__slide.swiper-slide 
-								img.slide__img(src="../images/slide-1.jpg", alt="slide-1" data-bg="true")
+								//-img.slide__img(src="../images/slide-1.jpg", alt="slide-1" data-bg="true")
+								+picture({'class':'slide__img', 'src':'../images/slide-1.jpg', 'alt':'slide-1', 'data':{'data-bg': 'true'}})
 							.slider__slide.swiper-slide 
-								img.slide__img(src="../images/slide-2.jpg", alt="slide-2" data-bg="true")
+								//-img.slide__img(src="../images/slide-2.jpg", alt="slide-2" data-bg="true")
+								+picture({'class':'slide__img', 'src':'../images/slide-2.jpg', 'alt':'slide-2', 'data':{'data-bg': 'true'}})
 							.slider__slide.swiper-slide 
-								img.slide__img(src="../images/slide-3.jpg", alt="slide-3" data-bg="true")
+								//-img.slide__img(src="../images/slide-3.jpg", alt="slide-3" data-bg="true")
+								+picture({'class':'slide__img', 'src':'../images/slide-3.jpg', 'alt':'slide-3', 'data':{'data-bg': 'true'}})
 							.slider__slide.swiper-slide 
-								img.slide__img(src="../images/slide-4.jpg", alt="slide-4" data-bg="true")
+								//-img.slide__img(src="../images/slide-4.jpg", alt="slide-4" data-bg="true")
+								+picture({'class':'slide__img', 'src':'../images/slide-4.jpg', 'alt':'slide-4', 'data':{'data-bg': 'true'}})
 				.page__wrapper
 					.slider.slider--main.slider--main-text
 						.swiper-button-prev.slider__btn
@@ -134,7 +139,7 @@ html(lang="ru")
 											.wrapper__side
 												.benefit__pic
 													.icon--wallet
-														include ../images/sprites/svg/wallet.svg
+														include ../images/wallet.svg
 											.wrapper__side
 												ul.list.list--din
 													li.list__item
@@ -160,7 +165,7 @@ html(lang="ru")
 											.wrapper__side
 												.benefit__pic
 													.icon--man
-														include ../images/sprites/svg/man.svg
+														include ../images/man.svg
 											.wrapper__side
 												ul.list.list--din
 													li.list__item
@@ -186,7 +191,7 @@ html(lang="ru")
 											.wrapper__side
 												.benefit__pic
 													.icon--hands
-														include ../images/sprites/svg/hands.svg
+														include ../images/hands.svg
 											.wrapper__side
 												ul.list.list--din
 													li.list__item
@@ -212,7 +217,7 @@ html(lang="ru")
 											.wrapper__side
 												.benefit__pic
 													.icon--chain
-														include ../images/sprites/svg/chain.svg															
+														include ../images/chain.svg															
 											.wrapper__side
 												ul.list.list--din
 													li.list__item
@@ -260,8 +265,6 @@ html(lang="ru")
 									| Блокчейн технологии
 								span.label__caption
 									| Технологичные транзакции
-			footer.footer
-				.page__wrapper
 			.popup(data-id="1")
 				.page__wrapper
 					.popup__wrapper
@@ -429,8 +432,9 @@ html(lang="ru")
 									h4
 										| Откройте счет и начните работу
 									.btn.btn--inverse
-										| Открыть аккаунт									
+										| Открыть аккаунт
 			script(defer, src="https://use.fontawesome.com/releases/v5.0.7/js/all.js")
 			script(src="../js/vendors/jquery-3.2.1.min.js")
 			script(src="../js/vendors/swiper.min.js")
+			script(src="../js/vendors/svg4everybody.min.js")
 			script(src="../js/app.js")

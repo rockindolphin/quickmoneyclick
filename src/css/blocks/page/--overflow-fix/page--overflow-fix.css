@@ -1,0 +1,19 @@
+
+.page--overflow-fix{
+	overflow-x: hidden;
+	& .slider--main-text{
+		& .slider__container{
+			overflow:  visible;
+		}
+	}
+	@media (--pre-medium-viewport){
+			
+	}
+	@media (--medium-viewport){
+								
+	}
+	@media (--large-viewport){
+										
+	}
+}
+

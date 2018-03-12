@@ -126,9 +126,12 @@ img{
 }
 
 h1{
-		
+	font-size: 2.25rem; /*36px*/
+	@media (--pre-medium-viewport){
+		font-size: 3rem; /*48px*/	
+	}		
 	@media (--medium-viewport){
-			
+		font-size: 4.5rem; /*72px*/
 	}
 	@media (--large-viewport){
 		font-size: 4.5rem; /*72px*/

@@ -32,3 +32,9 @@
 		transform: scale(0);
 	}
 }
+
+@media (-ms-high-contrast:none){
+	_:-ms-fullscreen, :root .popup{  /* IE11 */
+		display: none;
+	}
+}

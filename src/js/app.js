@@ -1,5 +1,12 @@
 (function($){
 	$(document).ready(function() {
+		
+		//внешние svg в ie11
+		try{
+			svg4everybody();
+		}catch(error){
+			console.log(error);
+		}
 
 		//ширина скроллбара
 		var scrollMeasure = $('<div>').addClass('scroll__measure').get(0);
@@ -17,7 +24,7 @@
 			var src = $(this).attr('src');
 			var parent = $(this).parent();
 			if( $(parent).is('picture') ){
-				src = $(parent).find('img').get(0).currentSrc;
+				src = $(parent).find('img').get(0).currentSrc || $(parent).find('img').get(0).src;
 				parent =  $(parent).parent();
 			}
 			$(parent).css({
@@ -64,14 +71,15 @@
 					allowTouchMove: true,	
 				},
 			},			
-			allowTouchMove: false,
 			on: {
 					init: function(){
 						this.controller.control = sliderPics;
 						sliderPics.controller.control = this;
 
+						this.params.changeCounter = 0;
+
 						this.params.tabs = [].slice.call( $('.slider__nav input') );
-						this.params.tabs.map(function(tab,index){
+						this.params.tabs.map(function(tab,index){//переключение табами
 							$(tab).change(function(){
 								this.slideTo(index);
 							}.bind(this));
@@ -79,10 +87,21 @@
 
 					},
 					slideChangeTransitionStart: function(){
-						$(this.params.tabs[this.activeIndex]).prop('checked', true);
-						$(this.$el).css({
-							overflow: this.activeIndex === 0 ? 'visible' : 'hidden'
-						});
+						$(this.params.tabs[this.activeIndex]).prop('checked', true);//активируем таб
+					},
+					slideChange: function(){
+						if( this.params.changeCounter === 0 ){//скрываем первый слайд
+							$(this.pagination.bullets[0]).hide();
+							$(this.slides[0]).css('visibility','hidden');
+							$(sliderPics.slides[0]).css('visibility','hidden');
+							$('.page').removeClass('page--overflow-fix');
+						}
+						this.params.changeCounter++;
+						if( this.activeIndex === 0 ){//при переходе на первый скролим на второй
+							this.slideTo(1);
+						}		
+						var navAction = this.activeIndex === 1 ? $().addClass : $().removeClass;
+						navAction.call(this.navigation.$prevEl,'swiper-button-disabled');//вкл/выкл кнопку перехода на предыдущий
 					}
 			}								
 		});		
