@@ -87,7 +87,6 @@
 							$(this.pagination.bullets[0]).hide();
 							$(this.slides[0]).css('visibility','hidden');
 							$(sliderPics.slides[0]).css('visibility','hidden');
-							$('.page').removeClass('page--overflow-fix');
 						}
 						this.params.changeCounter++;
 						if( this.activeIndex === 0 ){//при переходе на первый скролим на второй

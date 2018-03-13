@@ -9,7 +9,9 @@
 	
 	}
 	& .slider__slide{
-		padding-bottom: 40px;		
+		padding-bottom: 40px;
+		padding-left: var(--page-gap);		
+		padding-right: var(--page-gap);		
 	}
 	& .slider__btn{
 		display: none;

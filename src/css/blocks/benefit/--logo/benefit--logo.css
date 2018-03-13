@@ -20,6 +20,9 @@
 			left: 50%;
 			transform: translateX(-50%) translateY(-50%);
 			background-image: url('../images/blur.png');
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: contain;
 			z-index: -1;
 		}
 	}

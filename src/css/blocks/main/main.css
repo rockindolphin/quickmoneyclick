@@ -16,7 +16,9 @@
 		align-items: flex-start;
 		justify-content: stretch;
 		position: relative;
-		z-index: 3;		
+		z-index: 3;	
+		padding-left: 0;	
+		padding-right: 0;	
 	}
 }
 
