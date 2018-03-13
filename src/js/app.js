@@ -1,12 +1,12 @@
 (function($){
 	$(document).ready(function() {
-		
+
 		//внешние svg в ie11
-		try{
+		/*try{
 			svg4everybody();
 		}catch(error){
 			console.log(error);
-		}
+		}*/
 
 		//ширина скроллбара
 		var scrollMeasure = $('<div>').addClass('scroll__measure').get(0);

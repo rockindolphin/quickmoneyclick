@@ -3,13 +3,13 @@ doctype html
 html(lang="ru")
 	+head()
 	body.page.page--overflow-fix
+		include ../../dist/images/sprite.svg
 		.page__body
 			header.header
 				.header__wrapper
 					.header__side
 						.btn.btn--menu.header__menu-toggle
-							svg.icon.icon--active.icon--menu
-								use(xlink:href="../images/sprite.svg#menu")
+							+icon('menu')
 						.header__menu
 							.header__menu-wrapper
 								.toolbar.header__languages
@@ -24,8 +24,7 @@ html(lang="ru")
 											a.link(href="#")
 												| CZ
 									.btn.btn--menu.header__menu-toggle
-										svg.icon.icon--active.icon--times
-											use(xlink:href="../images/sprite.svg#times")
+										+icon('times')
 								ul.list.list--reset.header__nav
 									li.list__item
 										a.link(href="#")
@@ -46,14 +45,12 @@ html(lang="ru")
 									ul.list.list--reset
 										li.list__item
 											a.link(href="skype:sales@quickmoneyclick.com")
-												svg.icon.icon--active.icon--skype
-													use(xlink:href="../images/sprite.svg#skype")
+												+icon('skype')
 												span
 													| sales@quickmoneyclick.com
 										li.list__item
 											a.link(href="mailto:sales@quickmoneyclick.com")
-												svg.icon.icon--active.icon--envelope
-													use(xlink:href="../images/sprite.svg#envelope")
+												+icon('envelope')
 												span
 													| sales@quickmoneyclick.com
 								.header__copy
@@ -74,19 +71,15 @@ html(lang="ru")
 									a.link(href="#")
 										| CZ
 						.header__lock
-							svg.icon.icon--active.icon--padlock
-								use(xlink:href="../images/sprite.svg#padlock")
+							+icon('padlock')
 					.header__side
 						.toolbar.header__socials
 							a.link(href="#")
-								svg.icon.icon--active.icon--vkontakte
-									use(xlink:href="../images/sprite.svg#vkontakte")
+								+icon('vkontakte')
 							a.link(href="#")
-								svg.icon.icon--active.icon--facebook
-									use(xlink:href="../images/sprite.svg#facebook")
+								+icon('facebook')
 							a.link(href="#")
-								svg.icon.icon--active.icon--twitter
-									use(xlink:href="../images/sprite.svg#twitter")
+								+icon('twitter')
 						.toolbar.header__actions
 							.btn.btn--sm
 								| Войти
@@ -114,8 +107,7 @@ html(lang="ru")
 				.page__wrapper
 					.slider.slider--main.slider--main-text
 						.swiper-button-prev.slider__btn
-							svg.icon.icon--active.icon--chewron-left
-								use(xlink:href="../images/sprite.svg#chewron-left")
+							+icon('chewron-left')
 						.slider__container.swiper-container
 							.slider__wrapper.swiper-wrapper
 								.slider__slide.swiper-slide
@@ -138,8 +130,7 @@ html(lang="ru")
 										.benefit__wrapper
 											.wrapper__side
 												.benefit__pic
-													.icon--wallet
-														include ../images/wallet.svg
+													+icon('wallet')
 											.wrapper__side
 												ul.list.list--din
 													li.list__item
@@ -164,8 +155,7 @@ html(lang="ru")
 										.benefit__wrapper
 											.wrapper__side
 												.benefit__pic
-													.icon--man
-														include ../images/man.svg
+													+icon('man')
 											.wrapper__side
 												ul.list.list--din
 													li.list__item
@@ -190,8 +180,7 @@ html(lang="ru")
 										.benefit__wrapper
 											.wrapper__side
 												.benefit__pic
-													.icon--hands
-														include ../images/hands.svg
+													+icon('hands')
 											.wrapper__side
 												ul.list.list--din
 													li.list__item
@@ -216,8 +205,7 @@ html(lang="ru")
 										.benefit__wrapper
 											.wrapper__side
 												.benefit__pic
-													.icon--chain
-														include ../images/chain.svg															
+													+icon('chain')
 											.wrapper__side
 												ul.list.list--din
 													li.list__item
@@ -235,8 +223,7 @@ html(lang="ru")
 												| Открыть аккаунт
 						.swiper-pagination.slider__pagination
 						.swiper-button-next.slider__btn
-							svg.icon.icon--active.icon--chewron-right
-								use(xlink:href="../images/sprite.svg#chewron-right")
+							+icon('chewron-right')
 						nav.slider__nav
 							input#slide-0(type="radio", disabled, name="slider")
 							//-
@@ -272,8 +259,7 @@ html(lang="ru")
 							h3.popup__title
 								| Наши возможности
 							.btn.popup__close
-								svg.icon.icon--active.icon--close
-									use(xlink:href="../images/sprite.svg#close")
+								+icon('close')
 						.popup__main
 							.benefit.benefit--popup
 								ol.list.list--blot
@@ -311,8 +297,7 @@ html(lang="ru")
 							h5.popup__subtitle
 								| Взаиморасчеты в сегментах b2b, b2p, p2p
 							.btn.popup__close
-								svg.icon.icon--active.icon--close
-									use(xlink:href="../images/sprite.svg#close")
+								+icon('close')
 						.popup__main
 							.benefit.benefit--popup
 								ol.list.list--blot
@@ -345,8 +330,7 @@ html(lang="ru")
 							h5.popup__subtitle
 								| Счет торговца для бизнеса в интернете в системе QMC
 							.btn.popup__close
-								svg.icon.icon--active.icon--close
-									use(xlink:href="../images/sprite.svg#close")
+								+icon('close')
 						.popup__main
 							.benefit.benefit--popup
 								ol.list.list--blot
@@ -372,8 +356,7 @@ html(lang="ru")
 							h3.popup__title
 								| Открыть мерчант аккаунт
 							.btn.popup__close
-								svg.icon.icon--active.icon--close
-									use(xlink:href="../images/sprite.svg#close")
+								+icon('close')
 						.popup__main
 							.benefit.benefit--popup.benefit--popup-inline
 								.benefit__wrapper
@@ -393,8 +376,7 @@ html(lang="ru")
 											li.list__item
 												| Начните получать платежи и делать выплаты на своем сайте.
 										a.link.link--attach
-											svg.icon.icon--active.icon--pdf
-												use(xlink:href="../images/sprite.svg#pdf")
+											+icon('pdf')
 											div
 												| Скачать форму 
 												br
@@ -408,8 +390,7 @@ html(lang="ru")
 							h5.popup__subtitle
 								| Технологичные транзакции
 							.btn.popup__close
-								svg.icon.icon--active.icon--close
-									use(xlink:href="../images/sprite.svg#close")
+								+icon('close')
 						.popup__main
 							.benefit.benefit--popup
 								ol.list.list--blot
@@ -436,5 +417,6 @@ html(lang="ru")
 			script(defer, src="https://use.fontawesome.com/releases/v5.0.7/js/all.js")
 			script(src="../js/vendors/jquery-3.2.1.min.js")
 			script(src="../js/vendors/swiper.min.js")
-			script(src="../js/vendors/svg4everybody.min.js")
+			//-script(src="../js/vendors/svg4everybody.min.js")
+			//-script(defer, src="../js/vendors/svgxuse.js")
 			script(src="../js/app.js")

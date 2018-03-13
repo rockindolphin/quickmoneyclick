@@ -11,12 +11,21 @@ mixin head(title)
 		link(rel="stylesheet", href="../css/style.css?ver=" + pDate())
 		link(rel="shortcut icon", type="image/png", href="../images/favicon.png")
 		meta(charset='utf-8')
-		meta(name="viewport", content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+		meta(name="viewport", content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes")
 		meta(name="mobile-web-app-capable", content="yes")
 		meta(name="apple-mobile-web-app-capable", content="yes")
+		meta(name="description", content="Платежи по всему миру")
+		meta(name="theme-color", content="#0062ae")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
 		if config.images.generateSpritePng
 			link(rel="stylesheet", href="../css/sprite.css")
 
+//-
+	svg(class="icon icon--active icon--" + name)
+		use(xlink:href="../images/sprite.svg#" + name)
+mixin icon(name)
+	svg(class="icon icon--active icon--" + name)
+		use(href="#" + name, xlink:href="#" + name)
 
 //- example
 	+picture({'class':'slide__img', 'src':'../images/slide-0.jpg', 'alt':'slide-0', 'data':{'data-bg': 'true'}})
@@ -43,3 +52,4 @@ mixin picture(opts)
 			img(src=`${imgFolder}${name}.${ext}` class=className alt=alt )&attributes(data)
 	else
 		img(src=`${imgFolder}${name}.${ext}` class=className alt=alt )&attributes(data)
+

@@ -25,7 +25,7 @@
     transform-origin: 50% -1400px;
   }
   100% {
-    transform: translateY(600px) rotateX(30deg) scale(0);
+    transform: translateY(-600px) rotateX(30deg) scale(0);
     transform-origin: 50% 100%;
   }
 }
