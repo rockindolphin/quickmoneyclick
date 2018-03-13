@@ -25,7 +25,7 @@ mixin head(title)
 		use(xlink:href="../images/sprite.svg#" + name)
 mixin icon(name)
 	svg(class="icon icon--active icon--" + name)
-		use(href="#" + name, xlink:href="#" + name)
+		use(xlink:href="#" + name)
 
 //- example
 	+picture({'class':'slide__img', 'src':'../images/slide-0.jpg', 'alt':'slide-0', 'data':{'data-bg': 'true'}})
