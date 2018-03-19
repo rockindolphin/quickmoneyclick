@@ -11,7 +11,7 @@
 	@media (--pre-medium-viewport){
 		flex-direction: row;
 		& > .btn{
-			&:not(:last-of-type){
+			&:not(:last-child){
 				margin-right: 14px;
 			}
 		}					

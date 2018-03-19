@@ -4,17 +4,17 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	&:first-of-type{
+	&:first-child{
 		justify-content: space-between;
 	}
-	&:last-of-type{
+	&:last-child{
 		display: none;
 	}
 	@media (--medium-viewport){
-		&:first-of-type{
+		&:first-child{
 			justify-content: flex-start;
 		}		
-		&:last-of-type{
+		&:last-child{
 			display: flex;
 			justify-content: flex-end;
 		}					

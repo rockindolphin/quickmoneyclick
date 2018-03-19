@@ -6,7 +6,7 @@
 	align-items: center;
 	justify-content: flex-start;
 	& .btn{
-		&:not(:last-of-type){
+		&:not(:last-child){
 			margin-right: 20px;
 		}
 	}

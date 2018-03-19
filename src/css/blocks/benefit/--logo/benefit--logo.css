@@ -38,7 +38,7 @@
 	}
 }
 
-
+/*
 @supports(filter: blur(50px)){
 	.benefit--logo{
 		& .benefit__pic{
@@ -54,3 +54,4 @@
 		}
 	}	
 }
+*/

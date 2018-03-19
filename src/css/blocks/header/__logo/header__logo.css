@@ -2,15 +2,15 @@
 .header__logo{
 	width: 94px;
 	height: 31px;
-	background-image: url('../images/logo.png');
-	background-size: contain;
+	background-image: url('../images/logo-sm.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	margin-left: auto;
 	margin-right: auto;
 	@media (--pre-medium-viewport){
 		width: 132px;
-		height: 44px;					
+		height: 44px;
+		background-image: url('../images/logo-lg.png');					
 	}	
 	@media (--medium-viewport){
 		margin-left: 0px;

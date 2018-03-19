@@ -6,7 +6,7 @@
 	& .swiper-pagination-bullet {
 		opacity: 0.35;
 		background:  var(--white);
-		&:not(:last-of-type){
+		&:not(:last-child){
 			margin-right: 12px;
 		}
 	}
