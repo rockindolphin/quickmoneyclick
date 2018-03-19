@@ -1,0 +1,10 @@
+
+.bgcolor--light{
+	& .btn{
+		&:hover,
+		&:active{
+			border-color: var(--blue_008);
+		}
+	}
+}
+

@@ -76,9 +76,14 @@ function pugToHtml(filepath){
 
 function fonts(filepath){
 	var fontFolder = path.normalize(filepath).split(path.sep).slice(-2,-1)[0];
-	if( fontFolder == '**' ){ fontFolder = ''}
+	if( fontFolder == '**' ){ fontFolder = ''};
 	gulp.src( filepath )
-	.pipe( gulp.dest( path.resolve(dist, 'fonts', fontFolder ) ) )
+	.pipe( gulp.dest( path.resolve(dist, 'fonts', fontFolder ) ) );
+}
+
+function docs(filepath){
+	gulp.src( filepath )
+	.pipe( gulp.dest( path.resolve(dist, 'docs' ) ) );
 }
 
 function WebP(filepath, size, quality){
@@ -256,6 +261,10 @@ gulp.task('fonts', function(){
 	fonts( path.resolve(src, 'fonts', '**', '*') );
 });
 
+gulp.task('docs', function(){
+	docs( path.resolve(src, 'docs', '**', '*') );
+});
+
 gulp.task('js', () => {
 		miss.pipe(
 			gulp.src( [path.resolve(src, 'js', '*.js'), '!src/js/vendors{,/**}'] ),
@@ -321,6 +330,11 @@ gulp.task('default', ['clear_dist', 'server'], () => {
 	let fonts_watcher = chokidar.watch( path.resolve(src, 'fonts', '**', '*'), {ignoreInitial: true} ); 
 	fonts_watcher.on('change', (filepath) => { fonts(filepath) });	
 	fonts_watcher.on('add', (filepath) => { fonts(filepath) });	
+
+	gulp.start('docs');
+	let docs_watcher = chokidar.watch( path.resolve(src, 'docs', '**', '*'), {ignoreInitial: true} ); 
+	docs_watcher.on('change', (filepath) => { docs(filepath) });	
+	docs_watcher.on('add', (filepath) => { docs(filepath) });	
 
 	gulp.start('js');
 	let js_watcher = chokidar.watch( path.resolve(src, 'js', '**', '*.js'), {ignored: /vendors/, ignoreInitial: true} ); 

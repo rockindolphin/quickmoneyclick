@@ -20,8 +20,11 @@
     padding-right: 35px;
     &:hover,
     &:active{
-        background-color: var(--blue_006);
-        color: var(--white);
-        border-color: var(--blue_006);
+        background-color: var(--white);
+        color: var(--blue_007);
+        border-color: var(--white);
     }
 }
+/*
+border-color: var(--blue_008);
+*/

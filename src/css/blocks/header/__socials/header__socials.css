@@ -12,7 +12,7 @@
 		margin-right: 11px;
 		&:hover,
 		&:active{
-			color: var(--blue_194);
+			color: var(--blue_008);
 		}
 	}
 	@media (--medium-viewport){
