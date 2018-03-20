@@ -164,7 +164,7 @@ var arrLang = {
 		'faq_c12_b': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in',						
 
 	},
-	'cze': {
+	'cz': {
 		'login': 'Vstup',
 		'signin': 'Registrace',
 		'business': 'Obchodní účet',
@@ -372,6 +372,14 @@ var arrLang = {
 				break;
 			}
 		};*/
+
+		window.generatePoContent = function(lang){
+			var output = `msgid ""<br>msgstr ""<br>"Language: ${lang}"<br><br>`;
+			for(var key in arrLang[lang]){
+				output += `# ${ arrLang['ru'][key] }<br>msgid "${key}"<br>msgstr "${arrLang[lang][key]}"<br><br>`;
+			}
+			$('body').html(output);
+		};		
 
 	});	
 

@@ -1,426 +1,426 @@
 msgid ""
 msgstr ""
-"Language: ru"
+"Language: cz"
 
 # Войти
 msgid "login"
-msgstr "Войти"
+msgstr "Vstup"
 
 # Зарегистрироваться
 msgid "signin"
-msgstr "Зарегистрироваться"
+msgstr "Registrace"
 
 # Бизнес-аккаунт
 msgid "business"
-msgstr "Бизнес-аккаунт"
+msgstr "Obchodní účet"
 
 # Ваш персональный счет
 msgid "personal"
-msgstr "Ваш персональный счет"
+msgstr "Váš osobní účet"
 
 # Взаиморасчёты
 msgid "mutual_settlements"
-msgstr "Взаиморасчёты"
+msgstr "Vzájemné vyrovnání"
 
 # Валюта расчёта доллар, евро, чешская крона
 msgid "currency_calculation"
-msgstr "Валюта расчёта доллар, евро, чешская крона"
+msgstr "Zúčtovací měna účtu je dolar, euro, česká koruna"
 
 # Все сегменты бизнеса
 msgid "business_segments"
-msgstr "Все сегменты бизнеса"
+msgstr "Všechny segmenty podnikání"
 
 # Персонализированный подход
 msgid "personalized_approach"
-msgstr "Персонализированный подход"
+msgstr "Osobní přístup"
 
 # Узнать больше
 msgid "learn_more"
-msgstr "Узнать больше"
+msgstr "Chci se dozvědět víc"
 
 # Открыть аккаунт
 msgid "open_account"
-msgstr "Открыть аккаунт"
+msgstr "Otevřít si účet"
 
 # Блокчейн технологии
 msgid "blockchain"
-msgstr "Блокчейн технологии"
+msgstr "Technologie blockchain"
 
 # Технологичные транзакции
 msgid "transactions"
-msgstr "Технологичные транзакции"
+msgstr "Technologické transakce"
 
 # Пополнение аккаунта USD и EUR криптовалютой
 msgid "replenishment"
-msgstr "Пополнение аккаунта USD и EUR криптовалютой"
+msgstr "Vklad kryptoměny na USD a EUR účet"
 
 # Выплаты на криптоадреса
 msgid "crypto_address"
-msgstr "Выплаты на криптоадреса"
+msgstr "Platba na krypto adresy"
 
 # Генерация собственного криптоадреса
 msgid "own_crypto"
-msgstr "Генерация собственного криптоадреса"
+msgstr "Vygenerování vlastní krypto adresy"
 
 # Автоконвертация криптовалюты в USD и EUR
 msgid "auto_convert"
-msgstr "Автоконвертация криптовалюты в USD и EUR"
+msgstr "Automatický převod měny na USD a EUR"
 
 # Мерчант-аккаунт
 msgid "merchant_account"
-msgstr "Мерчант-аккаунт"
+msgstr "Účet obchodníka"
 
 # Решения для Вашего бизнеса
 msgid "solutions"
-msgstr "Решения для Вашего бизнеса"
+msgstr "Řešení pro Vaše podnikání"
 
 # Прием онлайн платежей на Ваш ресурс со всего мира
 msgid "receiving_payments"
-msgstr "Прием онлайн платежей на Ваш ресурс со всего мира"
+msgstr "Příjem online plateb z celého světa na Váš zdroj"
 
 # Обратные выплаты
 msgid "reverse_payouts"
-msgstr "Обратные выплаты"
+msgstr "Zpětné platb"
 
 # Работа с различными видами бизнеcа
 msgid "different_business"
-msgstr "Работа с различными видами бизнеcа"
+msgstr "Práce s různými druhy podnikání"
 
 # Индивидуальные решения
 msgid "customized_solutions"
-msgstr "Индивидуальные решения"
+msgstr "Individuální řešení"
 
 # Возможности QMC
 msgid "features"
-msgstr "Возможности QMC"
+msgstr "Možnost QMC"
 
 # Лучше, чем банк!
 msgid "better_than_bank"
-msgstr "Лучше, чем банк!"
+msgstr "Více než banka!"
 
 # Открытие аккаунта
 msgid "account_opening"
-msgstr "Открытие аккаунта"
+msgstr "Otevření účtu"
 
 # Пополнение аккаунта
 msgid "account_replenishment"
-msgstr "Пополнение аккаунта"
+msgstr "Vklad na účet"
 
 # Вывод средств
 msgid "withdrawal_of_funds"
-msgstr "Вывод средств"
+msgstr "Výběr prostředků"
 
 # Мгновенные переводы
 msgid "instant_translations"
-msgstr "Мгновенные переводы"
+msgstr "Okamžité převody"
 
 # Электронный кошелек для бизнес решений
 msgid "electronic_wallet"
-msgstr "Электронный кошелек для бизнес решений"
+msgstr "Elektronická peněženka pro podnikatelská řešení"
 
 # Комиссии и сборы
 msgid "commissions"
-msgstr "Комиссии и сборы"
+msgstr "Provize a poplatky"
 
 # Условия и положения
 msgid "terms"
-msgstr "Условия и положения"
+msgstr "Podmínky a okolnosti"
 
 # Политика конфиденциальности
 msgid "policy"
-msgstr "Политика конфиденциальности"
+msgstr "Zachování mlčenlivosti"
 
 # Электронные кошельки предоставляются: FSV Money Pte. Ltd (Сингапур), владеющий правом stored value facility (SVF).
 msgid "copy_1"
-msgstr "Электронные кошельки предоставляются: FSV Money Pte. Ltd (Сингапур), владеющий правом stored value facility (SVF)."
+msgstr "Elektronické peněženky jsou nabízeny společností FSV Money Pte. Ltd (Singapur) s právem stored value facility (SVF). "
 
 # Регистрационный номер 201619216W. FATCA GIIN:CZCKZE.99999.SL.702
 msgid "copy_2"
-msgstr "Регистрационный номер 201619216W. FATCA GIIN:CZCKZE.99999.SL.702"
+msgstr "Registrační číslo 201619216W. FATCA GIIN:CZCKZE.99999.SL.702"
 
 # Принимайте криптовалюту за товары, работы, услуги без открытия криптоаккаунта. Риски большой волатильности курса отсутствуют.
 msgid "popup4_list1"
-msgstr "Принимайте криптовалюту за товары, работы, услуги без открытия криптоаккаунта. Риски большой волатильности курса отсутствуют."
+msgstr "Obdržte kryptoměnu za zboží, práci a služby i bez otevření krypto účtu. Nulové riziko vysoké volatility kurzu."
 
 # При получении криптовалюты она по текущему курсу отображается у вас на аккаунте в долларах или евро.
 msgid "popup4_list2"
-msgstr "При получении криптовалюты она по текущему курсу отображается у вас на аккаунте в долларах или евро."
+msgstr "Při obdržení se kryptoměna zobrazí na vašem účtu v dolarech nebo eurech podle aktuálního kurzu."
 
 # Рассчитывайтесь в криптовалюте без наличия криптоаккаунта. У вас есть на аккаунте QMC доллары или евро: подайте заявку на вывод с указанием криптоадреса вашего продавца.
 msgid "popup4_list3"
-msgstr "Рассчитывайтесь в криптовалюте без наличия криптоаккаунта. У вас есть на аккаунте QMC доллары или евро: подайте заявку на вывод с указанием криптоадреса вашего продавца."
+msgstr "Plaťte v kryptoměně i bez krypto účtu. Na vašem účtu QMC jsou dolary nebo eura: podejte žádost o odeslání na krypto adresu vašeho prodejce."
 
 # Откройте счет и начните работу
 msgid "start_work"
-msgstr "Откройте счет и начните работу"
+msgstr "Otevřete si účet a začněte pracovat"
 
 # Наши возможности
 msgid "our_capabilities"
-msgstr "Наши возможности"
+msgstr "Naše možnosti"
 
 # Открытие аккаунта. Доллары, Евро, Чешская крона.
 msgid "account_opening2"
-msgstr "Открытие аккаунта. Доллары, Евро, Чешская крона."
+msgstr "Otevření účtu. Dolary, eura, česká koruna"
 
 # Пополнение аккаунта: банковской картой, банковским переводом, криптовалютой.
 msgid "account_replenishment2"
-msgstr "Пополнение аккаунта: банковской картой, банковским переводом, криптовалютой."
+msgstr "Vklad na účet: prostřednictvím bankovní karty, bankovního převodu, kryptoměny"
 
 # Вывод с аккаунта: на банковскую карту, на банковский счёт или на криптоаккаунт.
 msgid "withdrawal_of_funds2"
-msgstr "Вывод с аккаунта: на банковскую карту, на банковский счёт или на криптоаккаунт."
+msgstr "Výběr z účtu: na bankovní kartu, bankovní účet nebo krypto účet"
 
 # Мгновенные переводы. Внутри аккаунта - между своими счетами. Между аккаунтами в системе QMC.
 msgid "instant_translations2"
-msgstr "Мгновенные переводы. Внутри аккаунта - между своими счетами. Между аккаунтами в системе QMC."
+msgstr "Okamžité převody. V rámci účtu - mezi vlastními účty. Mezi účty v systému QMC"
 
 # Открыть мерчант аккаунт
 msgid "merchant_open"
-msgstr "Открыть мерчант аккаунт"
+msgstr "Otevřít obchodní účet"
 
 # Кликните по ссылке ниже, чтобы скачать форму заявки.
 msgid "popup3-2_list1"
-msgstr "Кликните по ссылке ниже, чтобы скачать форму заявки."
+msgstr "Pro stažení žádosti klikněte na níže uvedený odkaz."
 
 # Заполните ее и отправьте на почту info@quickmoneyclik.com
 msgid "popup3-2_list2"
-msgstr "Заполните ее и отправьте на почту info@quickmoneyclik.com"
+msgstr "Vyplňte žádost a odešlete ji na adresu info@quickmoneyclick.com"
 
 # Дождитесь одобрения заявки.
 msgid "popup3-2_list3"
-msgstr "Дождитесь одобрения заявки."
+msgstr "Počkejte na schválení žádosti."
 
 # Получите API для интеграции на Ваш сайт.
 msgid "popup3-2_list4"
-msgstr "Получите API для интеграции на Ваш сайт."
+msgstr "Obdržíte API kvůli integraci na Vaše stánky."
 
 # Начните получать платежи и делать выплаты на своем сайте.
 msgid "popup3-2_list5"
-msgstr "Начните получать платежи и делать выплаты на своем сайте."
+msgstr "Začněte přijímat a provádět platby na svých stránkách."
 
 # Скачать форму
 msgid "popup3-2_list6"
-msgstr "Скачать форму"
+msgstr "Stáhnout formulář"
 
 # Мерчант аккаунт
 msgid "merchant_account3"
-msgstr "Мерчант аккаунт"
+msgstr "Obchodní účet"
 
 # Счет торговца для бизнеса в интернете в системе QMC
 msgid "merchant_for_business"
-msgstr "Счет торговца для бизнеса в интернете в системе QMC"
+msgstr "Účet obchodníka pro podnikání na internetu v systému QMC."
 
 # Обычный аккаунт с одной валютой и статусом мерчант
 msgid "popup3_list1"
-msgstr "Обычный аккаунт с одной валютой и статусом мерчант"
+msgstr "Běžný účet s jednou měnou a statusem obchodníka."
 
 # Неограниченные возможности по выплатам с мерчант аккаунта
 msgid "popup3_list2"
-msgstr "Неограниченные возможности по выплатам с мерчант аккаунта"
+msgstr "Neohraničené možnosti plateb z obchodního účtu."
 
 # Решения для бизнеса
 msgid "popup2_title"
-msgstr "Решения для бизнеса"
+msgstr "Podnikatelská řešení."
 
 # Взаиморасчеты в сегментах b2b, b2p, p2p
 msgid "popup2_subtitle"
-msgstr "Взаиморасчеты в сегментах b2b, b2p, p2p"
+msgstr "Vzájemné vyrovnání v modelech b2b, b2p, p2p"
 
 # Взаиморасчеты между покупателем и продавцом без участия банковских структур.
 msgid "popup2_list1"
-msgstr "Взаиморасчеты между покупателем и продавцом без участия банковских структур."
+msgstr "Vzájemné vyrovnání mezi kupujícím a prodejcem bez účasti bankovních struktur"
 
 # Выплаты за работы, услуги
 msgid "popup2_list2"
-msgstr "Выплаты за работы, услуги"
+msgstr "Platba za práci, služby"
 
 # Оптимизация налогообложения при использования QMC
 msgid "popup2_list3"
-msgstr "Оптимизация налогообложения при использования QMC"
+msgstr "Optimalizace zdanění při používání QMC"
 
 # Кошелёк покупателя
 msgid "scheme-2_1-1"
-msgstr "Кошелёк покупателя"
+msgstr "Peněženka kupujícího"
 
 # Кошелёк продавца
 msgid "scheme-2_1-2"
-msgstr "Кошелёк продавца"
+msgstr "Peněženka prodejce"
 
 # Продавец
 msgid "scheme-2_1-3"
-msgstr "Продавец"
+msgstr "Prodejce"
 
 # Покупатель
 msgid "scheme-2_1-4"
-msgstr "Покупатель"
+msgstr "Kupující"
 
 # Работодатель
 msgid "scheme-2_2-1"
-msgstr "Работодатель"
+msgstr "Zaměstnavatel"
 
 # Фрилансер
 msgid "scheme-2_2-2"
-msgstr "Фрилансер"
+msgstr "Živnostník"
 
 # Дизайнер
 msgid "scheme-2_2-3"
-msgstr "Дизайнер"
+msgstr "Návrhář"
 
 # Строитель
 msgid "scheme-2_2-4"
-msgstr "Строитель"
+msgstr "Stavitel"
 
 # До
 msgid "scheme-2_3-1"
-msgstr "До"
+msgstr "Do"
 
 # После
 msgid "scheme-2_3-2"
-msgstr "После"
+msgstr "Po"
 
 # Перевод между
 msgid "scheme-3_1-1"
-msgstr "Перевод между"
+msgstr "Převod mezi"
 
 # аккаунтами внутри QMC
 msgid "scheme-3_1-2"
-msgstr "аккаунтами внутри QMC"
+msgstr "účty v rámci QMC"
 
 # Запрос на оплату
 msgid "scheme-3_1-3"
-msgstr "Запрос на оплату"
+msgstr "Požadavek na platbu"
 
 # через QMC
 msgid "scheme-3_1-4"
-msgstr "через QMC"
+msgstr "prostřednictvím QMC"
 
 # Мерчант аккаунт
 msgid "scheme-3_1-5"
-msgstr "Мерчант аккаунт"
+msgstr "Obchodní účet"
 
 # Кошельки клиентов QMC
 msgid "scheme-3_1-6"
-msgstr "Кошельки клиентов QMC"
+msgstr "Peněženky klientů QMC"
 
 # Сайт продавца
 msgid "scheme-3_1-7"
-msgstr "Сайт продавца"
+msgstr "Stránky prodejce"
 
 # Интеграция Мерчант аккаунта по API
 msgid "scheme-3_1-8"
-msgstr "Интеграция Мерчант аккаунта по API"
+msgstr "Integrace obchodního účtu podle API"
 
 # Уведомление продавцу о поступлении средств
 msgid "scheme-3_1-9"
-msgstr "Уведомление продавцу о поступлении средств"
+msgstr "Oznámení o navýšení prostředků prodejci"
 
 # Мерчант аккаунт
 msgid "scheme-3_2-1"
-msgstr "Мерчант аккаунт"
+msgstr "Obchodní účet"
 
 # Кошельки клиентов QMC
 msgid "scheme-3_2-2"
-msgstr "Кошельки клиентов QMC"
+msgstr "Peněženky klientů QMC"
 
 # Все виды бизнеса
 msgid "scheme-3_2_1-1"
-msgstr "Все виды бизнеса"
+msgstr "Všechny druhy podnikání"
 
 # Удобные способы
 msgid "scheme-3_2_1-2"
-msgstr "Удобные способы"
+msgstr "Pohodlný způsob"
 
 # снятия и пополнения
 msgid "scheme-3_2_1-3"
-msgstr "снятия и пополнения"
+msgstr "výběru a vkladu"
 
 # Выберите валюту:
 msgid "scheme-3_2_1-4"
-msgstr "Выберите валюту:"
+msgstr "Vyberte měnu:"
 
 # USD или EURO
 msgid "scheme-3_2_1-5"
-msgstr "USD или EURO"
+msgstr "USD nebo EUR"
 
 # Минимальные
 msgid "scheme-3_2_1-6"
-msgstr "Минимальные"
+msgstr "Minimální"
 
 # размеры комиссии
 msgid "scheme-3_2_1-7"
-msgstr "размеры комиссии"
+msgstr "výše provize"
 
 # Аккаунт в QMC
 msgid "scheme-4_1-1"
-msgstr "Аккаунт в QMC"
+msgstr "Účet QMC"
 
 # Генератор
 msgid "scheme-4_1-2"
-msgstr "Генератор"
+msgstr "Generátor"
 
 # QR кода
 msgid "scheme-4_1-3"
-msgstr "QR кода"
+msgstr "QR kódu"
 
 # Отправьте
 msgid "scheme-4_1-4"
-msgstr "Отправьте"
+msgstr "Pošlete"
 
 # криптоадрес
 msgid "scheme-4_1-5"
-msgstr "криптоадрес"
+msgstr "krypto adresu"
 
 # покупателю
 msgid "scheme-4_1-6"
-msgstr "покупателю"
+msgstr "kupujícímu"
 
 # Покупатель
 msgid "scheme-4_1-7"
-msgstr "Покупатель"
+msgstr "Kupující"
 
 # оплачивает
 msgid "scheme-4_1-8"
-msgstr "оплачивает"
+msgstr "platí"
 
 # в криптовалюте
 msgid "scheme-4_1-9"
-msgstr "в криптовалюте"
+msgstr "v krypto měně"
 
 # Автоперевод криптовалюты в USD и EUR
 msgid "scheme-4_1-10"
-msgstr "Автоперевод криптовалюты в USD и EUR"
+msgstr "Automatický převod kryptoměny na USD a EUR"
 
 # Автоконвертация
 msgid "scheme-4_2-1"
-msgstr "Автоконвертация"
+msgstr "Automatický převod"
 
 # Аккаунт в QMC
 msgid "scheme-4_3-1"
-msgstr "Аккаунт в QMC"
+msgstr "Účet v QMC"
 
 # Заявка на вывод
 msgid "scheme-4_3-2"
-msgstr "Заявка на вывод"
+msgstr "Žádost o odeslání"
 
 # USD или EUR
 msgid "scheme-4_3-3"
-msgstr "USD или EUR"
+msgstr "USD nebo EUR"
 
 # на криптоадресс
 msgid "scheme-4_3-4"
-msgstr "на криптоадресс"
+msgstr "na krypto adresu"
 
 # Продавец
 msgid "scheme-4_3-5"
-msgstr "Продавец"
+msgstr "Prodejce"
 
 # получает
 msgid "scheme-4_3-6"
-msgstr "получает"
+msgstr "obdrží"
 
 # криптовалюту
 msgid "scheme-4_3-7"
-msgstr "криптовалюту"
+msgstr "kryptoměnu"
 
 # Коммисия и сборы
 msgid "table1_title"

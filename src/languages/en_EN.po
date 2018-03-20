@@ -1,595 +1,595 @@
 msgid ""
 msgstr ""
-"Language: ru"
+"Language: en"
 
 # Войти
 msgid "login"
-msgstr "Войти"
+msgstr "none"
 
 # Зарегистрироваться
 msgid "signin"
-msgstr "Зарегистрироваться"
+msgstr "none"
 
 # Бизнес-аккаунт
 msgid "business"
-msgstr "Бизнес-аккаунт"
+msgstr "none"
 
 # Ваш персональный счет
 msgid "personal"
-msgstr "Ваш персональный счет"
+msgstr "none"
 
 # Взаиморасчёты
 msgid "mutual_settlements"
-msgstr "Взаиморасчёты"
+msgstr "none"
 
 # Валюта расчёта доллар, евро, чешская крона
 msgid "currency_calculation"
-msgstr "Валюта расчёта доллар, евро, чешская крона"
+msgstr "none"
 
 # Все сегменты бизнеса
 msgid "business_segments"
-msgstr "Все сегменты бизнеса"
+msgstr "none"
 
 # Персонализированный подход
 msgid "personalized_approach"
-msgstr "Персонализированный подход"
+msgstr "none"
 
 # Узнать больше
 msgid "learn_more"
-msgstr "Узнать больше"
+msgstr "none"
 
 # Открыть аккаунт
 msgid "open_account"
-msgstr "Открыть аккаунт"
+msgstr "none"
 
 # Блокчейн технологии
 msgid "blockchain"
-msgstr "Блокчейн технологии"
+msgstr "none"
 
 # Технологичные транзакции
 msgid "transactions"
-msgstr "Технологичные транзакции"
+msgstr "none"
 
 # Пополнение аккаунта USD и EUR криптовалютой
 msgid "replenishment"
-msgstr "Пополнение аккаунта USD и EUR криптовалютой"
+msgstr "none"
 
 # Выплаты на криптоадреса
 msgid "crypto_address"
-msgstr "Выплаты на криптоадреса"
+msgstr "none"
 
 # Генерация собственного криптоадреса
 msgid "own_crypto"
-msgstr "Генерация собственного криптоадреса"
+msgstr "none"
 
 # Автоконвертация криптовалюты в USD и EUR
 msgid "auto_convert"
-msgstr "Автоконвертация криптовалюты в USD и EUR"
+msgstr "none"
 
 # Мерчант-аккаунт
 msgid "merchant_account"
-msgstr "Мерчант-аккаунт"
+msgstr "none"
 
 # Решения для Вашего бизнеса
 msgid "solutions"
-msgstr "Решения для Вашего бизнеса"
+msgstr "none"
 
 # Прием онлайн платежей на Ваш ресурс со всего мира
 msgid "receiving_payments"
-msgstr "Прием онлайн платежей на Ваш ресурс со всего мира"
+msgstr "none"
 
 # Обратные выплаты
 msgid "reverse_payouts"
-msgstr "Обратные выплаты"
+msgstr "none"
 
 # Работа с различными видами бизнеcа
 msgid "different_business"
-msgstr "Работа с различными видами бизнеcа"
+msgstr "none"
 
 # Индивидуальные решения
 msgid "customized_solutions"
-msgstr "Индивидуальные решения"
+msgstr "none"
 
 # Возможности QMC
 msgid "features"
-msgstr "Возможности QMC"
+msgstr "none"
 
 # Лучше, чем банк!
 msgid "better_than_bank"
-msgstr "Лучше, чем банк!"
+msgstr "none"
 
 # Открытие аккаунта
 msgid "account_opening"
-msgstr "Открытие аккаунта"
+msgstr "none"
 
 # Пополнение аккаунта
 msgid "account_replenishment"
-msgstr "Пополнение аккаунта"
+msgstr "none"
 
 # Вывод средств
 msgid "withdrawal_of_funds"
-msgstr "Вывод средств"
+msgstr "none"
 
 # Мгновенные переводы
 msgid "instant_translations"
-msgstr "Мгновенные переводы"
+msgstr "none"
 
 # Электронный кошелек для бизнес решений
 msgid "electronic_wallet"
-msgstr "Электронный кошелек для бизнес решений"
+msgstr "none"
 
 # Комиссии и сборы
 msgid "commissions"
-msgstr "Комиссии и сборы"
+msgstr "none"
 
 # Условия и положения
 msgid "terms"
-msgstr "Условия и положения"
+msgstr "none"
 
 # Политика конфиденциальности
 msgid "policy"
-msgstr "Политика конфиденциальности"
+msgstr "none"
 
 # Электронные кошельки предоставляются: FSV Money Pte. Ltd (Сингапур), владеющий правом stored value facility (SVF).
 msgid "copy_1"
-msgstr "Электронные кошельки предоставляются: FSV Money Pte. Ltd (Сингапур), владеющий правом stored value facility (SVF)."
+msgstr "none"
 
 # Регистрационный номер 201619216W. FATCA GIIN:CZCKZE.99999.SL.702
 msgid "copy_2"
-msgstr "Регистрационный номер 201619216W. FATCA GIIN:CZCKZE.99999.SL.702"
+msgstr "none"
 
 # Принимайте криптовалюту за товары, работы, услуги без открытия криптоаккаунта. Риски большой волатильности курса отсутствуют.
 msgid "popup4_list1"
-msgstr "Принимайте криптовалюту за товары, работы, услуги без открытия криптоаккаунта. Риски большой волатильности курса отсутствуют."
+msgstr "none"
 
 # При получении криптовалюты она по текущему курсу отображается у вас на аккаунте в долларах или евро.
 msgid "popup4_list2"
-msgstr "При получении криптовалюты она по текущему курсу отображается у вас на аккаунте в долларах или евро."
+msgstr "none"
 
 # Рассчитывайтесь в криптовалюте без наличия криптоаккаунта. У вас есть на аккаунте QMC доллары или евро: подайте заявку на вывод с указанием криптоадреса вашего продавца.
 msgid "popup4_list3"
-msgstr "Рассчитывайтесь в криптовалюте без наличия криптоаккаунта. У вас есть на аккаунте QMC доллары или евро: подайте заявку на вывод с указанием криптоадреса вашего продавца."
+msgstr "none"
 
 # Откройте счет и начните работу
 msgid "start_work"
-msgstr "Откройте счет и начните работу"
+msgstr "none"
 
 # Наши возможности
 msgid "our_capabilities"
-msgstr "Наши возможности"
+msgstr "none"
 
 # Открытие аккаунта. Доллары, Евро, Чешская крона.
 msgid "account_opening2"
-msgstr "Открытие аккаунта. Доллары, Евро, Чешская крона."
+msgstr "none"
 
 # Пополнение аккаунта: банковской картой, банковским переводом, криптовалютой.
 msgid "account_replenishment2"
-msgstr "Пополнение аккаунта: банковской картой, банковским переводом, криптовалютой."
+msgstr "none"
 
 # Вывод с аккаунта: на банковскую карту, на банковский счёт или на криптоаккаунт.
 msgid "withdrawal_of_funds2"
-msgstr "Вывод с аккаунта: на банковскую карту, на банковский счёт или на криптоаккаунт."
+msgstr "none"
 
 # Мгновенные переводы. Внутри аккаунта - между своими счетами. Между аккаунтами в системе QMC.
 msgid "instant_translations2"
-msgstr "Мгновенные переводы. Внутри аккаунта - между своими счетами. Между аккаунтами в системе QMC."
+msgstr "none"
 
 # Открыть мерчант аккаунт
 msgid "merchant_open"
-msgstr "Открыть мерчант аккаунт"
+msgstr "none"
 
 # Кликните по ссылке ниже, чтобы скачать форму заявки.
 msgid "popup3-2_list1"
-msgstr "Кликните по ссылке ниже, чтобы скачать форму заявки."
+msgstr "none"
 
 # Заполните ее и отправьте на почту info@quickmoneyclik.com
 msgid "popup3-2_list2"
-msgstr "Заполните ее и отправьте на почту info@quickmoneyclik.com"
+msgstr "none"
 
 # Дождитесь одобрения заявки.
 msgid "popup3-2_list3"
-msgstr "Дождитесь одобрения заявки."
+msgstr "none"
 
 # Получите API для интеграции на Ваш сайт.
 msgid "popup3-2_list4"
-msgstr "Получите API для интеграции на Ваш сайт."
+msgstr "none"
 
 # Начните получать платежи и делать выплаты на своем сайте.
 msgid "popup3-2_list5"
-msgstr "Начните получать платежи и делать выплаты на своем сайте."
+msgstr "none"
 
 # Скачать форму
 msgid "popup3-2_list6"
-msgstr "Скачать форму"
+msgstr "none"
 
 # Мерчант аккаунт
 msgid "merchant_account3"
-msgstr "Мерчант аккаунт"
+msgstr "none"
 
 # Счет торговца для бизнеса в интернете в системе QMC
 msgid "merchant_for_business"
-msgstr "Счет торговца для бизнеса в интернете в системе QMC"
+msgstr "none"
 
 # Обычный аккаунт с одной валютой и статусом мерчант
 msgid "popup3_list1"
-msgstr "Обычный аккаунт с одной валютой и статусом мерчант"
+msgstr "none"
 
 # Неограниченные возможности по выплатам с мерчант аккаунта
 msgid "popup3_list2"
-msgstr "Неограниченные возможности по выплатам с мерчант аккаунта"
+msgstr "none"
 
 # Решения для бизнеса
 msgid "popup2_title"
-msgstr "Решения для бизнеса"
+msgstr "none"
 
 # Взаиморасчеты в сегментах b2b, b2p, p2p
 msgid "popup2_subtitle"
-msgstr "Взаиморасчеты в сегментах b2b, b2p, p2p"
+msgstr "none"
 
 # Взаиморасчеты между покупателем и продавцом без участия банковских структур.
 msgid "popup2_list1"
-msgstr "Взаиморасчеты между покупателем и продавцом без участия банковских структур."
+msgstr "none"
 
 # Выплаты за работы, услуги
 msgid "popup2_list2"
-msgstr "Выплаты за работы, услуги"
+msgstr "none"
 
 # Оптимизация налогообложения при использования QMC
 msgid "popup2_list3"
-msgstr "Оптимизация налогообложения при использования QMC"
+msgstr "none"
 
 # Кошелёк покупателя
 msgid "scheme-2_1-1"
-msgstr "Кошелёк покупателя"
+msgstr "none"
 
 # Кошелёк продавца
 msgid "scheme-2_1-2"
-msgstr "Кошелёк продавца"
+msgstr "none"
 
 # Продавец
 msgid "scheme-2_1-3"
-msgstr "Продавец"
+msgstr "none"
 
 # Покупатель
 msgid "scheme-2_1-4"
-msgstr "Покупатель"
+msgstr "none"
 
 # Работодатель
 msgid "scheme-2_2-1"
-msgstr "Работодатель"
+msgstr "none"
 
 # Фрилансер
 msgid "scheme-2_2-2"
-msgstr "Фрилансер"
+msgstr "none"
 
 # Дизайнер
 msgid "scheme-2_2-3"
-msgstr "Дизайнер"
+msgstr "none"
 
 # Строитель
 msgid "scheme-2_2-4"
-msgstr "Строитель"
+msgstr "none"
 
 # До
 msgid "scheme-2_3-1"
-msgstr "До"
+msgstr "none"
 
 # После
 msgid "scheme-2_3-2"
-msgstr "После"
+msgstr "none"
 
 # Перевод между
 msgid "scheme-3_1-1"
-msgstr "Перевод между"
+msgstr "none"
 
 # аккаунтами внутри QMC
 msgid "scheme-3_1-2"
-msgstr "аккаунтами внутри QMC"
+msgstr "none"
 
 # Запрос на оплату
 msgid "scheme-3_1-3"
-msgstr "Запрос на оплату"
+msgstr "none"
 
 # через QMC
 msgid "scheme-3_1-4"
-msgstr "через QMC"
+msgstr "none"
 
 # Мерчант аккаунт
 msgid "scheme-3_1-5"
-msgstr "Мерчант аккаунт"
+msgstr "none"
 
 # Кошельки клиентов QMC
 msgid "scheme-3_1-6"
-msgstr "Кошельки клиентов QMC"
+msgstr "none"
 
 # Сайт продавца
 msgid "scheme-3_1-7"
-msgstr "Сайт продавца"
+msgstr "none"
 
 # Интеграция Мерчант аккаунта по API
 msgid "scheme-3_1-8"
-msgstr "Интеграция Мерчант аккаунта по API"
+msgstr "none"
 
 # Уведомление продавцу о поступлении средств
 msgid "scheme-3_1-9"
-msgstr "Уведомление продавцу о поступлении средств"
+msgstr "none"
 
 # Мерчант аккаунт
 msgid "scheme-3_2-1"
-msgstr "Мерчант аккаунт"
+msgstr "none"
 
 # Кошельки клиентов QMC
 msgid "scheme-3_2-2"
-msgstr "Кошельки клиентов QMC"
+msgstr "none"
 
 # Все виды бизнеса
 msgid "scheme-3_2_1-1"
-msgstr "Все виды бизнеса"
+msgstr "none"
 
 # Удобные способы
 msgid "scheme-3_2_1-2"
-msgstr "Удобные способы"
+msgstr "none"
 
 # снятия и пополнения
 msgid "scheme-3_2_1-3"
-msgstr "снятия и пополнения"
+msgstr "none"
 
 # Выберите валюту:
 msgid "scheme-3_2_1-4"
-msgstr "Выберите валюту:"
+msgstr "none"
 
 # USD или EURO
 msgid "scheme-3_2_1-5"
-msgstr "USD или EURO"
+msgstr "none"
 
 # Минимальные
 msgid "scheme-3_2_1-6"
-msgstr "Минимальные"
+msgstr "none"
 
 # размеры комиссии
 msgid "scheme-3_2_1-7"
-msgstr "размеры комиссии"
+msgstr "none"
 
 # Аккаунт в QMC
 msgid "scheme-4_1-1"
-msgstr "Аккаунт в QMC"
+msgstr "none"
 
 # Генератор
 msgid "scheme-4_1-2"
-msgstr "Генератор"
+msgstr "none"
 
 # QR кода
 msgid "scheme-4_1-3"
-msgstr "QR кода"
+msgstr "none"
 
 # Отправьте
 msgid "scheme-4_1-4"
-msgstr "Отправьте"
+msgstr "none"
 
 # криптоадрес
 msgid "scheme-4_1-5"
-msgstr "криптоадрес"
+msgstr "none"
 
 # покупателю
 msgid "scheme-4_1-6"
-msgstr "покупателю"
+msgstr "none"
 
 # Покупатель
 msgid "scheme-4_1-7"
-msgstr "Покупатель"
+msgstr "none"
 
 # оплачивает
 msgid "scheme-4_1-8"
-msgstr "оплачивает"
+msgstr "none"
 
 # в криптовалюте
 msgid "scheme-4_1-9"
-msgstr "в криптовалюте"
+msgstr "none"
 
 # Автоперевод криптовалюты в USD и EUR
 msgid "scheme-4_1-10"
-msgstr "Автоперевод криптовалюты в USD и EUR"
+msgstr "none"
 
 # Автоконвертация
 msgid "scheme-4_2-1"
-msgstr "Автоконвертация"
+msgstr "none"
 
 # Аккаунт в QMC
 msgid "scheme-4_3-1"
-msgstr "Аккаунт в QMC"
+msgstr "none"
 
 # Заявка на вывод
 msgid "scheme-4_3-2"
-msgstr "Заявка на вывод"
+msgstr "none"
 
 # USD или EUR
 msgid "scheme-4_3-3"
-msgstr "USD или EUR"
+msgstr "none"
 
 # на криптоадресс
 msgid "scheme-4_3-4"
-msgstr "на криптоадресс"
+msgstr "none"
 
 # Продавец
 msgid "scheme-4_3-5"
-msgstr "Продавец"
+msgstr "none"
 
 # получает
 msgid "scheme-4_3-6"
-msgstr "получает"
+msgstr "none"
 
 # криптовалюту
 msgid "scheme-4_3-7"
-msgstr "криптовалюту"
+msgstr "none"
 
 # Коммисия и сборы
 msgid "table1_title"
-msgstr "Коммисия и сборы"
+msgstr "none"
 
 # Сервисные сборы
 msgid "table1_r1c1"
-msgstr "Сервисные сборы"
+msgstr "none"
 
 # Стоимость
 msgid "table1_r1c2"
-msgstr "Стоимость"
+msgstr "none"
 
 # Открытие аккаунта
 msgid "table1_r2c1"
-msgstr "Открытие аккаунта"
+msgstr "none"
 
 # Открытие мерчан аккаунта
 msgid "table1_r3c1"
-msgstr "Открытие мерчан аккаунта"
+msgstr "none"
 
 # Открытие мерчан аккаунта для финансовых институтов
 msgid "table1_r4c1"
-msgstr "Открытие мерчан аккаунта для финансовых институтов"
+msgstr "none"
 
 # Установочная плата 3 000 EUR
 msgid "table1_r4c2"
-msgstr "Установочная плата 3 000 EUR"
+msgstr "none"
 
 # Ежемесячное обслуживание
 msgid "table1_r5c1"
-msgstr "Ежемесячное обслуживание"
+msgstr "none"
 
 # Закрытие аккаунта
 msgid "table1_r6c1"
-msgstr "Закрытие аккаунта"
+msgstr "none"
 
 # Входящие платежи
 msgid "table2_r1c1"
-msgstr "Входящие платежи"
+msgstr "none"
 
 # Банковский перевод
 msgid "table2_r2c1"
-msgstr "Банковский перевод"
+msgstr "none"
 
 # Банковская карта
 msgid "table2_r3c1"
-msgstr "Банковская карта"
+msgstr "none"
 
 # Пополнение криптовалютой
 msgid "table2_r4c1"
-msgstr "Пополнение криптовалютой"
+msgstr "none"
 
 # Исходящие платежи
 msgid "table3_r1c1"
-msgstr "Исходящие платежи"
+msgstr "none"
 
 # Банковский перевод
 msgid "table3_r2c1"
-msgstr "Банковский перевод"
+msgstr "none"
 
 # Банковская карта
 msgid "table3_r3c1"
-msgstr "Банковская карта"
+msgstr "none"
 
 # Пополнение криптовалютой
 msgid "table3_r4c1"
-msgstr "Пополнение криптовалютой"
+msgstr "none"
 
 # О компании
 msgid "faq_gt1"
-msgstr "О компании"
+msgstr "none"
 
 # Что такое QMC?
 msgid "faq_c1_t"
-msgstr "Что такое QMC?"
+msgstr "none"
 
 # Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
 msgid "faq_c1_b"
-msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi."
+msgstr "none"
 
 # Какие возможности даёт QMC для бизнеса и частных лиц?
 msgid "faq_c2_t"
-msgstr "Какие возможности даёт QMC для бизнеса и частных лиц?"
+msgstr "none"
 
 # Quick Money Click - предоставляет своим клиентам различные возможности: пополнять, выводить средства, принимать платежи с интернет-ресурсов, делать обратные выплаты, производить взаиморасчеты, а также генерировать для своих аккаунтов криптоадреса для приема криптовалюты.
 msgid "faq_c2_b"
-msgstr "Quick Money Click - предоставляет своим клиентам различные возможности: пополнять, выводить средства, принимать платежи с интернет-ресурсов, делать обратные выплаты, производить взаиморасчеты, а также генерировать для своих аккаунтов криптоадреса для приема криптовалюты."
+msgstr "none"
 
 # В чём ваше отличие от популярных электронных кошельков?
 msgid "faq_c3_t"
-msgstr "В чём ваше отличие от популярных электронных кошельков?"
+msgstr "none"
 
 # Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
 msgid "faq_c3_b"
-msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi."
+msgstr "none"
 
 # С какими банками мы сотрудничаем?
 msgid "faq_c4_t"
-msgstr "С какими банками мы сотрудничаем?"
+msgstr "none"
 
 # Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
 msgid "faq_c4_b"
-msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi."
+msgstr "none"
 
 # Какие виды аккаунтов можно открыть в QMC?
 msgid "faq_c5_t"
-msgstr "Какие виды аккаунтов можно открыть в QMC?"
+msgstr "none"
 
 # Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
 msgid "faq_c5_b"
-msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi."
+msgstr "none"
 
 # С кем мы работаем? С какими странами?
 msgid "faq_c6_t"
-msgstr "С кем мы работаем? С какими странами?"
+msgstr "none"
 
 # Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
 msgid "faq_c6_b"
-msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi."
+msgstr "none"
 
 # Бизнес аккаунт
 msgid "faq_gt2"
-msgstr "Бизнес аккаунт"
+msgstr "none"
 
 # Что такое QMC?
 msgid "faq_c7_t"
-msgstr "Что такое QMC?"
+msgstr "none"
 
 # Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
 msgid "faq_c7_b"
-msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in"
+msgstr "none"
 
 # Какие возможности даёт QMC для бизнеса и частных лиц?
 msgid "faq_c8_t"
-msgstr "Какие возможности даёт QMC для бизнеса и частных лиц?"
+msgstr "none"
 
 # Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
 msgid "faq_c8_b"
-msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in"
+msgstr "none"
 
 # В чём ваше отличие от популярных электронных кошельков?
 msgid "faq_c9_t"
-msgstr "В чём ваше отличие от популярных электронных кошельков?"
+msgstr "none"
 
 # Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
 msgid "faq_c9_b"
-msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in"
+msgstr "none"
 
 # С какими банками мы сотрудничаем?
 msgid "faq_c10_t"
-msgstr "С какими банками мы сотрудничаем?"
+msgstr "none"
 
 # Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
 msgid "faq_c10_b"
-msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in"
+msgstr "none"
 
 # Какие виды аккаунтов можно открыть в QMC?
 msgid "faq_c11_t"
-msgstr "Какие виды аккаунтов можно открыть в QMC?"
+msgstr "none"
 
 # Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
 msgid "faq_c11_b"
-msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in"
+msgstr "none"
 
 # С кем мы работаем? С какими странами?
 msgid "faq_c12_t"
-msgstr "С кем мы работаем? С какими странами?"
+msgstr "none"
 
 # Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
 msgid "faq_c12_b"
-msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in"
+msgstr "none"
