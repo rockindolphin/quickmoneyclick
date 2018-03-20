@@ -60,20 +60,23 @@ var arrLang = {
 		'popup2_list2': 'Выплаты за работы, услуги',
 		'popup2_list3': 'Оптимизация налогообложения при использования QMC',
 		//-schemes
-		'scheme-2_1-1': 'Кошелёк покупателяКошелёк продавца',
-		'scheme-2_1-2': 'ПродавецПокупатель',
+		'scheme-2_1-1': 'Кошелёк покупателя',
+		'scheme-2_1-2': 'Кошелёк продавца',
+		'scheme-2_1-3': 'Продавец',
+		'scheme-2_1-4': 'Покупатель',
 
 		'scheme-2_2-1': 'Работодатель',
 		'scheme-2_2-2': 'Фрилансер',
 		'scheme-2_2-3': 'Дизайнер',
 		'scheme-2_2-4': 'Строитель',
 		
-		'scheme-2_3-1': 'ДоПосле',
+		'scheme-2_3-1': 'До',
+		'scheme-2_3-2': 'После',
 
-		'scheme-3_1-1': 'Запрос на оплату',
-		'scheme-3_1-2': 'через QMC',
-		'scheme-3_1-3': 'Перевод между',
-		'scheme-3_1-4': 'аккаунтами внутри QMC',
+		'scheme-3_1-1': 'Перевод между',
+		'scheme-3_1-2': 'аккаунтами внутри QMC',
+		'scheme-3_1-3': 'Запрос на оплату',
+		'scheme-3_1-4': 'через QMC',
 		'scheme-3_1-5': 'Мерчант аккаунт',
 		'scheme-3_1-6': 'Кошельки клиентов QMC',
 		'scheme-3_1-7': 'Сайт продавца',
@@ -173,20 +176,23 @@ var arrLang = {
 		'popup2_list2': 'Platba za práci, služby',
 		'popup2_list3': 'Optimalizace zdanění při používání QMC',
 		//-schemes
-		'scheme-2_1-1': 'Peněženka kupujícího Peněženka prodejce',
-		'scheme-2_1-2': 'Prodejce Kupující',
+		'scheme-2_1-1': 'Peněženka kupujícího',
+		'scheme-2_1-2': 'Peněženka prodejce',
+		'scheme-2_1-3': 'Prodejce',
+		'scheme-2_1-4': 'Kupující',
 
 		'scheme-2_2-1': 'Zaměstnavatel',
 		'scheme-2_2-2': 'Živnostník',
 		'scheme-2_2-3': 'Návrhář',
 		'scheme-2_2-4': 'Stavitel',
 
-		'scheme-2_3-1': 'DoPo',
+		'scheme-2_3-1': 'Do',
+		'scheme-2_3-2': 'Po',
 		
-		'scheme-3_1-1': 'Požadavek na platbu',
-		'scheme-3_1-2': 'prostřednictvím QMC',
-		'scheme-3_1-3': 'Převod mezi',
-		'scheme-3_1-4': 'účty v rámci QMC',
+		'scheme-3_1-1': 'Převod mezi',
+		'scheme-3_1-2': 'účty v rámci QMC',
+		'scheme-3_1-3': 'Požadavek na platbu',
+		'scheme-3_1-4': 'prostřednictvím QMC',
 		'scheme-3_1-5': 'Obchodní účet',
 		'scheme-3_1-6': 'Peněženky klientů QMC',
 		'scheme-3_1-7': 'Stránky prodejce',
@@ -255,6 +261,19 @@ var arrLang = {
 			translate( $(this).attr('data-lang') );
 			e.preventDefault();
 		});
+
+		/*window.translate = function(){
+			switch( $.cookie("default_lang") ){
+				case 'ru':
+					translate('cze');
+					$.cookie("default_lang", 'cze');
+				break;
+				case 'cze':
+					translate('ru');
+					$.cookie("default_lang", 'ru');
+				break;
+			}
+		};*/
 
 	});	
 

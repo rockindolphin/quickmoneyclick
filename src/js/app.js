@@ -118,6 +118,7 @@
 			togglePopup(popupId);
 		});				
 
+
 	});	
 
 })(jQuery);
