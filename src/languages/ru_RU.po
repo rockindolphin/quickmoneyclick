@@ -1,0 +1,592 @@
+
+# Войти
+msgid "login"
+msgstr "Войти"
+
+# Зарегистрироваться
+msgid "signin"
+msgstr "Зарегистрироваться"
+
+# Бизнес-аккаунт
+msgid "business"
+msgstr "Бизнес-аккаунт"
+
+# Ваш персональный счет
+msgid "personal"
+msgstr "Ваш персональный счет"
+
+# Взаиморасчёты
+msgid "mutual_settlements"
+msgstr "Взаиморасчёты"
+
+# Валюта расчёта доллар, евро, чешская крона
+msgid "currency_calculation"
+msgstr "Валюта расчёта доллар, евро, чешская крона"
+
+# Все сегменты бизнеса
+msgid "business_segments"
+msgstr "Все сегменты бизнеса"
+
+# Персонализированный подход
+msgid "personalized_approach"
+msgstr "Персонализированный подход"
+
+# Узнать больше
+msgid "learn_more"
+msgstr "Узнать больше"
+
+# Открыть аккаунт
+msgid "open_account"
+msgstr "Открыть аккаунт"
+
+# Блокчейн технологии
+msgid "blockchain"
+msgstr "Блокчейн технологии"
+
+# Технологичные транзакции
+msgid "transactions"
+msgstr "Технологичные транзакции"
+
+# Пополнение аккаунта USD и EUR криптовалютой
+msgid "replenishment"
+msgstr "Пополнение аккаунта USD и EUR криптовалютой"
+
+# Выплаты на криптоадреса
+msgid "crypto_address"
+msgstr "Выплаты на криптоадреса"
+
+# Генерация собственного криптоадреса
+msgid "own_crypto"
+msgstr "Генерация собственного криптоадреса"
+
+# Автоконвертация криптовалюты в USD и EUR
+msgid "auto_convert"
+msgstr "Автоконвертация криптовалюты в USD и EUR"
+
+# Мерчант-аккаунт
+msgid "merchant_account"
+msgstr "Мерчант-аккаунт"
+
+# Решения для Вашего бизнеса
+msgid "solutions"
+msgstr "Решения для Вашего бизнеса"
+
+# Прием онлайн платежей на Ваш ресурс со всего мира
+msgid "receiving_payments"
+msgstr "Прием онлайн платежей на Ваш ресурс со всего мира"
+
+# Обратные выплаты
+msgid "reverse_payouts"
+msgstr "Обратные выплаты"
+
+# Работа с различными видами бизнеcа
+msgid "different_business"
+msgstr "Работа с различными видами бизнеcа"
+
+# Индивидуальные решения
+msgid "customized_solutions"
+msgstr "Индивидуальные решения"
+
+# Возможности QMC
+msgid "features"
+msgstr "Возможности QMC"
+
+# Лучше, чем банк!
+msgid "better_than_bank"
+msgstr "Лучше, чем банк!"
+
+# Открытие аккаунта
+msgid "account_opening"
+msgstr "Открытие аккаунта"
+
+# Пополнение аккаунта
+msgid "account_replenishment"
+msgstr "Пополнение аккаунта"
+
+# Вывод средств
+msgid "withdrawal_of_funds"
+msgstr "Вывод средств"
+
+# Мгновенные переводы
+msgid "instant_translations"
+msgstr "Мгновенные переводы"
+
+# Электронный кошелек для бизнес решений
+msgid "electronic_wallet"
+msgstr "Электронный кошелек для бизнес решений"
+
+# Комиссии и сборы
+msgid "commissions"
+msgstr "Комиссии и сборы"
+
+# Условия и положения
+msgid "terms"
+msgstr "Условия и положения"
+
+# Политика конфиденциальности
+msgid "policy"
+msgstr "Политика конфиденциальности"
+
+# Электронные кошельки предоставляются: FSV Money Pte. Ltd (Сингапур), владеющий правом  stored value facility (SVF).
+msgid "copy_1"
+msgstr "Электронные кошельки предоставляются: FSV Money Pte. Ltd (Сингапур), владеющий правом  stored value facility (SVF)."
+
+# Регистрационный номер 201619216W. FATCA GIIN:CZCKZE.99999.SL.702
+msgid "copy_2"
+msgstr "Регистрационный номер 201619216W. FATCA GIIN:CZCKZE.99999.SL.702"
+
+# Принимайте криптовалюту за товары, работы, услуги без открытия криптоаккаунта. Риски большой волатильности курса отсутствуют.
+msgid "popup4_list1"
+msgstr "Принимайте криптовалюту за товары, работы, услуги без открытия криптоаккаунта. Риски большой волатильности курса отсутствуют."
+
+# При получении криптовалюты она по текущему курсу отображается у вас на аккаунте в долларах или евро.
+msgid "popup4_list2"
+msgstr "При получении криптовалюты она по текущему курсу отображается у вас на аккаунте в долларах или евро."
+
+# Рассчитывайтесь в криптовалюте без наличия криптоаккаунта. У вас есть на аккаунте QMC доллары или евро: подайте заявку на вывод с указанием криптоадреса вашего продавца.
+msgid "popup4_list3"
+msgstr "Рассчитывайтесь в криптовалюте без наличия криптоаккаунта. У вас есть на аккаунте QMC доллары или евро: подайте заявку на вывод с указанием криптоадреса вашего продавца."
+
+# Откройте счет и начните работу
+msgid "start_work"
+msgstr "Откройте счет и начните работу"
+
+# Наши возможности
+msgid "our_capabilities"
+msgstr "Наши возможности"
+
+# Открытие аккаунта. Доллары, Евро, Чешская крона.
+msgid "account_opening2"
+msgstr "Открытие аккаунта. Доллары, Евро, Чешская крона."
+
+# Пополнение аккаунта: банковской картой, банковским переводом, криптовалютой.
+msgid "account_replenishment2"
+msgstr "Пополнение аккаунта: банковской картой, банковским переводом, криптовалютой."
+
+# Вывод с аккаунта: на банковскую карту, на банковский счёт или на криптоаккаунт.
+msgid "withdrawal_of_funds2"
+msgstr "Вывод с аккаунта: на банковскую карту, на банковский счёт или на криптоаккаунт."
+
+# Мгновенные переводы. Внутри аккаунта - между своими счетами. Между аккаунтами в системе QMC.
+msgid "instant_translations2"
+msgstr "Мгновенные переводы. Внутри аккаунта - между своими счетами. Между аккаунтами в системе QMC."
+
+# Открыть мерчант аккаунт
+msgid "merchant_open"
+msgstr "Открыть мерчант аккаунт"
+
+# Кликните по ссылке ниже, чтобы скачать форму заявки.
+msgid "popup3-2_list1"
+msgstr "Кликните по ссылке ниже, чтобы скачать форму заявки."
+
+# Заполните ее и отправьте на почту info@quickmoneyclik.com
+msgid "popup3-2_list2"
+msgstr "Заполните ее и отправьте на почту info@quickmoneyclik.com"
+
+# Дождитесь одобрения заявки.
+msgid "popup3-2_list3"
+msgstr "Дождитесь одобрения заявки."
+
+# Получите API для интеграции на Ваш сайт.
+msgid "popup3-2_list4"
+msgstr "Получите API для интеграции на Ваш сайт."
+
+# Начните получать платежи и делать выплаты на своем сайте.
+msgid "popup3-2_list5"
+msgstr "Начните получать платежи и делать выплаты на своем сайте."
+
+# Скачать форму
+msgid "popup3-2_list6"
+msgstr "Скачать форму"
+
+# Мерчант аккаунт
+msgid "merchant_account3"
+msgstr "Мерчант аккаунт"
+
+# Счет торговца для бизнеса в интернете в системе QMC
+msgid "merchant_for_business"
+msgstr "Счет торговца для бизнеса в интернете в системе QMC"
+
+# Обычный аккаунт с одной валютой и статусом мерчант
+msgid "popup3_list1"
+msgstr "Обычный аккаунт с одной валютой и статусом мерчант"
+
+# Неограниченные возможности по выплатам с мерчант аккаунта
+msgid "popup3_list2"
+msgstr "Неограниченные возможности по выплатам с мерчант аккаунта"
+
+# Решения для бизнеса
+msgid "popup2_title"
+msgstr "Решения для бизнеса"
+
+# Взаиморасчеты в сегментах b2b, b2p, p2p
+msgid "popup2_subtitle"
+msgstr "Взаиморасчеты в сегментах b2b, b2p, p2p"
+
+# Взаиморасчеты между покупателем и продавцом без участия банковских структур.
+msgid "popup2_list1"
+msgstr "Взаиморасчеты между покупателем и продавцом без участия банковских структур."
+
+# Выплаты за работы, услуги
+msgid "popup2_list2"
+msgstr "Выплаты за работы, услуги"
+
+# Оптимизация налогообложения при использования QMC
+msgid "popup2_list3"
+msgstr "Оптимизация налогообложения при использования QMC"
+
+# Кошелёк покупателя
+msgid "scheme-2_1-1"
+msgstr "Кошелёк покупателя"
+
+# Кошелёк продавца
+msgid "scheme-2_1-2"
+msgstr "Кошелёк продавца"
+
+# Продавец
+msgid "scheme-2_1-3"
+msgstr "Продавец"
+
+# Покупатель
+msgid "scheme-2_1-4"
+msgstr "Покупатель"
+
+# Работодатель
+msgid "scheme-2_2-1"
+msgstr "Работодатель"
+
+# Фрилансер
+msgid "scheme-2_2-2"
+msgstr "Фрилансер"
+
+# Дизайнер
+msgid "scheme-2_2-3"
+msgstr "Дизайнер"
+
+# Строитель
+msgid "scheme-2_2-4"
+msgstr "Строитель"
+
+# До
+msgid "scheme-2_3-1"
+msgstr "До"
+
+# После
+msgid "scheme-2_3-2"
+msgstr "После"
+
+# Перевод между
+msgid "scheme-3_1-1"
+msgstr "Перевод между"
+
+# аккаунтами внутри QMC
+msgid "scheme-3_1-2"
+msgstr "аккаунтами внутри QMC"
+
+# Запрос на оплату
+msgid "scheme-3_1-3"
+msgstr "Запрос на оплату"
+
+# через QMC
+msgid "scheme-3_1-4"
+msgstr "через QMC"
+
+# Мерчант аккаунт
+msgid "scheme-3_1-5"
+msgstr "Мерчант аккаунт"
+
+# Кошельки клиентов QMC
+msgid "scheme-3_1-6"
+msgstr "Кошельки клиентов QMC"
+
+# Сайт продавца
+msgid "scheme-3_1-7"
+msgstr "Сайт продавца"
+
+# Интеграция Мерчант аккаунта по API
+msgid "scheme-3_1-8"
+msgstr "Интеграция Мерчант аккаунта по API"
+
+# Уведомление продавцу о поступлении средств
+msgid "scheme-3_1-9"
+msgstr "Уведомление продавцу о поступлении средств"
+
+# Мерчант аккаунт
+msgid "scheme-3_2-1"
+msgstr "Мерчант аккаунт"
+
+# Кошельки клиентов QMC
+msgid "scheme-3_2-2"
+msgstr "Кошельки клиентов QMC"
+
+# Все виды бизнеса
+msgid "scheme-3_2_1-1"
+msgstr "Все виды бизнеса"
+
+# Удобные способы
+msgid "scheme-3_2_1-2"
+msgstr "Удобные способы"
+
+# снятия и пополнения
+msgid "scheme-3_2_1-3"
+msgstr "снятия и пополнения"
+
+# Выберите валюту:
+msgid "scheme-3_2_1-4"
+msgstr "Выберите валюту:"
+
+# USD или EURO
+msgid "scheme-3_2_1-5"
+msgstr "USD или EURO"
+
+# Минимальные
+msgid "scheme-3_2_1-6"
+msgstr "Минимальные"
+
+# размеры комиссии
+msgid "scheme-3_2_1-7"
+msgstr "размеры комиссии"
+
+# Аккаунт в QMC
+msgid "scheme-4_1-1"
+msgstr "Аккаунт в QMC"
+
+# Генератор
+msgid "scheme-4_1-2"
+msgstr "Генератор"
+
+# QR кода
+msgid "scheme-4_1-3"
+msgstr "QR кода"
+
+# Отправьте
+msgid "scheme-4_1-4"
+msgstr "Отправьте"
+
+# криптоадрес
+msgid "scheme-4_1-5"
+msgstr "криптоадрес"
+
+# покупателю
+msgid "scheme-4_1-6"
+msgstr "покупателю"
+
+# Покупатель
+msgid "scheme-4_1-7"
+msgstr "Покупатель"
+
+# оплачивает
+msgid "scheme-4_1-8"
+msgstr "оплачивает"
+
+# в криптовалюте
+msgid "scheme-4_1-9"
+msgstr "в криптовалюте"
+
+# Автоперевод криптовалюты в USD и EUR
+msgid "scheme-4_1-10"
+msgstr "Автоперевод криптовалюты в USD и EUR"
+
+# Автоконвертация
+msgid "scheme-4_2-1"
+msgstr "Автоконвертация"
+
+# Аккаунт в QMC
+msgid "scheme-4_3-1"
+msgstr "Аккаунт в QMC"
+
+# Заявка на вывод
+msgid "scheme-4_3-2"
+msgstr "Заявка на вывод"
+
+# USD или EUR
+msgid "scheme-4_3-3"
+msgstr "USD или EUR"
+
+# на криптоадресс
+msgid "scheme-4_3-4"
+msgstr "на криптоадресс"
+
+# Продавец
+msgid "scheme-4_3-5"
+msgstr "Продавец"
+
+# получает
+msgid "scheme-4_3-6"
+msgstr "получает"
+
+# криптовалюту
+msgid "scheme-4_3-7"
+msgstr "криптовалюту"
+
+# Коммисия и сборы
+msgid "table1_title"
+msgstr "Коммисия и сборы"
+
+# Сервисные сборы
+msgid "table1_r1c1"
+msgstr "Сервисные сборы"
+
+# Стоимость
+msgid "table1_r1c2"
+msgstr "Стоимость"
+
+# Открытие аккаунта
+msgid "table1_r2c1"
+msgstr "Открытие аккаунта"
+
+# Открытие мерчан аккаунта
+msgid "table1_r3c1"
+msgstr "Открытие мерчан аккаунта"
+
+# Открытие мерчан аккаунта для финансовых институтов
+msgid "table1_r4c1"
+msgstr "Открытие мерчан аккаунта для финансовых институтов"
+
+# Установочная плата 3 000 EUR
+msgid "table1_r4c2"
+msgstr "Установочная плата 3 000 EUR"
+
+# Ежемесячное обслуживание
+msgid "table1_r5c1"
+msgstr "Ежемесячное обслуживание"
+
+# Закрытие аккаунта
+msgid "table1_r6c1"
+msgstr "Закрытие аккаунта"
+
+# Входящие платежи
+msgid "table2_r1c1"
+msgstr "Входящие платежи"
+
+# Банковский перевод
+msgid "table2_r2c1"
+msgstr "Банковский перевод"
+
+# Банковская карта
+msgid "table2_r3c1"
+msgstr "Банковская карта"
+
+# Пополнение криптовалютой
+msgid "table2_r4c1"
+msgstr "Пополнение криптовалютой"
+
+# Исходящие платежи
+msgid "table3_r1c1"
+msgstr "Исходящие платежи"
+
+# Банковский перевод
+msgid "table3_r2c1"
+msgstr "Банковский перевод"
+
+# Банковская карта
+msgid "table3_r3c1"
+msgstr "Банковская карта"
+
+# Пополнение криптовалютой
+msgid "table3_r4c1"
+msgstr "Пополнение криптовалютой"
+
+# О компании
+msgid "faq_gt1"
+msgstr "О компании"
+
+# Что такое QMC?
+msgid "faq_c1_t"
+msgstr "Что такое QMC?"
+
+# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.',		
+msgid "faq_c1_b"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.',		"
+
+# Какие возможности даёт QMC для бизнеса и частных лиц?
+msgid "faq_c2_t"
+msgstr "Какие возможности даёт QMC для бизнеса и частных лиц?"
+
+# Quick Money Click - предоставляет своим клиентам различные возможности: пополнять, выводить средства, принимать платежи с интернет-ресурсов, делать обратные выплаты, производить взаиморасчеты, а также генерировать для своих аккаунтов криптоадреса для приема криптовалюты.',		
+msgid "faq_c2_b"
+msgstr "Quick Money Click - предоставляет своим клиентам различные возможности: пополнять, выводить средства, принимать платежи с интернет-ресурсов, делать обратные выплаты, производить взаиморасчеты, а также генерировать для своих аккаунтов криптоадреса для приема криптовалюты.',		"
+
+# В чём ваше отличие от популярных электронных кошельков?
+msgid "faq_c3_t"
+msgstr "В чём ваше отличие от популярных электронных кошельков?"
+
+# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.',		
+msgid "faq_c3_b"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.',		"
+
+# С какими банками мы сотрудничаем?
+msgid "faq_c4_t"
+msgstr "С какими банками мы сотрудничаем?"
+
+# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.',		
+msgid "faq_c4_b"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.',		"
+
+# Какие виды аккаунтов можно открыть в QMC?
+msgid "faq_c5_t"
+msgstr "Какие виды аккаунтов можно открыть в QMC?"
+
+# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.',		
+msgid "faq_c5_b"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.',		"
+
+# С кем мы работаем? С какими странами?
+msgid "faq_c6_t"
+msgstr "С кем мы работаем? С какими странами?"
+
+# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.'
+msgid "faq_c6_b"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.'"
+
+# Бизнес аккаунт
+msgid "faq_gt2"
+msgstr "Бизнес аккаунт"
+
+# Что такое QMC?
+msgid "faq_c7_t"
+msgstr "Что такое QMC?"
+
+# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in',		
+msgid "faq_c7_b"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in',		"
+
+# Какие возможности даёт QMC для бизнеса и частных лиц?
+msgid "faq_c8_t"
+msgstr "Какие возможности даёт QMC для бизнеса и частных лиц?"
+
+# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in',		
+msgid "faq_c8_b"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in',		"
+
+# В чём ваше отличие от популярных электронных кошельков?
+msgid "faq_c9_t"
+msgstr "В чём ваше отличие от популярных электронных кошельков?"
+
+# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in',		
+msgid "faq_c9_b"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in',		"
+
+# С какими банками мы сотрудничаем?
+msgid "faq_c10_t"
+msgstr "С какими банками мы сотрудничаем?"
+
+# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in',		
+msgid "faq_c10_b"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in',		"
+
+# Какие виды аккаунтов можно открыть в QMC?
+msgid "faq_c11_t"
+msgstr "Какие виды аккаунтов можно открыть в QMC?"
+
+# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in',		
+msgid "faq_c11_b"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in',		"
+
+# С кем мы работаем? С какими странами?
+msgid "faq_c12_t"
+msgstr "С кем мы работаем? С какими странами?"
+
+# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in',				
+msgid "faq_c12_b"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in',				"

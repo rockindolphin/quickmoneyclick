@@ -13,6 +13,10 @@
 			margin-bottom: 0.6em;
 		}
 	}
+	& .table{
+		margin-left: auto;
+		margin-right: auto;
+	}
 	@media (--pre-medium-viewport){
 		padding-left: 50px;
 		padding-right: 50px;		

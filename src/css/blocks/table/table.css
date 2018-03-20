@@ -1,0 +1,41 @@
+
+.table{
+	text-align: left;
+	width: 100%;
+	max-width: 600px;
+	font-size: 14px;
+	margin-bottom: 28px;
+	border-spacing: 2px;
+	& thead{
+		font-size: 18px;
+		font-weight: var(--fw-bold);
+		& tr{
+			border-width: 2px;
+			border-color: var(--blue_102);
+		}
+		& td,
+		& th{
+		}			
+	}
+	& body{
+		& tr{
+
+		}
+		& td{
+
+		}		
+	}
+	& tr{
+		border-bottom: 1px solid;
+		border-color: color(#000000 alpha(15%));
+	}
+	& td,
+	& th{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		&:last-child{
+			text-align: right;
+		}
+	}
+}
+

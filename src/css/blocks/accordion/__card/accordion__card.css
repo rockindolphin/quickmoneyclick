@@ -1,0 +1,7 @@
+
+.accordion__card{
+	margin-bottom: 20px;
+	overflow:  hidden;
+	transition: margin-bottom var(--anim-dur);
+}
+

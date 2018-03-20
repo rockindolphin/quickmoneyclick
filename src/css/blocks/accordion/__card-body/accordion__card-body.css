@@ -1,0 +1,11 @@
+
+.accordion__card-body{
+	height: 0;
+	opacity: 0;
+	max-width: 580px;
+	line-height: 1.5;
+	transform: translateY(100%);
+	transition: transform var(--anim-dur),	
+				opacity var(--anim-dur);	
+}
+

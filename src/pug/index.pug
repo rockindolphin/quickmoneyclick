@@ -36,19 +36,19 @@ html(lang="ru")
 										+icon('times')
 								ul.list.list--reset.header__nav
 									li.list__item
-										a.link(href="#", data-popup="#")
+										a.link(href="#", data-popup="faq")
 											| FAQ
 									li.list__item
-										a.link.lang(href="#", data-popup="#", data-key="commissions")
+										a.link.lang(href="#", data-popup="commission", data-key="commissions")
 											| Комиссии и сборы
 									li.list__item
-										a.link.lang(href=terms_link, data-key="terms")
+										a.link.lang(href=terms_link, target="_blank", data-key="terms")
 											| Условия и положения
 									li.list__item
-										a.link.lang(href=policy_link, data-key="policy")
+										a.link.lang(href=policy_link, target="_blank", data-key="policy")
 											| Политика конфиденциальности
 									li.list__item
-										a.link(href=fatca_link)
+										a.link(href=fatca_link, target="_blank")
 											| FAQ FATCA
 								.header__info
 									ul.list.list--reset
@@ -247,7 +247,7 @@ html(lang="ru")
 							label.nav__item(for="slide-2")
 								span.label__title.lang(data-key="business")
 									| Бизнес-аккаунт
-								span.label__caption(data-key="personal")
+								span.label__caption.lang(data-key="personal")
 									| Ваш персональный счет
 							input#slide-3(type="radio", name="slider")
 							label.nav__item(for="slide-3")
@@ -424,6 +424,191 @@ html(lang="ru")
 										| Откройте счет и начните работу
 									a.btn.btn--inverse.lang(href=signup_link, data-key="open_account")
 										| Открыть аккаунт
+			.popup(data-id="commission")
+				.page__wrapper
+					.popup__wrapper
+						.popup__header
+							h3.popup__title.lang(data-key="table1_title")
+								| Коммисия и сборы
+							.btn.popup__close
+								+icon('close')
+						.popup__main
+							.benefit.benefit--popup
+								table.table
+									thead
+										tr
+											th.lang(data-key="table1_r1c1")
+												| Сервисные сборы
+											th.lang(data-key="table1_r1c2")
+												| Стоимость
+									tbody
+										tr
+											td.lang(data-key="table1_r2c1")
+												| Открытие аккаунта
+											td 
+												b
+													| 0
+										tr
+											td.lang(data-key="table1_r3c1")
+												| Открытие мерчан аккаунта
+											td 
+												b
+													| 0
+										tr
+											td.lang(data-key="table1_r4c1")
+												| Открытие мерчан аккаунта для финансовых институтов
+											td 
+												b.lang(data-key="table1_r4c2")
+													| Установочная плата 3 000 EUR
+										tr
+											td.lang(data-key="table1_r5c1")
+												| Ежемесячное обслуживание
+											td 
+												b
+													| 0
+										tr
+											td.lang(data-key="table1_r6c1")
+												| Закрытие аккаунта
+											td 
+												b
+													| 0
+								table.table
+									thead
+										tr
+											th.lang(data-key="table2_r1c1")
+												| Входящие платежи
+											th 
+									tbody
+										tr
+											td.lang(data-key="table2_r2c1")
+												| Банковский перевод
+											td 
+												b
+													| 35 EUR +1.5%
+										tr
+											td.lang(data-key="table2_r3c1")
+												| Банковская карта
+											td 
+												b
+													| 2%
+										tr
+											td.lang(data-key="table2_r4c1")
+												| Пополнение криптовалютой
+											td 
+												b
+													| 5 EUR +2%
+								table.table
+									thead
+										tr
+											th.lang(data-key="table3_r1c1")
+												| Исходящие платежи
+											th 
+									tbody
+										tr
+											td.lang(data-key="table3_r2c1")
+												| Банковский перевод
+											td 
+												b
+													| 35 EUR +1.5%
+										tr
+											td.lang(data-key="table3_r3c1")
+												| Банковская карта
+											td 
+												b
+													| 2%
+										tr
+											td.lang(data-key="table3_r4c1")
+												| Пополнение криптовалютой
+											td 
+												b
+													| 5 EUR +2%
+								br
+								br
+								br
+								br
+								br
+								.benefit__actions
+									h4.lang(data-key="start_work")
+										| Откройте счет и начните работу
+									a.btn.btn--inverse.lang(href=signup_link, data-key="open_account")
+										| Открыть аккаунт
+			.popup(data-id="faq")
+				.page__wrapper
+					.popup__wrapper
+						.popup__header(style="margin-bottom:0;")
+							h3.popup__title
+								| F.A.Q.
+							.btn.popup__close
+								+icon('close')
+						.popup__main
+							.benefit.benefit--popup
+								.accordion(data-type="radio")
+									.accordion__group
+										.accordion__group-title.lang(data-key="faq_gt1")
+											| О компании
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c1_t")
+												| Что такое QMC?
+											.accordion__card-body.lang(data-key="faq_c1_b")
+												|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c2_t")
+												| Какие возможности даёт QMC для бизнеса и частных лиц?
+											.accordion__card-body.lang(data-key="faq_c2_b")
+												| Quick Money Click - предоставляет своим клиентам различные возможности: пополнять, выводить средства, принимать платежи с интернет-ресурсов, делать обратные выплаты, производить взаиморасчеты, а также генерировать для своих аккаунтов криптоадреса для приема криптовалюты.
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c3_t")
+												| В чём ваше отличие от популярных электронных кошельков?
+											.accordion__card-body.lang(data-key="faq_c3_b")
+												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ducimus earum eaque sit modi, maiores, nobis non sapiente assumenda, dicta tempora sed asperiores rem recusandae cum vel perferendis amet esse. 
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c4_t")
+												| С какими банками мы сотрудничаем?
+											.accordion__card-body.lang(data-key="faq_c4_b")
+												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo facere numquam neque repellat, repudiandae nihil vitae quam. Odio labore possimus alias quos quia officiis eaque magni unde soluta. Veniam, provident. 
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c5_t")
+												| Какие виды аккаунтов можно открыть в QMC?
+											.accordion__card-body.lang(data-key="faq_c5_b")
+												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est obcaecati impedit accusantium reprehenderit distinctio voluptatum fugiat odit, ipsa labore in quisquam modi natus? Voluptatum error, provident doloribus optio commodi quia!
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c6_t")
+												| С кем мы работаем? С какими странами?
+											.accordion__card-body.lang(data-key="faq_c6_b")
+												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in. 														
+									.accordion__group
+										.accordion__group-title.lang(data-key="faq_gt2")
+											| Бизнес аккаунт
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c7_t")
+												| Что такое QMC?
+											.accordion__card-body.lang(data-key="faq_c7_b")
+												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in.
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c8_t")
+												| Какие возможности даёт QMC для бизнеса и частных лиц?
+											.accordion__card-body.lang(data-key="faq_c8_b")
+												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in.
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c9_t")
+												| В чём ваше отличие от популярных электронных кошельков?
+											.accordion__card-body.lang(data-key="faq_c9_b")
+												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in.
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c10_t")
+												| С какими банками мы сотрудничаем?
+											.accordion__card-body.lang(data-key="faq_c10_b")
+												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in.
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c11_t")
+												| Какие виды аккаунтов можно открыть в QMC?
+											.accordion__card-body.lang(data-key="faq_c11_b")
+												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in.
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c12_t")
+												| С кем мы работаем? С какими странами?
+											.accordion__card-body.lang(data-key="faq_c12_b")
+												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in.
 			//-script(defer, src="https://use.fontawesome.com/releases/v5.0.7/js/all.js")
 			script(src="../js/vendors/jquery-3.2.1.min.js")
 			script(src="../js/vendors/jquery.cookie.js")
