@@ -1,11 +1,20 @@
 include ./mixins.pug
 doctype html
+- signin_link = 'https://finance.quickmoneyclick.com/user/register'
+- signup_link = signin_link
+- terms_link = '../docs/TermsAndConditions.pdf'
+- policy_link = '../docs/QMCPrivacyPolicy.pdf'
+- fatca_link  = '../docs/FATCA_FAQ.pdf'
+- vk_link = '#'
+- fb_link = '#'
+- twitter_link = '#'
+- pdf_link = '#'
 html(lang="ru")
 	+head()
 	body.page
-		include ../../dist/images/sprite.svg
+		include ../images/sprite.svg
 		.page__body
-			header.header
+			header.header.bgcolor--light
 				.header__wrapper
 					.header__side
 						.btn.btn--menu.header__menu-toggle
@@ -15,31 +24,31 @@ html(lang="ru")
 								.toolbar.header__languages
 									ul.list.list--reset
 										li.list__item
-											a.link.link--active(href="#")
+											a.link.link--active.translate(href="#", data-lang="ru")
 												| RU
 										li.list__item
-											a.link(href="#")
+											a.link.translate(href="#", data-lang="en")
 												| EN
 										li.list__item
-											a.link(href="#")
+											a.link.translate(href="#", data-lang="cze")
 												| CZ
 									.btn.btn--menu.header__menu-toggle
 										+icon('times')
 								ul.list.list--reset.header__nav
 									li.list__item
-										a.link(href="#")
+										a.link(href="#", data-popup="#")
 											| FAQ
 									li.list__item
-										a.link(href="#")
-											| Коммисия и сборы
+										a.link.lang(href="#", data-popup="#", data-key="commissions")
+											| Комиссии и сборы
 									li.list__item
-										a.link(href="#")
+										a.link.lang(href=terms_link, data-key="terms")
 											| Условия и положения
 									li.list__item
-										a.link(href="#")
+										a.link.lang(href=policy_link, data-key="policy")
 											| Политика конфиденциальности
 									li.list__item
-										a.link(href="#")
+										a.link(href=fatca_link)
 											| FAQ FATCA
 								.header__info
 									ul.list.list--reset
@@ -54,36 +63,36 @@ html(lang="ru")
 												span
 													| sales@quickmoneyclick.com
 								.header__copy
-									p
+									p.lang(data-key="copy_1")
 										| Электронные кошельки предоставляются: FSV Money Pte. Ltd (Сингапур), владеющий правом  stored value facility (SVF). 
-									p
+									p.lang(data-key="copy_2")
 										| Регистрационный номер 201619216W. FATCA GIIN:CZCKZE.99999.SL.702
 						.logo.header__logo
 						.toolbar.header__languages
 							ul.list.list--reset
 								li.list__item
-									a.link.link--active(href="#")
+									a.link.link--active.translate(href="#", data-lang="ru")
 										| RU
 								li.list__item
-									a.link(href="#")
+									a.link.translate(href="#", data-lang="en")
 										| EN
 								li.list__item
-									a.link(href="#")
+									a.link.translate(href="#", data-lang="cze")
 										| CZ
 						.header__lock
 							+icon('padlock')
 					.header__side
 						.toolbar.header__socials
-							a.link(href="#")
+							a.link(href=vk_link)
 								+icon('vkontakte')
-							a.link(href="#")
+							a.link(href=fb_link)
 								+icon('facebook')
-							a.link(href="#")
+							a.link(href=twitter_link)
 								+icon('twitter')
 						.toolbar.header__actions
-							.btn.btn--sm
+							a.btn.btn--sm.lang(href=signin_link, data-key="login")
 								| Войти
-							.btn.btn--sm.btn--inverse
+							a.btn.btn--sm.btn--inverse.lang(href=signup_link, data-key="signin")
 								| Зарегистрироваться
 			main.main
 				.slider.slider--main.slider--main-pics
@@ -112,20 +121,20 @@ html(lang="ru")
 							.slider__wrapper.swiper-wrapper
 								.slider__slide.swiper-slide
 									.benefit.benefit--logo
-										h4.benefit__subtitle
+										h4.benefit__subtitle.lang(data-key="electronic_wallet")
 											| Электронный кошелек для бизнес решений
 										.benefit__pic
 											img.img(src="../images/logo.png", alt="QuickMoneyClick")
 										h1.benefit__title
 											| Лучше, чем банк!
 										.benefit__actions
-											.btn.btn--inverse
+											a.btn.btn--inverse.lang(href=signup_link, data-key="open_account")
 												| Открыть аккаунт
 								.slider__slide.swiper-slide
 									.benefit
-										h2.benefit__title
+										h2.benefit__title.lang(data-key="features")
 											| Возможности QMC
-										h4.benefit__subtitle
+										h4.benefit__subtitle.lang(data-key="better_than_bank")
 											| Лучше, чем банк!
 										.benefit__wrapper
 											.wrapper__side
@@ -133,24 +142,24 @@ html(lang="ru")
 													+icon('wallet')
 											.wrapper__side
 												ul.list.list--din
-													li.list__item
+													li.list__item.lang(data-key="account_opening")
 														| Открытие аккаунта
-													li.list__item
+													li.list__item.lang(data-key="account_replenishment")
 														| Пополнение аккаунта
-													li.list__item
+													li.list__item.lang(data-key="withdrawal_of_funds")
 														| Вывод средств
-													li.list__item
+													li.list__item.lang(data-key="instant_translations")
 														| Мгновенные переводы
 										.benefit__actions
-											.btn(data-popup="1")
+											.btn.lang(data-popup="1", data-key="learn_more")
 												| Узнать больше
-											.btn.btn--inverse
+											a.btn.btn--inverse.lang(href=signup_link, data-key="open_account")
 												| Открыть аккаунт
 								.slider__slide.swiper-slide
 									.benefit
-										h2.benefit__title
+										h2.benefit__title.lang(data-key="business")
 											| Бизнес-аккаунт
-										h4.benefit__subtitle
+										h4.benefit__subtitle.lang(data-key="personal")
 											| Ваш персональный счёт
 										.benefit__wrapper
 											.wrapper__side
@@ -158,49 +167,49 @@ html(lang="ru")
 													+icon('man')
 											.wrapper__side
 												ul.list.list--din
-													li.list__item
+													li.list__item.lang(data-key="currency_calculation")
 														| Валюта расчета доллар, евро, чешская крона
-													li.list__item
+													li.list__item.lang(data-key="mutual_settlements")
 														| Взаиморасчёты
-													li.list__item
+													li.list__item.lang(data-key="business_segments")
 														| Все сегменты бизнеса
-													li.list__item
+													li.list__item(data-key="personalized_approach")
 														| Персонализированный подход
 										.benefit__actions
-											.btn(data-popup="2")
+											.btn.lang(data-popup="2", data-key="learn_more")
 												| Узнать больше
-											.btn.btn--inverse
+											a.btn.btn--inverse.lang(href=signup_link, data-key="open_account")
 												| Открыть аккаунт
 								.slider__slide.swiper-slide
 									.benefit
-										h2.benefit__title
+										h2.benefit__title.lang(data-key="merchant_account")
 											| Мерчант-аккаунт
-										h4.benefit__subtitle
-											| Решение для вашего бизнеса
+										h4.benefit__subtitle.lang(data-key="solutions")
+											| Решения для Вашего бизнеса
 										.benefit__wrapper
 											.wrapper__side
 												.benefit__pic
 													+icon('hands')
 											.wrapper__side
 												ul.list.list--din
-													li.list__item
-														| Приём онлайн-платежей со всего мира
-													li.list__item
+													li.list__item.lang(data-key="receiving_payments")
+														| Прием онлайн платежей на Ваш ресурс со всего мира
+													li.list__item.lang(data-key="reverse_payouts")
 														| Обратные выплаты
-													li.list__item
+													li.list__item.lang(data-key="different_business")
 														| Работа с различными видами бизнеcа
-													li.list__item
+													li.list__item.lang(data-key="customized_solutions")
 														| Индивидуальные решения
 										.benefit__actions
-											.btn(data-popup="3")
+											.btn.lang(data-popup="3", data-key="learn_more")
 												| Узнать больше
-											.btn.btn--inverse(data-popup="3-2")
+											.btn.btn--inverse.lang(data-popup="3-2", data-key="open_account")
 												| Открыть аккаунт
 								.slider__slide.swiper-slide
 									.benefit
-										h2.benefit__title
+										h2.benefit__title.lang(data-key="blockchain")
 											| Блокчейн технологии
-										h4.benefit__subtitle
+										h4.benefit__subtitle.lang(data-key="transactions")
 											| Технологичные транзакции
 										.benefit__wrapper
 											.wrapper__side
@@ -208,18 +217,18 @@ html(lang="ru")
 													+icon('chain')
 											.wrapper__side
 												ul.list.list--din
-													li.list__item
+													li.list__item.lang(data-key="replenishment")
 														| Пополнение аккаунта USD и EUR криптовалютой
-													li.list__item
+													li.list__item.lang(data-key="crypto_address")
 														| Выплаты на криптоадреса
-													li.list__item
+													li.list__item(data-key="own_crypto")
 														| Генерация собственного криптоадреса
-													li.list__item
+													li.list__item(data-key="auto_convert")
 														| Автоконвертация криптовалюты в USD и EUR
 										.benefit__actions
-											.btn(data-popup="4")
+											.btn.lang(data-popup="4", data-key="learn_more")
 												| Узнать больше
-											.btn.btn--inverse
+											a.btn.btn--inverse.lang(href=signup_link, data-key="open_account")
 												| Открыть аккаунт
 						.swiper-pagination.slider__pagination
 						.swiper-button-next.slider__btn
@@ -230,33 +239,33 @@ html(lang="ru")
 								label.nav__item(for="slide-0")
 							input#slide-1(type="radio", name="slider")
 							label.nav__item(for="slide-1")
-								span.label__title
+								span.label__title.lang(data-key="features")
 									| Возможности QMC
-								span.label__caption
+								span.label__caption.lang(data-key="better_than_bank")
 									| Лучше, чем банк!
 							input#slide-2(type="radio", name="slider")
 							label.nav__item(for="slide-2")
-								span.label__title
+								span.label__title.lang(data-key="business")
 									| Бизнес-аккаунт
-								span.label__caption
+								span.label__caption(data-key="personal")
 									| Ваш персональный счет
 							input#slide-3(type="radio", name="slider")
 							label.nav__item(for="slide-3")
-								span.label__title
+								span.label__title.lang(data-key="merchant_account")
 									| Мерчант-аккаунт
-								span.label__caption
-									| Решение для Вашего бизнеса
+								span.label__caption.lang(data-key="solutions")
+									| Решения для Вашего бизнеса
 							input#slide-4(type="radio", name="slider")
 							label.nav__item(for="slide-4")
-								span.label__title
+								span.label__title.lang(data-key="blockchain")
 									| Блокчейн технологии
-								span.label__caption
+								span.label__caption.lang(data-key="transactions")
 									| Технологичные транзакции
 			.popup(data-id="1")
 				.page__wrapper
 					.popup__wrapper
 						.popup__header
-							h3.popup__title
+							h3.popup__title.lang(data-key="our_capabilities")
 								| Наши возможности
 							.btn.popup__close
 								+icon('close')
@@ -264,37 +273,37 @@ html(lang="ru")
 							.benefit.benefit--popup
 								ol.list.list--blot
 									li.list__item
-										.benefit__caption
+										.benefit__caption.lang(data-key="account_opening2")
 											| Открытие аккаунта. Доллары, Евро, Чешская крона.
 										.benefit__pic
 											include ../images/popup-1.1.svg
 									li.list__item
-										.benefit__caption
+										.benefit__caption.lang(data-key="account_replenishment2")
 											| Пополнение аккаунта: банковской картой, банковским переводом, криптовалютой.
 										.benefit__pic
 											include ../images/popup-1.2.svg
 									li.list__item
-										.benefit__caption
+										.benefit__caption.lang(data-key="withdrawal_of_funds2")
 											| Вывод с аккаунта: на банковскую карту, на банковский счёт или на криптоаккаунт.
 										.benefit__pic
 											include ../images/popup-1.3.svg
 									li.list__item
-										.benefit__caption
+										.benefit__caption.lang(data-key="instant_translations2")
 											| Мгновенные переводы. Внутри аккаунта - между своими счетами. Между аккаунтами в системе QMC.
 										.benefit__pic
 											include ../images/popup-1.4.svg
 								.benefit__actions
-									h4
+									h4.lang(data-key="start_work")
 										| Откройте счет и начните работу
-									.btn.btn--inverse
+									a.btn.btn--inverse.lang(href=signup_link, data-key="open_account")
 										| Открыть аккаунт
 			.popup(data-id="2")
 				.page__wrapper
 					.popup__wrapper
 						.popup__header
-							h3.popup__title
-								| Решение для бизнеса
-							h5.popup__subtitle
+							h3.popup__title.lang(data-key="popup2_title")
+								| Решения для бизнеса
+							h5.popup__subtitle.lang(data-key="popup2_subtitle")
 								| Взаиморасчеты в сегментах b2b, b2p, p2p
 							.btn.popup__close
 								+icon('close')
@@ -302,32 +311,32 @@ html(lang="ru")
 							.benefit.benefit--popup
 								ol.list.list--blot
 									li.list__item
-										.benefit__caption
+										.benefit__caption.lang(data-key="popup2_list1")
 											| Взаиморасчеты между покупателем и продавцом без участия банковских структур.
 										.benefit__pic
 											include ../images/popup-2.1.svg
 									li.list__item
-										.benefit__caption
+										.benefit__caption.lang(data-key="popup2_list2")
 											| Выплаты за работы, услуги
 										.benefit__pic
 											include ../images/popup-2.2.svg
 									li.list__item
-										.benefit__caption
+										.benefit__caption.lang(data-key="popup2_list3")
 											| Оптимизация налогообложения при использования QMC
 										.benefit__pic
 											include ../images/popup-2.3.svg
 								.benefit__actions
-									h4
+									h4.lang(data-key="start_work")
 										| Откройте счет и начните работу
-									.btn.btn--inverse
+									a.btn.btn--inverse.lang(href=signup_link, data-key="open_account")
 										| Открыть аккаунт
 			.popup(data-id="3")
 				.page__wrapper
 					.popup__wrapper
 						.popup__header
-							h3.popup__title
+							h3.popup__title.lang(data-key="merchant_account3")
 								| Мерчант аккаунт
-							h5.popup__subtitle
+							h5.popup__subtitle.lang(data-key="merchant_for_business")
 								| Счет торговца для бизнеса в интернете в системе QMC
 							.btn.popup__close
 								+icon('close')
@@ -335,25 +344,25 @@ html(lang="ru")
 							.benefit.benefit--popup
 								ol.list.list--blot
 									li.list__item
-										.benefit__caption
+										.benefit__caption.lang(data-key="popup3_list1")
 											| Обычный аккаунт с одной валютой и статусом мерчант
 										.benefit__pic.benefit__pic--lg
 											include ../images/popup-3.1.svg
 									li.list__item
-										.benefit__caption
+										.benefit__caption.lang(data-key="popup3_list2")
 											| Неограниченные возможности по выплатам с мерчант аккаунта
 										.benefit__pic
 											include ../images/popup-3.2.svg
 								.benefit__actions
-									h4
+									h4.lang(data-key="start_work")
 										| Откройте счет и начните работу
-									.btn.btn--inverse
+									a.btn.btn--inverse.lang(href=signup_link, data-key="open_account")
 										| Открыть аккаунт
 			.popup(data-id="3-2")
 				.page__wrapper
 					.popup__wrapper
 						.popup__header
-							h3.popup__title
+							h3.popup__title.lang(data-key="merchant_open")
 								| Открыть мерчант аккаунт
 							.btn.popup__close
 								+icon('close')
@@ -365,29 +374,30 @@ html(lang="ru")
 											include ../images/popup-3-2.1.svg
 									.wrapper__side
 										ol.list
-											li.list__item
+											li.list__item.lang(data-key="popup3-2_list1")
 												| Кликните по ссылке ниже, чтобы скачать форму заявки.
-											li.list__item
+											li.list__item.lang(data-key="popup3-2_list2")
 												| Заполните ее и отправьте на почту info@quickmoneyclik.com
-											li.list__item
+											li.list__item.lang(data-key="popup3-2_list3")
 												| Дождитесь одобрения заявки.
-											li.list__item
+											li.list__item.lang(data-key="popup3-2_list4")
 												| Получите API для интеграции на Ваш сайт.
-											li.list__item
+											li.list__item.lang(data-key="popup3-2_list5")
 												| Начните получать платежи и делать выплаты на своем сайте.
-										a.link.link--attach
+										a.link.link--attach(href=pdf_link)
 											+icon('pdf')
 											div
-												| Скачать форму 
+												span.lang(data-key="popup3-2_list6")
+													| Скачать форму 
 												br
 												| (324KB, PDF)
 			.popup(data-id="4")
 				.page__wrapper
 					.popup__wrapper
 						.popup__header
-							h3.popup__title
+							h3.popup__title.lang(data-key="blockchain")
 								| Блокчейн технологии
-							h5.popup__subtitle
+							h5.popup__subtitle.lang(data-key="transactions")
 								| Технологичные транзакции
 							.btn.popup__close
 								+icon('close')
@@ -395,26 +405,28 @@ html(lang="ru")
 							.benefit.benefit--popup
 								ol.list.list--blot
 									li.list__item
-										.benefit__caption
+										.benefit__caption.lang(data-key="popup4_list1")
 											| Принимайте криптовалюту за товары, работы, услуги без открытия криптоаккаунта. Риски большой волатильности курса отсутствуют.
 										.benefit__pic.benefit__pic--lg
 											include ../images/popup-4.1.svg
 									li.list__item
-										.benefit__caption
+										.benefit__caption.lang(data-key="popup4_list2")
 											| При получении криптовалюты она по текущему курсу отображается у вас на аккаунте в долларах или евро.
 										.benefit__pic
 											include ../images/popup-4.2.svg
 									li.list__item
-										.benefit__caption
+										.benefit__caption.lang(data-key="popup4_list3")
 											| Рассчитывайтесь в криптовалюте без наличия криптоаккаунта. У вас есть на аккаунте QMC доллары или евро: подайте заявку на вывод с указанием криптоадреса вашего продавца.
 										.benefit__pic
 											include ../images/popup-4.3.svg											
 								.benefit__actions
-									h4
+									h4.lang(data-key="start_work")
 										| Откройте счет и начните работу
-									.btn.btn--inverse
+									a.btn.btn--inverse.lang(href=signup_link, data-key="open_account")
 										| Открыть аккаунт
-			script(defer, src="https://use.fontawesome.com/releases/v5.0.7/js/all.js")
+			//-script(defer, src="https://use.fontawesome.com/releases/v5.0.7/js/all.js")
 			script(src="../js/vendors/jquery-3.2.1.min.js")
+			script(src="../js/vendors/jquery.cookie.js")
 			script(src="../js/vendors/swiper.min.js")
 			script(src="../js/app.js")
+			script(src="../js/languages.js")

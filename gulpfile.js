@@ -172,7 +172,8 @@ function sprite_svg(){
 			symbols: 'sprite_svg.html'
 		},											
 	}))
-	.pipe(gulp.dest( path.resolve(dist, 'images') )) 	
+	.pipe(gulp.dest( path.resolve(dist, 'images') ))
+	.pipe(gulp.dest( path.resolve(src, 'images') ));
 }
 
 function sprite_png(){
@@ -305,11 +306,6 @@ gulp.task('js_vendors', () => {
 
 
 gulp.task('default', ['clear_dist', 'server'], () => {
-	
-	gulp.start('pug');
-	let pug_watcher = chokidar.watch( path.resolve(src, 'pug', '*.pug'), { ignored: /mixins\.pug/, ignoreInitial: true } );
-	pug_watcher.on('change', (filepath) => { pugToHtml(filepath) });
-	pug_watcher.on('add', (filepath) => { pugToHtml(filepath) });
 
 	gulp.start('images');
 	let images_watcher = chokidar.watch( path.resolve(src, 'images', '**', '*.{jpg,png,gif}'), { ignored: /sprites/, ignoreInitial: true } );
@@ -359,6 +355,11 @@ gulp.task('default', ['clear_dist', 'server'], () => {
 		sprite_png_watcher.on('change', () => { sprite_png() });	
 		sprite_png_watcher.on('add', () => { sprite_png() });	
 	}
+
+	gulp.start('pug');
+	let pug_watcher = chokidar.watch( path.resolve(src, 'pug', '*.pug'), { ignored: /mixins\.pug/, ignoreInitial: true } );
+	pug_watcher.on('change', (filepath) => { pugToHtml(filepath) });
+	pug_watcher.on('add', (filepath) => { pugToHtml(filepath) });	
 
 });
 
