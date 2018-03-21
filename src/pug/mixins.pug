@@ -1,5 +1,5 @@
 //- VARS
-- var imgFolder = '../images/'
+- var imgFolder = 'images/'
 
 mixin head(title)
 	- function pDate() {return new Date().getTime();}
@@ -8,8 +8,8 @@ mixin head(title)
 			title QuickMoneyClick
 		else
 			title #{title}
-		link(rel="stylesheet", href="../css/style.css?ver=" + pDate())
-		link(rel="shortcut icon", type="image/png", href="../images/favicon.png")
+		link(rel="stylesheet", href="css/style.css?ver=" + pDate())
+		link(rel="shortcut icon", type="image/png", href="images/favicon.png")
 		meta(charset='utf-8')
 		meta(name="viewport", content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes")
 		meta(name="mobile-web-app-capable", content="yes")
@@ -18,17 +18,25 @@ mixin head(title)
 		meta(name="theme-color", content="#0062ae")
 		meta(http-equiv="X-UA-Compatible", content="IE=edge")
 		if config.images.generateSpritePng
-			link(rel="stylesheet", href="../css/sprite.css")
+			link(rel="stylesheet", href="css/sprite.css")
 
+
+mixin scripts()
+	- function pDate() {return new Date().getTime();}
+	script(src="js/vendors/jquery-3.2.1.min.js")
+	script(src="js/vendors/jquery.cookie.js")
+	script(src="js/vendors/swiper.min.js")
+	script(src="js/languages.js?ver=" + pDate())
+	script(src="js/app.js?ver=" + pDate())
 //-
 	svg(class="icon icon--active icon--" + name)
-		use(xlink:href="../images/sprite.svg#" + name)
+		use(xlink:href="images/sprite.svg#" + name)
 mixin icon(name)
 	svg(class="icon icon--active icon--" + name)
 		use(xlink:href="#" + name)
 
 //- example
-	+picture({'class':'slide__img', 'src':'../images/slide-0.jpg', 'alt':'slide-0', 'data':{'data-bg': 'true'}})
+	+picture({'class':'slide__img', 'src':'images/slide-0.jpg', 'alt':'slide-0', 'data':{'data-bg': 'true'}})
 
 mixin picture(opts)
 	- var name = path.parse(opts.src).name

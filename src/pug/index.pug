@@ -2,9 +2,10 @@ include ./mixins.pug
 doctype html
 - signin_link = 'https://finance.quickmoneyclick.com/user/register'
 - signup_link = signin_link
-- terms_link = '../docs/TermsAndConditions.pdf'
-- policy_link = '../docs/QMCPrivacyPolicy.pdf'
-- fatca_link  = '../docs/FATCA_FAQ.pdf'
+- terms_link = 'docs/TermsAndConditions.pdf'
+- policy_link = 'docs/QMCPrivacyPolicy.pdf'
+- fatca_link  = 'docs/FATCA_FAQ.pdf'
+- anket_link = 'https://quickmoneyclick.com/pdf/KYC_biz.pdf';
 - vk_link = '#'
 - fb_link = '#'
 - twitter_link = '#'
@@ -26,9 +27,10 @@ html(lang="ru")
 										li.list__item
 											a.link.link--active.translate(href="#", data-lang="ru")
 												| RU
-										li.list__item
-											a.link(href="#")
-												| EN
+										//-
+											li.list__item
+												a.link.translate(href="#", data-lang="ru")
+													| EN
 										li.list__item
 											a.link.translate(href="#", data-lang="cz")
 												| CZ
@@ -73,22 +75,24 @@ html(lang="ru")
 								li.list__item
 									a.link.link--active.translate(href="#", data-lang="ru")
 										| RU
-								li.list__item
-									a.link(href="#")
-										| EN
+								//-
+									li.list__item
+										a.link.translate(href="#", data-lang="en")
+											| EN
 								li.list__item
 									a.link.translate(href="#", data-lang="cz")
 										| CZ
-						.header__lock
+						a.header__lock(href=signin_link)
 							+icon('padlock')
 					.header__side
-						.toolbar.header__socials
-							a.link(href=vk_link)
-								+icon('vkontakte')
-							a.link(href=fb_link)
-								+icon('facebook')
-							a.link(href=twitter_link)
-								+icon('twitter')
+						//-
+							.toolbar.header__socials
+								a.link(href=vk_link)
+									+icon('vkontakte')
+								a.link(href=fb_link)
+									+icon('facebook')
+								a.link(href=twitter_link)
+									+icon('twitter')
 						.toolbar.header__actions
 							a.btn.btn--sm.lang(href=signin_link, data-key="login")
 								| Войти
@@ -99,20 +103,20 @@ html(lang="ru")
 					.slider__container.swiper-container
 						.slider__wrapper.swiper-wrapper
 							.slider__slide.swiper-slide 
-								//-img.slide__img(src="../images/slide-0.jpg", alt="slide-0" data-bg="true")
-								+picture({'class':'slide__img', 'src':'../images/slide-0.jpg', 'alt':'slide-0', 'data':{'data-bg': 'true'}})
+								//-img.slide__img(src="images/slide-0.jpg", alt="slide-0" data-bg="true")
+								+picture({'class':'slide__img', 'src':'images/slide-0.jpg', 'alt':'slide-0', 'data':{'data-bg': 'true'}})
 							.slider__slide.swiper-slide 
-								//-img.slide__img(src="../images/slide-1.jpg", alt="slide-1" data-bg="true")
-								+picture({'class':'slide__img', 'src':'../images/slide-1.jpg', 'alt':'slide-1', 'data':{'data-bg': 'true'}})
+								//-img.slide__img(src="images/slide-1.jpg", alt="slide-1" data-bg="true")
+								+picture({'class':'slide__img', 'src':'images/slide-1.jpg', 'alt':'slide-1', 'data':{'data-bg': 'true'}})
 							.slider__slide.swiper-slide 
-								//-img.slide__img(src="../images/slide-2.jpg", alt="slide-2" data-bg="true")
-								+picture({'class':'slide__img', 'src':'../images/slide-2.jpg', 'alt':'slide-2', 'data':{'data-bg': 'true'}})
+								//-img.slide__img(src=images/slide-2.jpg", alt="slide-2" data-bg="true")
+								+picture({'class':'slide__img', 'src':'images/slide-2.jpg', 'alt':'slide-2', 'data':{'data-bg': 'true'}})
 							.slider__slide.swiper-slide 
-								//-img.slide__img(src="../images/slide-3.jpg", alt="slide-3" data-bg="true")
-								+picture({'class':'slide__img', 'src':'../images/slide-3.jpg', 'alt':'slide-3', 'data':{'data-bg': 'true'}})
+								//-img.slide__img(src="images/slide-3.jpg", alt="slide-3" data-bg="true")
+								+picture({'class':'slide__img', 'src':'images/slide-3.jpg', 'alt':'slide-3', 'data':{'data-bg': 'true'}})
 							.slider__slide.swiper-slide 
-								//-img.slide__img(src="../images/slide-4.jpg", alt="slide-4" data-bg="true")
-								+picture({'class':'slide__img', 'src':'../images/slide-4.jpg', 'alt':'slide-4', 'data':{'data-bg': 'true'}})
+								//-img.slide__img(src="images/slide-4.jpg", alt="slide-4" data-bg="true")
+								+picture({'class':'slide__img', 'src':'images/slide-4.jpg', 'alt':'slide-4', 'data':{'data-bg': 'true'}})
 				.page__wrapper
 					.slider.slider--main.slider--main-text
 						.swiper-button-prev.slider__btn
@@ -124,7 +128,7 @@ html(lang="ru")
 										h4.benefit__subtitle.lang(data-key="electronic_wallet")
 											| Электронный кошелек для бизнес решений
 										.benefit__pic
-											img.img(src="../images/logo.png", alt="QuickMoneyClick")
+											img.img(src="images/logo.png", alt="QuickMoneyClick")
 										h1.benefit__title.lang(data-key="better_than_bank")
 											| Лучше, чем банк!
 										.benefit__actions
@@ -446,14 +450,12 @@ html(lang="ru")
 											td.lang(data-key="table1_r2c1")
 												| Открытие аккаунта
 											td 
-												b
-													| 0
+												b 0
 										tr
 											td.lang(data-key="table1_r3c1")
 												| Открытие мерчан аккаунта
 											td 
-												b
-													| 0
+												b 0
 										tr
 											td.lang(data-key="table1_r4c1")
 												| Открытие мерчан аккаунта для финансовых институтов
@@ -464,14 +466,12 @@ html(lang="ru")
 											td.lang(data-key="table1_r5c1")
 												| Ежемесячное обслуживание
 											td 
-												b
-													| 0
+												b 0
 										tr
 											td.lang(data-key="table1_r6c1")
 												| Закрытие аккаунта
 											td 
-												b
-													| 0
+												b 0
 								table.table
 									thead
 										tr
@@ -483,20 +483,17 @@ html(lang="ru")
 											td.lang(data-key="table2_r2c1")
 												| Банковский перевод
 											td 
-												b
-													| 35 EUR +1.5%
+												b 35 EUR +1.5%
 										tr
 											td.lang(data-key="table2_r3c1")
 												| Банковская карта
 											td 
-												b
-													| 2%
+												b 2%
 										tr
 											td.lang(data-key="table2_r4c1")
 												| Пополнение криптовалютой
 											td 
-												b
-													| 5 EUR +2%
+												b 5 EUR +2%
 								table.table
 									thead
 										tr
@@ -508,20 +505,44 @@ html(lang="ru")
 											td.lang(data-key="table3_r2c1")
 												| Банковский перевод
 											td 
-												b
-													| 35 EUR +1.5%
+												b 35 EUR +1.5%
 										tr
 											td.lang(data-key="table3_r3c1")
 												| Банковская карта
 											td 
-												b
-													| 2%
+												b 2%
 										tr
 											td.lang(data-key="table3_r4c1")
 												| Пополнение криптовалютой
 											td 
-												b
-													| 5 EUR +2%
+												b 15 EUR + 2 %
+								table.table
+									thead
+										tr
+											th.lang(data-key="table4_r1c1")
+												| Переводы внутри QMC
+											th 
+									tbody
+										tr
+											td.lang(data-key="table4_r2c1")
+												| Между своими счетами
+											td 
+												b 2%
+										tr
+											td.lang(data-key="table4_r3c1")
+												| Между клиентами QMC без конвертации
+											td 
+												b 1%
+										tr
+											td.lang(data-key="table4_r4c1")
+												| Между клиентами QMC c конвертацией
+											td 
+												b 2%
+										tr
+											td.lang(data-key="table4_r4c1")
+												| Мерчант аккаунт
+											td 
+												b от 3 % 
 								br
 								br
 								br
@@ -549,8 +570,11 @@ html(lang="ru")
 										.accordion__card
 											.accordion__card-title.lang(data-key="faq_c1_t")
 												| Что такое QMC?
-											.accordion__card-body.lang(data-key="faq_c1_b")
-												|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
+											.accordion__card-body
+												p.lang(data-key="faq_c1_b1")
+													| Quick Money Click - электронный кошелек для реализации различных решений для бизнеса во всех его сегментах. 
+												p.lang(data-key="faq_c1_b2")
+													| В соответствии с требованиями Сингапурского регулятора финансовых компаний, кошельки (аккаунты) могут использоваться только в коммерческих целях. Мы не начисляем процентов на остатки средств, не занимаемся кредитованием и не ведем депозитных аккаунтов.
 										.accordion__card
 											.accordion__card-title.lang(data-key="faq_c2_t")
 												| Какие возможности даёт QMC для бизнеса и частных лиц?
@@ -560,58 +584,270 @@ html(lang="ru")
 											.accordion__card-title.lang(data-key="faq_c3_t")
 												| В чём ваше отличие от популярных электронных кошельков?
 											.accordion__card-body.lang(data-key="faq_c3_b")
-												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ducimus earum eaque sit modi, maiores, nobis non sapiente assumenda, dicta tempora sed asperiores rem recusandae cum vel perferendis amet esse. 
+												| В Quick Money Click возможны не только удобные взаиморасчеты, но и простое открытие мерчант аккаунта. Владельцы бизнеса часто испытывают трудности с банками при открытии счетов из-за принадлежности к high-risk сегменту рынка. Наш сервис является самостоятельным финансовым институтом и сам принимает решение об открытии счёта.  
 										.accordion__card
 											.accordion__card-title.lang(data-key="faq_c4_t")
 												| С какими банками мы сотрудничаем?
 											.accordion__card-body.lang(data-key="faq_c4_b")
-												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo facere numquam neque repellat, repudiandae nihil vitae quam. Odio labore possimus alias quos quia officiis eaque magni unde soluta. Veniam, provident. 
+												| Сохранность денежных средств клиентов является для нас приоритетом, поэтому мы сотрудничаем  только с надежными европейскими банками. 
 										.accordion__card
 											.accordion__card-title.lang(data-key="faq_c5_t")
 												| Какие виды аккаунтов можно открыть в QMC?
 											.accordion__card-body.lang(data-key="faq_c5_b")
-												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est obcaecati impedit accusantium reprehenderit distinctio voluptatum fugiat odit, ipsa labore in quisquam modi natus? Voluptatum error, provident doloribus optio commodi quia!
+												| Quick Money Click предлагает своим клиентам три типа аккаунтов: Personal, Corporate и Merchant, функционал которых сможет решить практически любую необходимую задачу. 
 										.accordion__card
 											.accordion__card-title.lang(data-key="faq_c6_t")
 												| С кем мы работаем? С какими странами?
 											.accordion__card-body.lang(data-key="faq_c6_b")
-												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in. 														
+												| Quick Money Click ведёт свою деятельность по всему миру, поэтому клиентом может стать любое физическое или юридическое лицо, не подпадающее под международные санкции. 
 									.accordion__group
 										.accordion__group-title.lang(data-key="faq_gt2")
 											| Бизнес аккаунт
 										.accordion__card
 											.accordion__card-title.lang(data-key="faq_c7_t")
-												| Что такое QMC?
-											.accordion__card-body.lang(data-key="faq_c7_b")
-												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in.
+												| Как открыть аккаунт в QMC? 
+											.accordion__card-body
+												p.lang(data-key="faq_c7_b1")
+													| Для открытия аккаунта необходимо пройти простую регистрацию и подтвердить по ссылке свой электронный адрес.
+												p.lang(data-key="faq_c7_b2")
+													| Для использования полного перечня возможностей зарегистрированному пользователю необходимо пройти верификацию владельца аккаунта. 
 										.accordion__card
 											.accordion__card-title.lang(data-key="faq_c8_t")
-												| Какие возможности даёт QMC для бизнеса и частных лиц?
+												| Какие документы необходимы для верификации владельца? 
 											.accordion__card-body.lang(data-key="faq_c8_b")
-												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in.
+												| Необходима заполненная анкета, а также скан удостоверения личности  и подтверждение места жительства. Анкета и перечень документов находятся в личном кабинете в разделе “Верификация”.
 										.accordion__card
 											.accordion__card-title.lang(data-key="faq_c9_t")
-												| В чём ваше отличие от популярных электронных кошельков?
-											.accordion__card-body.lang(data-key="faq_c9_b")
-												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in.
+												| Какие существуют ограничения и лимиты? 
+											.accordion__card-body
+												table.table
+													thead
+														tr
+															th
+															th(colspan="2") Not Verified
+															th(colspan="2") Verified
+													tbody
+														tr
+															td
+															td One-time
+															td Life-time
+															td One-time
+															td Life-time
+														tr
+															td Initial deposit
+															td.text--center(colspan="4") 5,00 USD
+														tr
+															td Maximum balance
+															td.text--center(colspan="2") 1000,00 USD
+															td.text--center(colspan="2") NR
+														tr
+															td 
+																b Incoming transactions (max):
+															td
+															td
+															td
+															td
+														tr
+															td -	bank transfer
+															td 500,00 USD
+															td 10000,00 USD
+															td NR
+															td NR
+														tr
+															td -	credit card
+															td 500,00 USD
+															td 10000,00 USD
+															td 3000,00 USD
+															td NR
+														tr
+															td -	E-money*
+															td 0,00 USD
+															td 0,00 USD
+															td 0,00 USD
+															td 0,00 USD
+														tr
+															td -	internal transfer QMC
+															td 1000,00 USD
+															td 1000,00 USD
+															td NR
+															td NR
+														tr
+															td 
+																b Outgoing transaction (max):
+															td
+															td
+															td
+															td
+														tr
+															td -	bank transfer
+															td 0,00 USD
+															td 0,00 USD
+															td NR
+															td NR
+														tr
+															td -	credit card
+															td 0,00 USD
+															td 0,00 USD
+															td NR
+															td NR
+														tr
+															td -	E-money*
+															td 0,00 USD
+															td 0,00 USD
+															td 0,00 USD
+															td 0,00 USD
+														tr
+															td -	internal transfer QMC
+															td 1000,00 USD
+															td 1000,00 USD
+															td NR
+															td NR
+												div
+													small * means direct crediting QMC account using E-money
+												div
+													small NR – Not restricted
 										.accordion__card
 											.accordion__card-title.lang(data-key="faq_c10_t")
-												| С какими банками мы сотрудничаем?
+												| Какие способы пополнения аккаунта есть в QMC?
 											.accordion__card-body.lang(data-key="faq_c10_b")
-												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in.
+												| Вы можете пополнить свой аккаунт банковским переводом, криптовалютой Bitcoin и с помощью банковской карты. 
 										.accordion__card
 											.accordion__card-title.lang(data-key="faq_c11_t")
-												| Какие виды аккаунтов можно открыть в QMC?
+												| Какие способы вывода средств с аккаунта существуют в QMC? 
 											.accordion__card-body.lang(data-key="faq_c11_b")
-												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in.
+												| Вывод средств доступен на Ваш банковский счет, криптоадрес Bitcoin и на банковскую карту.
 										.accordion__card
 											.accordion__card-title.lang(data-key="faq_c12_t")
-												| С кем мы работаем? С какими странами?
+												| Возможно ли пополнение аккаунта в одной валюте, а вывод в другой? 
 											.accordion__card-body.lang(data-key="faq_c12_b")
-												| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in.
-			//-script(defer, src="https://use.fontawesome.com/releases/v5.0.7/js/all.js")
-			script(src="../js/vendors/jquery-3.2.1.min.js")
-			script(src="../js/vendors/jquery.cookie.js")
-			script(src="../js/vendors/swiper.min.js")
-			script(src="../js/languages.js")
-			script(src="../js/app.js")
+												| Возможно при конвертации внутри системы или выводе на банковскую карту, эмитированную в любой валюте.
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c13_t")
+												| Могут ли третьи лица пополнять мой аккаунт банковской картой или банковским переводом? 
+											.accordion__card-body.lang(data-key="faq_c13_b")
+												| В соответствии с политикой AML, это запрещено. Аккаунт может быть пополнен только со счёта, имеющего того же владельца.
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c14_t")
+												| Могу ли я вывести средства на другое лицо?  
+											.accordion__card-body.lang(data-key="faq_c14_b")
+												| Нет, не можете, вывод средств на банковскую карту и банковский счет осуществляется только на имя владельца аккаунта в соответствии с политикой AML
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c15_t")
+												| Какие документы запрашиваются при пополнении аккаунта и выводе с аккаунта?  
+											.accordion__card-body.lang(data-key="faq_c15_b")
+												| При этих действиях мы не запрашиваем никаких документов, но при прохождении платежа некоторые банки могут запросить у нас документы в соответствии с процедурами AML/KYC.
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c16_t")
+												| Какие сроки проведения операций? 
+											.accordion__card-body
+												p.lang(data-key="faq_c16_b1")
+													| Операции внутри системы происходят мгновенно, скорость ввода и вывода средств на банковский счёт зависит от банка и может занять от 1 до 5 рабочих дней. 
+												p.lang(data-key="faq_c16_b2")
+													| Операции по вводу с банковской карты происходят моментально, вывод на банковскую карту может занять от 1 до 3 рабочих дней. Операции с криптовалютами могут занять до 10 мин.
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c17_t")
+												| Какой размер комиссии за проведение операций? 
+											.accordion__card-body.lang(data-key="faq_c17_b1")
+												| С комиссиями и сборами можно ознакомится в разделе 
+												a.lang(href="#", data-popup="comissions", data-key="faq_c17_b2")
+													| "Комиссии и сборы"
+									.accordion__group
+										.accordion__group-title.lang(data-key="faq_gt3")
+											| Мерчант аккаунт 
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c18_t")
+												| Как открыть мерчант аккаунт?  
+											.accordion__card-body
+												p.lang(data-key="faq_c18_b1")
+													| В отличие от бизнес аккаунта, мерчант аккаунт самостоятельно открыть невозможно. 
+												p.lang(data-key="faq_c18_b2")
+													| Для открытия необходимо:
+												ul
+													li
+														span.lang(data-key="faq_c18_b3")
+															| заполнить
+														| &nbsp; 
+														a.lang(href=anket_link, data-key="faq_c18_b4")
+															| анкету 
+													li
+														span.lang(data-key="faq_c18_b5")
+															| отправить ее на 
+														| &nbsp;
+														a(href="mailto:info@quickmoneyclick.com")
+															| info@quickmoneyclick.com 
+													li.lang(data-key="faq_c18_b6")
+														| дождаться одобрения заявки 
+													li.lang(data-key="faq_c18_b7")
+														| получить API для интеграции на Ваш сайт 
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c19_t")
+												| Как быстро рассматривается заявка на Мерчант?  
+											.accordion__card-body.lang(data-key="faq_c19_b")
+												| При наличии всех необходимых документов - 1 рабочий день. 
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c20_t")
+												| Для каких видов бизнеса вы открываете мерчант аккаунт?  
+											.accordion__card-body.lang(data-key="faq_c20_b")
+												| Для любых, не противоречащих международному законодательству.  
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c21_t")
+												| Существуют ли ограничения и лимиты при оплате на мерчант аккаунт? 
+											.accordion__card-body.lang(data-key="faq_c21_b")
+												| Ограничений по поступлению средств на мерчант аккаунт нет. 
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c22_t")
+												| Какие возможны валюты мерчант аккаунта? 
+											.accordion__card-body.lang(data-key="faq_c22_b")
+												| Вы можете выбрать одну валюту: американский доллар либо евро. Если необходимы обе валюты, требуется открыть два аккаунта под каждую из них. 
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c23_t")
+												| Есть ли какие-то специальные требования к сайту на который будет в дальнейшем подключатся мерчант?  
+											.accordion__card-body
+												p.lang(data-key="faq_c23_b1")
+													| На сайте должны быть:
+												ul
+													li.lang(data-key="faq_c23_b2")
+														| информация об операторе сайта
+													li.lang(data-key="faq_c23_b3")
+														| полные контактные данные
+													li.lang(data-key="faq_c23_b4")
+														| правила и положения, где определены все существенные условия отношений компании и клиента
+													li.lang(data-key="faq_c23_b5")
+														| privacy policy
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c24_t")
+												| Какая комиссия по мерчант аккаунту? 
+											.accordion__card-body.lang(data-key="faq_c24_b")
+												| Стандартная комиссия для операций в мерчант-аккаунте QMC - от 3%.Для каждого вида бизнеса комиссия определяется индивидуально 
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c25_t")
+												| Как быстро поступают средства на мерчант аккаунт? 
+											.accordion__card-body.lang(data-key="faq_c25_b")
+												| Поступление средств на мерчант аккаунт производятся мгновенно при наличии у клиента необходимой суммы.
+									.accordion__group
+										.accordion__group-title.lang(data-key="faq_gt4")
+											| Криптовалюта 
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c26_t")
+												| Как пополнить свой аккаунт криптовалютой?  
+											.accordion__card-body.lang(data-key="faq_c26_b")
+												| Вы можете пополнить свой счет криптовалютой, предварительно сгенерировав собственный криптоадрес. После получения перевода на криптоадрес доступный баланс в EUR/USD отобразится в Вашем профиле. 
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c27_t")
+												| Как вывести средства с аккаунта на криптоадресс? 
+											.accordion__card-body
+												p.lang(data-key="faq_c27_b1")
+													| Для вывода средств на криптоаккаунт ВТС, Вам необходимо заполнить заявку на вывод с указанием криптоадреса. 
+												p.lang(data-key="faq_c27_b2")
+													| После одобрения заявки биткоины переводятся на указанный криптоадрес. 
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c28_t")
+												| Можно отправлять биткоины на чужой криптоадрес?  
+											.accordion__card-body.lang(data-key="faq_c28_b")
+												| Да, можно. Никто не может проверить, кому принадлежит криптоадрес. 
+										.accordion__card
+											.accordion__card-title.lang(data-key="faq_c29_t")
+												| Могу ли я передать сгенерированный  криптоадрес своего аккаунта третьему лицу для пополнения моего аккаунта?  
+											.accordion__card-body.lang(data-key="faq_c29_b")
+												| Да, можете, если это касается криптоадреса, но пополнять Ваш аккаунт банковским переводом или банковской картой третьи лица не могут.
+			+scripts()

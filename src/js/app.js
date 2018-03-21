@@ -142,6 +142,7 @@
 			$(popup)
 				.css({opacity:1})
 				.toggleClass('popup--visible');
+			$('.page').toggleClass('page--fixed');
 		}
 
 		$('.popup__close').click(function(){
@@ -179,7 +180,7 @@
 			e.preventDefault();
 		});				
 
-
+		
 
 	});	
 

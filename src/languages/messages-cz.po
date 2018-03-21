@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-21 08:29+0000\n"
-"PO-Revision-Date: 2018-03-21 08:29+0000\n"
+"PO-Revision-Date: 2018-03-21 13:35+0000\n"
 "Last-Translator: \n"
 "Language-Team: Unknown\n"
 "Language: cz\n"
@@ -111,7 +111,7 @@ msgstr "Možnost QMC"
 msgid "better_than_bank"
 msgstr "Více než banka!"
 
-# Открытие аккаунта 
+# Открытие аккаунта
 msgid "account_opening"
 msgstr "Otevření účtu"
 
@@ -522,14 +522,6 @@ msgstr "О компании"
 msgid "faq_c1_t"
 msgstr "Что такое QMC?"
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
-msgid "faq_c1_b"
-msgstr ""
-"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo,"
-" quam obcaecati vel dolore optio error harum ad inventore, necessitatibus "
-"reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, "
-"aperiam commodi."
-
 # Какие возможности даёт QMC для бизнеса и частных лиц?
 msgid "faq_c2_t"
 msgstr "Какие возможности даёт QMC для бизнеса и частных лиц?"
@@ -546,116 +538,372 @@ msgstr ""
 msgid "faq_c3_t"
 msgstr "В чём ваше отличие от популярных электронных кошельков?"
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
+# В Quick Money Click возможны не только удобные взаиморасчеты, но и простое открытие мерчант аккаунта. Владельцы бизнеса часто испытывают трудности с банками при открытии счетов из-за принадлежности к high-risk сегменту рынка. Наш сервис является самостоятельным финансовым институтом и сам принимает решение об открытии счёта.
 msgid "faq_c3_b"
 msgstr ""
-"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo,"
-" quam obcaecati vel dolore optio error harum ad inventore, necessitatibus "
-"reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, "
-"aperiam commodi."
+"В Quick Money Click возможны не только удобные взаиморасчеты, но и простое "
+"открытие мерчант аккаунта. Владельцы бизнеса часто испытывают трудности с "
+"банками при открытии счетов из-за принадлежности к high-risk сегменту рынка. "
+"Наш сервис является самостоятельным финансовым институтом и сам принимает "
+"решение об открытии счёта. "
 
 # С какими банками мы сотрудничаем?
 msgid "faq_c4_t"
 msgstr "С какими банками мы сотрудничаем?"
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
+# Сохранность денежных средств клиентов является для нас приоритетом, поэтому мы сотрудничаем  только с надежными европейскими банками.
 msgid "faq_c4_b"
 msgstr ""
-"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo,"
-" quam obcaecati vel dolore optio error harum ad inventore, necessitatibus "
-"reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, "
-"aperiam commodi."
+"Сохранность денежных средств клиентов является для нас приоритетом, поэтому "
+"мы сотрудничаем  только с надежными европейскими банками."
 
 # Какие виды аккаунтов можно открыть в QMC?
 msgid "faq_c5_t"
 msgstr "Какие виды аккаунтов можно открыть в QMC?"
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
+# Quick Money Click предлагает своим клиентам три типа аккаунтов: Personal, Corporate и Merchant, функционал которых сможет решить практически любую необходимую задачу.
 msgid "faq_c5_b"
 msgstr ""
-"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo,"
-" quam obcaecati vel dolore optio error harum ad inventore, necessitatibus "
-"reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, "
-"aperiam commodi."
+"Quick Money Click предлагает своим клиентам три типа аккаунтов: Personal, "
+"Corporate и Merchant, функционал которых сможет решить практически любую "
+"необходимую задачу."
 
 # С кем мы работаем? С какими странами?
 msgid "faq_c6_t"
 msgstr "С кем мы работаем? С какими странами?"
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
+# Quick Money Click ведёт свою деятельность по всему миру, поэтому клиентом может стать любое физическое или юридическое лицо, не подпадающее под международные санкции.
 msgid "faq_c6_b"
 msgstr ""
-"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo,"
-" quam obcaecati vel dolore optio error harum ad inventore, necessitatibus "
-"reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, "
-"aperiam commodi."
+"Quick Money Click ведёт свою деятельность по всему миру, поэтому клиентом "
+"может стать любое физическое или юридическое лицо, не подпадающее под "
+"международные санкции."
 
 # Бизнес аккаунт
 msgid "faq_gt2"
 msgstr "Бизнес аккаунт"
 
-# Что такое QMC?
+# Как открыть аккаунт в QMC? 
 msgid "faq_c7_t"
-msgstr "Что такое QMC?"
+msgstr "Как открыть аккаунт в QMC? "
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
-msgid "faq_c7_b"
-msgstr ""
-"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem "
-"sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut "
-"esse ea necessitatibus iste tempore numquam minima, iure in"
-
-# Какие возможности даёт QMC для бизнеса и частных лиц?
+# Какие документы необходимы для верификации владельца? 
 msgid "faq_c8_t"
-msgstr "Какие возможности даёт QMC для бизнеса и частных лиц?"
+msgstr "Какие документы необходимы для верификации владельца? "
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
+# Необходима заполненная анкета, а также скан удостоверения личности  и подтверждение места жительства. Анкета и перечень документов находятся в личном кабинете в разделе “Верификация”.
 msgid "faq_c8_b"
 msgstr ""
-"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem "
-"sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut "
-"esse ea necessitatibus iste tempore numquam minima, iure in"
+"Необходима заполненная анкета, а также скан удостоверения личности  и "
+"подтверждение места жительства. Анкета и перечень документов находятся в "
+"личном кабинете в разделе “Верификация”."
 
-# В чём ваше отличие от популярных электронных кошельков?
+# Какие существуют ограничения и лимиты? 
 msgid "faq_c9_t"
-msgstr "В чём ваше отличие от популярных электронных кошельков?"
+msgstr "Какие существуют ограничения и лимиты? "
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
-msgid "faq_c9_b"
-msgstr ""
-"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem "
-"sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut "
-"esse ea necessitatibus iste tempore numquam minima, iure in"
-
-# С какими банками мы сотрудничаем?
+# Какие способы пополнения аккаунта есть в QMC?
 msgid "faq_c10_t"
-msgstr "С какими банками мы сотрудничаем?"
+msgstr "Какие способы пополнения аккаунта есть в QMC?"
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
+# Вы можете пополнить свой аккаунт банковским переводом, криптовалютой Bitcoin и с помощью банковской карты.
 msgid "faq_c10_b"
 msgstr ""
-"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem "
-"sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut "
-"esse ea necessitatibus iste tempore numquam minima, iure in"
+"Вы можете пополнить свой аккаунт банковским переводом, криптовалютой Bitcoin "
+"и с помощью банковской карты."
 
-# Какие виды аккаунтов можно открыть в QMC?
+# Какие способы вывода средств с аккаунта существуют в QMC? 
 msgid "faq_c11_t"
-msgstr "Какие виды аккаунтов можно открыть в QMC?"
+msgstr "Какие способы вывода средств с аккаунта существуют в QMC? "
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
+# Вывод средств доступен на Ваш банковский счет, криптоадрес Bitcoin и на банковскую карту.
 msgid "faq_c11_b"
 msgstr ""
-"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem "
-"sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut "
-"esse ea necessitatibus iste tempore numquam minima, iure in"
+"Вывод средств доступен на Ваш банковский счет, криптоадрес Bitcoin и на "
+"банковскую карту."
 
-# С кем мы работаем? С какими странами?
+# Возможно ли пополнение аккаунта в одной валюте, а вывод в другой? 
 msgid "faq_c12_t"
-msgstr "С кем мы работаем? С какими странами?"
+msgstr "Возможно ли пополнение аккаунта в одной валюте, а вывод в другой? "
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
+# Возможно при конвертации внутри системы или выводе на банковскую карту, эмитированную в любой валюте.
 msgid "faq_c12_b"
 msgstr ""
-"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem "
-"sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut "
-"esse ea necessitatibus iste tempore numquam minima, iure in"
+"Возможно при конвертации внутри системы или выводе на банковскую карту, "
+"эмитированную в любой валюте."
+
+# Quick Money Click - электронный кошелек для реализации различных решений для бизнеса во всех его сегментах.
+msgid "faq_c1_b1"
+msgstr ""
+"Quick Money Click - электронный кошелек для реализации различных решений для "
+"бизнеса во всех его сегментах."
+
+# В соответствии с требованиями Сингапурского регулятора финансовых компаний, кошельки (аккаунты) могут использоваться только в коммерческих целях. Мы не начисляем процентов на остатки средств, не занимаемся кредитованием и не ведем депозитных аккаунтов.
+msgid "faq_c1_b2"
+msgstr ""
+"В соответствии с требованиями Сингапурского регулятора финансовых компаний, "
+"кошельки (аккаунты) могут использоваться только в коммерческих целях. Мы не "
+"начисляем процентов на остатки средств, не занимаемся кредитованием и не "
+"ведем депозитных аккаунтов."
+
+# Для открытия аккаунта необходимо пройти простую регистрацию и подтвердить по ссылке свой электронный адрес.
+msgid "faq_c7_b1"
+msgstr ""
+"Для открытия аккаунта необходимо пройти простую регистрацию и подтвердить по "
+"ссылке свой электронный адрес."
+
+# Для использования полного перечня возможностей зарегистрированному пользователю необходимо пройти верификацию владельца аккаунта.
+msgid "faq_c7_b2"
+msgstr ""
+"Для использования полного перечня возможностей зарегистрированному "
+"пользователю необходимо пройти верификацию владельца аккаунта."
+
+# Могут ли третьи лица пополнять мой аккаунт банковской картой или банковским переводом?
+msgid "faq_c13_t"
+msgstr ""
+"Могут ли третьи лица пополнять мой аккаунт банковской картой или банковским "
+"переводом?"
+
+# В соответствии с политикой AML, это запрещено. Аккаунт может быть пополнен только со счёта, имеющего того же владельца.
+msgid "faq_c13_b"
+msgstr ""
+"В соответствии с политикой AML, это запрещено. Аккаунт может быть пополнен "
+"только со счёта, имеющего того же владельца."
+
+# Могу ли я вывести средства на другое лицо?
+msgid "faq_c14_t"
+msgstr "Могу ли я вывести средства на другое лицо?"
+
+# Нет, не можете, вывод средств на банковскую карту и банковский счет осуществляется только на имя владельца аккаунта в соответствии с политикой AML
+msgid "faq_c14_b"
+msgstr ""
+"Нет, не можете, вывод средств на банковскую карту и банковский счет "
+"осуществляется только на имя владельца аккаунта в соответствии с политикой "
+"AML"
+
+# Какие документы запрашиваются при пополнении аккаунта и выводе с аккаунта?
+msgid "faq_c15_t"
+msgstr ""
+"Какие документы запрашиваются при пополнении аккаунта и выводе с аккаунта?"
+
+# При этих действиях мы не запрашиваем никаких документов, но при прохождении платежа некоторые банки могут запросить у нас документы в соответствии с процедурами AML/KYC.
+msgid "faq_c15_b"
+msgstr ""
+"При этих действиях мы не запрашиваем никаких документов, но при прохождении "
+"платежа некоторые банки могут запросить у нас документы в соответствии с "
+"процедурами AML/KYC."
+
+# Какие сроки проведения операций?
+msgid "faq_c16_t"
+msgstr "Какие сроки проведения операций?"
+
+# Какой размер комиссии за проведение операций?
+msgid "faq_c17_t"
+msgstr "Какой размер комиссии за проведение операций?"
+
+# С комиссиями и сборами можно ознакомится в разделе
+msgid "faq_c17_b1"
+msgstr "С комиссиями и сборами можно ознакомится в разделе"
+
+# "Комиссии и сборы"
+msgid "faq_c17_b2"
+msgstr "\"Комиссии и сборы\""
+
+# Операции внутри системы происходят мгновенно, скорость ввода и вывода средств на банковский счёт зависит от банка и может занять от 1 до 5 рабочих дней.
+msgid "faq_c16_b1"
+msgstr ""
+"Операции внутри системы происходят мгновенно, скорость ввода и вывода "
+"средств на банковский счёт зависит от банка и может занять от 1 до 5 рабочих "
+"дней."
+
+# Операции по вводу с банковской карты происходят моментально, вывод на банковскую карту может занять от 1 до 3 рабочих дней. Операции с криптовалютами могут занять до 10 мин.
+msgid "faq_c16_b2"
+msgstr ""
+"Операции по вводу с банковской карты происходят моментально, вывод на "
+"банковскую карту может занять от 1 до 3 рабочих дней. Операции с "
+"криптовалютами могут занять до 10 мин."
+
+# Мерчант аккаунт
+msgid "faq_gt3"
+msgstr "Мерчант аккаунт"
+
+# Как открыть мерчант аккаунт?
+msgid "faq_c18_t"
+msgstr "Как открыть мерчант аккаунт?"
+
+# В отличие от бизнес аккаунта, мерчант аккаунт самостоятельно открыть невозможно.
+msgid "faq_c18_b1"
+msgstr ""
+"В отличие от бизнес аккаунта, мерчант аккаунт самостоятельно открыть "
+"невозможно."
+
+# Для открытия необходимо:
+msgid "faq_c19_b2"
+msgstr "Для открытия необходимо:"
+
+# заполнить
+msgid "faq_c18_b3"
+msgstr "заполнить"
+
+# анкету
+msgid "faq_c18_b4"
+msgstr "анкету"
+
+# отправить ее на
+msgid "faq_c18_b5"
+msgstr "отправить ее на"
+
+# дождаться одобрения заявки
+msgid "faq_c18_b6"
+msgstr "дождаться одобрения заявки"
+
+# получить API для интеграции на Ваш сайт
+msgid "faq_c18_b7"
+msgstr "получить API для интеграции на Ваш сайт"
+
+# Как быстро рассматривается заявка на Мерчант?
+msgid "faq_c19_t"
+msgstr "Как быстро рассматривается заявка на Мерчант?"
+
+# При наличии всех необходимых документов - 1 рабочий день.
+msgid "faq_c19_b"
+msgstr "При наличии всех необходимых документов - 1 рабочий день."
+
+# Для каких видов бизнеса вы открываете мерчант аккаунт?
+msgid "faq_c20_t"
+msgstr "Для каких видов бизнеса вы открываете мерчант аккаунт?"
+
+# Для любых, не противоречащих международному законодательству.
+msgid "faq_c20_b"
+msgstr "Для любых, не противоречащих международному законодательству."
+
+# Существуют ли ограничения и лимиты при оплате на мерчант аккаунт?
+msgid "faq_c21_t"
+msgstr "Существуют ли ограничения и лимиты при оплате на мерчант аккаунт?"
+
+# Ограничений по поступлению средств на мерчант аккаунт нет.
+msgid "faq_c21_b"
+msgstr "Ограничений по поступлению средств на мерчант аккаунт нет."
+
+# Какие возможны валюты мерчант аккаунта?
+msgid "faq_c22_t"
+msgstr "Какие возможны валюты мерчант аккаунта?"
+
+# Вы можете выбрать одну валюту: американский доллар либо евро. Если необходимы обе валюты, требуется открыть два аккаунта под каждую из них.
+msgid "faq_c22_b"
+msgstr ""
+"Вы можете выбрать одну валюту: американский доллар либо евро. Если "
+"необходимы обе валюты, требуется открыть два аккаунта под каждую из них."
+
+# Есть ли какие-то специальные требования к сайту на который будет в дальнейшем подключатся мерчант?
+msgid "faq_c23_t"
+msgstr ""
+"Есть ли какие-то специальные требования к сайту на который будет в "
+"дальнейшем подключатся мерчант?"
+
+# На сайте должны быть:
+msgid "faq_c23_b1"
+msgstr "На сайте должны быть:"
+
+# информация об операторе сайта
+msgid "faq_c23_b2"
+msgstr "информация об операторе сайта"
+
+# полные контактные данные
+msgid "faq_c23_b3"
+msgstr "полные контактные данные"
+
+# правила и положения, где определены все существенные условия отношений компании и клиента
+msgid "faq_c23_b4"
+msgstr ""
+"правила и положения, где определены все существенные условия отношений "
+"компании и клиента"
+
+# privacy policy
+msgid "faq_c23_b5"
+msgstr "privacy policy"
+
+# Какая комиссия по мерчант аккаунту?
+msgid "faq_c24_t"
+msgstr "Какая комиссия по мерчант аккаунту?"
+
+# Стандартная комиссия для операций в мерчант-аккаунте QMC - от 3%.Для каждого вида бизнеса комиссия определяется индивидуально
+msgid "faq_c24_b"
+msgstr ""
+"Стандартная комиссия для операций в мерчант-аккаунте QMC - от 3%.Для каждого "
+"вида бизнеса комиссия определяется индивидуально"
+
+# Как быстро поступают средства на мерчант аккаунт?
+msgid "faq_c25_t"
+msgstr "Как быстро поступают средства на мерчант аккаунт?"
+
+# Поступление средств на мерчант аккаунт производятся мгновенно при наличии у клиента необходимой суммы.
+msgid "faq_c25_b"
+msgstr ""
+"Поступление средств на мерчант аккаунт производятся мгновенно при наличии у "
+"клиента необходимой суммы."
+
+# Криптовалюта
+msgid "faq_gt4"
+msgstr "Криптовалюта"
+
+# Как пополнить свой аккаунт криптовалютой?
+msgid "faq_c26_t"
+msgstr "Как пополнить свой аккаунт криптовалютой?"
+
+# Вы можете пополнить свой счет криптовалютой, предварительно сгенерировав собственный криптоадрес. После получения перевода на криптоадрес доступный баланс в EUR/USD отобразится в Вашем профиле.
+msgid "faq_c26_b"
+msgstr ""
+"Вы можете пополнить свой счет криптовалютой, предварительно сгенерировав "
+"собственный криптоадрес. После получения перевода на криптоадрес доступный "
+"баланс в EUR/USD отобразится в Вашем профиле."
+
+# Как вывести средства с аккаунта на криптоадресс?
+msgid "faq_c27_t"
+msgstr "Как вывести средства с аккаунта на криптоадресс?"
+
+# Для вывода средств на криптоаккаунт ВТС, Вам необходимо заполнить заявку на вывод с указанием криптоадреса.
+msgid "faq_c27_b1"
+msgstr ""
+"Для вывода средств на криптоаккаунт ВТС, Вам необходимо заполнить заявку на "
+"вывод с указанием криптоадреса."
+
+# После одобрения заявки биткоины переводятся на указанный криптоадрес.
+msgid "faq_c27_b2"
+msgstr "После одобрения заявки биткоины переводятся на указанный криптоадрес."
+
+# Можно отправлять биткоины на чужой криптоадрес?
+msgid "faq_c28_t"
+msgstr "Можно отправлять биткоины на чужой криптоадрес?"
+
+# Да, можно. Никто не может проверить, кому принадлежит криптоадрес.
+msgid "faq_c28_b"
+msgstr "Да, можно. Никто не может проверить, кому принадлежит криптоадрес."
+
+# Могу ли я передать сгенерированный криптоадрес своего аккаунта третьему лицу для пополнения моего аккаунта?
+msgid "faq_c29_t"
+msgstr ""
+"Могу ли я передать сгенерированный криптоадрес своего аккаунта третьему лицу "
+"для пополнения моего аккаунта?"
+
+# Да, можете, если это касается криптоадреса, но пополнять Ваш аккаунт банковским переводом или банковской картой третьи лица не могут.
+msgid "faq_c29_b"
+msgstr ""
+"Да, можете, если это касается криптоадреса, но пополнять Ваш аккаунт "
+"банковским переводом или банковской картой третьи лица не могут."
+
+# Переводы внутри QMC
+msgid "table4_r1c1"
+msgstr "Переводы внутри QMC"
+
+# Между своими счетами
+msgid "table4_r2c1"
+msgstr "Между своими счетами"
+
+# Между клиентами QMC без конвертации
+msgid "table4_r3c1"
+msgstr "Между клиентами QMC без конвертации"
+
+# Между клиентами QMC c конвертацией
+msgid "table4_r4c1"
+msgstr "Между клиентами QMC c конвертацией"

@@ -73,6 +73,11 @@
 		&:last-of-type{
 			border-top-right-radius: 10px;			
 		}
+		&:hover{
+			& .label__title{
+				color: var(--blue_008);
+			}
+		}
 		& .label__title{
 			font-size: 22px;
 			font-weight: var(--fw-bold);

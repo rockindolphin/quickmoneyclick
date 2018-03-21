@@ -1,0 +1,28 @@
+
+.page--fixed{
+	& .header{
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+	& .main{
+		position: fixed;
+		top: 44px;
+		left: 0;
+		bottom: 0;
+	}
+	@media (--pre-medium-viewport){
+		& .main{
+			top: 74px;
+		}			
+	}
+	@media (--medium-viewport){
+		& .main{
+			top: 64px;
+		}								
+	}
+	@media (--large-viewport){
+										
+	}
+}
+
