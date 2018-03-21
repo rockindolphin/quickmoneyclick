@@ -30,6 +30,9 @@ const gulp = require('gulp'),
 	through2 = require('through2'),
 	dl = require('directory-list'),
 	cleanCSS = require('gulp-clean-css'),
+	PO = require('pofile'),
+	each = require('gulp-each'),
+	stringifyObject = require('stringify-object'),
 	server = require('gulp-server-livereload');
 
 
@@ -304,6 +307,32 @@ gulp.task('js_vendors', () => {
 	}
 );
 
+gulp.task('languagesConcat', () => {
+		var arrLang = {};
+		gulp.src( path.resolve(src, 'languages', '*.po') )
+		.pipe(each(function(content, file, callback){
+			var po = PO.parse(content);
+			var lang = po.headers.Language;
+			arrLang[lang] = {};
+			po.items.map(function(item){
+				arrLang[lang][item.msgid] = item.msgstr[0];
+			});
+			var arr = stringifyObject(arrLang, {
+				indent: '	',
+				singleQuotes: false
+			});			
+			callback(null,`var arrLang = ${arr}`);
+		}))
+		.pipe( rename('languages.js') )
+		.pipe( gulp.dest( path.resolve(src, 'languages') ) );
+	}
+);
+
+gulp.task('languages',['languagesConcat'], () => {
+		gulp.src( path.resolve(src, 'languages', 'languages.js') )
+		.pipe( gulp.dest( path.resolve(dist, 'js') ) );
+	}
+);
 
 gulp.task('default', ['clear_dist', 'server'], () => {
 
@@ -341,6 +370,11 @@ gulp.task('default', ['clear_dist', 'server'], () => {
 	let js_vendors_watcher = chokidar.watch( path.resolve(src, 'js', 'vendors', '**', '*.js'), {ignoreInitial: true} ); 
 	js_vendors_watcher.on('change', () => { gulp.start('js_vendors') });	
 	js_vendors_watcher.on('add', () => { gulp.start('js_vendors') });
+
+	gulp.start('languages');
+	let languages_watcher = chokidar.watch( path.resolve(src, 'languages', '*.po'), {ignoreInitial: true} ); 
+	languages_watcher.on('change', () => { gulp.start('languages') });	
+	languages_watcher.on('add', () => { gulp.start('languages') });
 
 	if( config.images.generateSpriteSvg ){
 		gulp.start('sprite_svg');

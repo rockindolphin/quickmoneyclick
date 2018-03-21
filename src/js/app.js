@@ -154,6 +154,29 @@
 			toggleMenu(false);
 			togglePopup(popupId);
 			e.preventDefault();
+		});		
+
+
+		//languages
+		function toggleLangList(lang){
+			$('.header__languages .link--active').removeClass('link--active');
+			$('.header__languages .link[data-lang='+lang+']').addClass('link--active');
+			$.cookie("default_lang", lang);
+		}
+
+		function translate(lang){
+			toggleLangList(lang);
+			$('.lang').each(function(index, element) {
+				$(this).text(arrLang[lang][$(this).attr('data-key')]);
+			});
+		}		
+
+		var lang = $.cookie("default_lang") || 'ru';
+		lang !== 'ru' ? translate(lang) : false;
+
+		$('.translate').click(function(e) {
+			translate( $(this).attr('data-lang') );
+			e.preventDefault();
 		});				
 
 
