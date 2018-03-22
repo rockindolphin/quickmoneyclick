@@ -70,7 +70,7 @@ function pugToHtml(filepath){
 					message:`${w3c.extract}\r\n lastLine:${w3c.lastLine}\r\n lastColumn:${w3c.lastColumn}`});
 			}
 		}),       
-		gulp.dest( path.resolve(dist, 'html') ), 
+		gulp.dest( path.resolve(dist) ), 
 		(err) => {
 			if (err) return err_log(err);
 		}
@@ -91,7 +91,7 @@ function docs(filepath){
 
 function WebP(filepath, size, quality){
 	gulp.src( filepath )
-	.pipe(
+	/*.pipe(
 		gulpif(
 			size, 
 			imageResize( {crop: false, upscale: false, width: size} )
@@ -102,7 +102,7 @@ function WebP(filepath, size, quality){
 			size, 
 			rename( (f_path) => { f_path.basename += `-${size}` } )
 		)
-	)
+	)*/
 	.pipe(webp({
 		quality: quality,
 		preset: 'photo',
@@ -113,7 +113,7 @@ function WebP(filepath, size, quality){
 
 function jpegPngGif(filepath, size, quality){
 	gulp.src( filepath )
-	.pipe(
+	/*.pipe(
 		gulpif(
 			size, 
 			imageResize( {crop: false, upscale: false, width: size} )
@@ -133,7 +133,7 @@ function jpegPngGif(filepath, size, quality){
 			quality: quality,
 			progressive: true,
 		})                 
-	]) )		
+	]) )*/		
 	.pipe(gulp.dest( path.resolve(dist, 'images') ));
 }
 
@@ -198,7 +198,7 @@ gulp.task('server', [], () => {
 			.pipe( 
 				server({ 
 					livereload: true,
-					defaultFile: 'html/index.html', 
+					defaultFile: 'index.html', 
 					open: false, 
 					directoryListing: false 
 				}) 
@@ -307,7 +307,7 @@ gulp.task('js_vendors', () => {
 	}
 );
 
-gulp.task('languagesConcat', () => {
+gulp.task('languages', () => {
 		var arrLang = {};
 		gulp.src( path.resolve(src, 'languages', '*.po') )
 		.pipe(each(function(content, file, callback){
@@ -324,12 +324,6 @@ gulp.task('languagesConcat', () => {
 			callback(null,`var arrLang = ${arr}`);
 		}))
 		.pipe( rename('languages.js') )
-		.pipe( gulp.dest( path.resolve(src, 'languages') ) );
-	}
-);
-
-gulp.task('languages',['languagesConcat'], () => {
-		gulp.src( path.resolve(src, 'languages', 'languages.js') )
 		.pipe( gulp.dest( path.resolve(dist, 'js') ) );
 	}
 );
