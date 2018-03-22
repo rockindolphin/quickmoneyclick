@@ -6,6 +6,8 @@ doctype html
 - policy_link = 'docs/QMCPrivacyPolicy.pdf'
 - fatca_link  = 'docs/FATCA_FAQ.pdf'
 - anket_link = 'https://quickmoneyclick.com/pdf/KYC_biz.pdf';
+- cz_link = "https://quickmoneyclick.cz/";
+- ru_en_link = "https://quickmoneyclick.com/";
 - vk_link = '#'
 - fb_link = '#'
 - twitter_link = '#'
@@ -25,14 +27,14 @@ html(lang="ru")
 								.toolbar.header__languages
 									ul.list.list--reset
 										li.list__item
-											a.link.link--active.translate(href="#", data-lang="ru")
+											a.link.link--active.translate(href=ru_en_link, data-lang="ru")
 												| RU
 										//-
 											li.list__item
 												a.link.translate(href="#", data-lang="ru")
 													| EN
 										li.list__item
-											a.link.translate(href="#", data-lang="cz")
+											a.link.translate(href=cz_link, data-lang="cz")
 												| CZ
 									.btn.btn--menu.header__menu-toggle
 										+icon('times')
@@ -73,14 +75,14 @@ html(lang="ru")
 						.toolbar.header__languages
 							ul.list.list--reset
 								li.list__item
-									a.link.link--active.translate(href="#", data-lang="ru")
+									a.link.link--active.translate(href=ru_en_link, data-lang="ru")
 										| RU
 								//-
 									li.list__item
 										a.link.translate(href="#", data-lang="en")
 											| EN
 								li.list__item
-									a.link.translate(href="#", data-lang="cz")
+									a.link.translate(href=cz_link, data-lang="cz")
 										| CZ
 						a.header__lock(href=signin_link)
 							+icon('padlock')

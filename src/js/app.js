@@ -172,12 +172,18 @@
 			});
 		}		
 
-		var lang = $.cookie("default_lang") || 'ru';
-		lang !== 'ru' ? translate(lang) : false;
+		switch( document.location.host.split('.').pop() ){
+			case 'cz':
+				translate('cz');
+			break;
+			default:
+				var lang = $.cookie("default_lang") || 'ru';
+				lang === 'en' ? translate('en') : translate('ru');
+			break;			
+		}
 
 		$('.translate').click(function(e) {
 			translate( $(this).attr('data-lang') );
-			e.preventDefault();
 		});				
 
 		
