@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-21 08:28+0000\n"
-"PO-Revision-Date: 2018-04-04 13:12+0000\n"
+"PO-Revision-Date: 2018-04-04 14:33+0000\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -455,27 +455,27 @@ msgstr "cryptocurrency"
 
 # Коммисия и сборы
 msgid "table1_title"
-msgstr "none"
+msgstr "Our fees and charges"
 
 # Сервисные сборы
 msgid "table1_r1c1"
-msgstr "none"
+msgstr "Service fees"
 
 # Стоимость
 msgid "table1_r1c2"
-msgstr "none"
+msgstr "Amount"
 
 # Открытие аккаунта
 msgid "table1_r2c1"
-msgstr "none"
+msgstr "Open account"
 
 # Открытие мерчан аккаунта
 msgid "table1_r3c1"
-msgstr "none"
+msgstr "Open merchant account"
 
 # Открытие мерчан аккаунта для финансовых институтов
 msgid "table1_r4c1"
-msgstr "none"
+msgstr "Financial institution merchant account"
 
 # Установочная плата 3 000 EUR
 msgid "table1_r4c2"
@@ -483,23 +483,23 @@ msgstr "none"
 
 # Ежемесячное обслуживание
 msgid "table1_r5c1"
-msgstr "none"
+msgstr "Monthly account maintenance fee"
 
 # Закрытие аккаунта
 msgid "table1_r6c1"
-msgstr "none"
+msgstr "Close account"
 
 # Входящие платежи
 msgid "table2_r1c1"
-msgstr "none"
+msgstr "Payments to your account"
 
 # Банковский перевод
 msgid "table2_r2c1"
-msgstr "none"
+msgstr "Bank transfer"
 
 # Банковская карта
 msgid "table2_r3c1"
-msgstr "none"
+msgstr "Bank card"
 
 # Пополнение криптовалютой
 msgid "table2_r4c1"
@@ -507,15 +507,15 @@ msgstr "none"
 
 # Исходящие платежи
 msgid "table3_r1c1"
-msgstr "none"
+msgstr "Payments from your account"
 
 # Банковский перевод
 msgid "table3_r2c1"
-msgstr "none"
+msgstr "Bank transfer"
 
 # Банковская карта
 msgid "table3_r3c1"
-msgstr "none"
+msgstr "Bank card"
 
 # Пополнение криптовалютой
 msgid "table3_r4c1"
@@ -527,10 +527,6 @@ msgstr "none"
 
 # Что такое QMC?
 msgid "faq_c1_t"
-msgstr "none"
-
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
-msgid "faq_c1_b"
 msgstr "none"
 
 # Какие возможности даёт QMC для бизнеса и частных лиц?
@@ -545,7 +541,7 @@ msgstr "none"
 msgid "faq_c3_t"
 msgstr "none"
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
+# В Quick Money Click возможны не только удобные взаиморасчеты, но и простое открытие мерчант аккаунта. Владельцы бизнеса часто испытывают трудности с банками при открытии счетов из-за принадлежности к high-risk сегменту рынка. Наш сервис является самостоятельным финансовым институтом и сам принимает решение об открытии счёта.
 msgid "faq_c3_b"
 msgstr "none"
 
@@ -553,7 +549,7 @@ msgstr "none"
 msgid "faq_c4_t"
 msgstr "none"
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
+# Сохранность денежных средств клиентов является для нас приоритетом, поэтому мы сотрудничаем  только с надежными европейскими банками.
 msgid "faq_c4_b"
 msgstr "none"
 
@@ -561,7 +557,7 @@ msgstr "none"
 msgid "faq_c5_t"
 msgstr "none"
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
+# Quick Money Click предлагает своим клиентам три типа аккаунтов: Personal, Corporate и Merchant, функционал которых сможет решить практически любую необходимую задачу.
 msgid "faq_c5_b"
 msgstr "none"
 
@@ -569,7 +565,7 @@ msgstr "none"
 msgid "faq_c6_t"
 msgstr "none"
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic nemo, quam obcaecati vel dolore optio error harum ad inventore, necessitatibus reiciendis accusantium consequuntur perspiciatis voluptatem atque explicabo, aperiam commodi.
+# Quick Money Click ведёт свою деятельность по всему миру, поэтому клиентом может стать любое физическое или юридическое лицо, не подпадающее под международные санкции.
 msgid "faq_c6_b"
 msgstr "none"
 
@@ -581,15 +577,11 @@ msgstr "none"
 msgid "faq_c7_t"
 msgstr "none"
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
-msgid "faq_c7_b"
-msgstr "none"
-
 # Какие возможности даёт QMC для бизнеса и частных лиц?
 msgid "faq_c8_t"
 msgstr "none"
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
+# Необходима заполненная анкета, а также скан удостоверения личности  и подтверждение места жительства. Анкета и перечень документов находятся в личном кабинете в разделе “Верификация”.
 msgid "faq_c8_b"
 msgstr "none"
 
@@ -597,15 +589,11 @@ msgstr "none"
 msgid "faq_c9_t"
 msgstr "none"
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
-msgid "faq_c9_b"
-msgstr "none"
-
 # С какими банками мы сотрудничаем?
 msgid "faq_c10_t"
 msgstr "none"
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
+# Вы можете пополнить свой аккаунт банковским переводом, криптовалютой Bitcoin и с помощью банковской карты.
 msgid "faq_c10_b"
 msgstr "none"
 
@@ -613,7 +601,7 @@ msgstr "none"
 msgid "faq_c11_t"
 msgstr "none"
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
+# Вывод средств доступен на Ваш банковский счет, криптоадрес Bitcoin и на банковскую карту.
 msgid "faq_c11_b"
 msgstr "none"
 
@@ -621,6 +609,238 @@ msgstr "none"
 msgid "faq_c12_t"
 msgstr "none"
 
-# Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorem sunt ipsam illum delectus praesentium voluptatem quis hic, porro debitis aut esse ea necessitatibus iste tempore numquam minima, iure in
+# Возможно при конвертации внутри системы или выводе на банковскую карту, эмитированную в любой валюте.
 msgid "faq_c12_b"
 msgstr "none"
+
+# Quick Money Click - электронный кошелек для реализации различных решений для бизнеса во всех его сегментах.
+msgid "faq_c1_b1"
+msgstr "none"
+
+# В соответствии с требованиями Сингапурского регулятора финансовых компаний, кошельки (аккаунты) могут использоваться только в коммерческих целях. Мы не начисляем процентов на остатки средств, не занимаемся кредитованием и не ведем депозитных аккаунтов.
+msgid "faq_c1_b2"
+msgstr "none"
+
+# Для открытия аккаунта необходимо пройти простую регистрацию и подтвердить по ссылке свой электронный адрес.
+msgid "faq_c7_b1"
+msgstr "none"
+
+# Для использования полного перечня возможностей зарегистрированному пользователю необходимо пройти верификацию владельца аккаунта.
+msgid "faq_c7_b2"
+msgstr "none"
+
+# Могут ли третьи лица пополнять мой аккаунт банковской картой или банковским переводом?
+msgid "faq_c13_t"
+msgstr "none"
+
+# В соответствии с политикой AML, это запрещено. Аккаунт может быть пополнен только со счёта, имеющего того же владельца.
+msgid "faq_c13_b"
+msgstr "none"
+
+# Могу ли я вывести средства на другое лицо?
+msgid "faq_c14_t"
+msgstr "none"
+
+# Нет, не можете, вывод средств на банковскую карту и банковский счет осуществляется только на имя владельца аккаунта в соответствии с политикой AML
+msgid "faq_c14_b"
+msgstr "none"
+
+# Какие документы запрашиваются при пополнении аккаунта и выводе с аккаунта?
+msgid "faq_c15_t"
+msgstr "none"
+
+# При этих действиях мы не запрашиваем никаких документов, но при прохождении платежа некоторые банки могут запросить у нас документы в соответствии с процедурами AML/KYC.
+msgid "faq_c15_b"
+msgstr "none"
+
+# Какие сроки проведения операций?
+msgid "faq_c16_t"
+msgstr "none"
+
+# Какой размер комиссии за проведение операций?
+msgid "faq_c17_t"
+msgstr "none"
+
+# С комиссиями и сборами можно ознакомится в разделе
+msgid "faq_c17_b1"
+msgstr "none"
+
+# "Комиссии и сборы"
+msgid "faq_c17_b2"
+msgstr "none"
+
+# Операции внутри системы происходят мгновенно, скорость ввода и вывода средств на банковский счёт зависит от банка и может занять от 1 до 5 рабочих дней.
+msgid "faq_c16_b1"
+msgstr "none"
+
+# Операции по вводу с банковской карты происходят моментально, вывод на банковскую карту может занять от 1 до 3 рабочих дней. Операции с криптовалютами могут занять до 10 мин.
+msgid "faq_c16_b2"
+msgstr "none"
+
+# Мерчант аккаунт
+msgid "faq_gt3"
+msgstr "none"
+
+# Как открыть мерчант аккаунт?
+msgid "faq_c18_t"
+msgstr "none"
+
+# В отличие от бизнес аккаунта, мерчант аккаунт самостоятельно открыть невозможно.
+msgid "faq_c18_b1"
+msgstr "none"
+
+# Для открытия необходимо:
+msgid "faq_c19_b2"
+msgstr "none"
+
+# заполнить
+msgid "faq_c18_b3"
+msgstr "none"
+
+# анкету
+msgid "faq_c18_b4"
+msgstr "none"
+
+# отправить ее на
+msgid "faq_c18_b5"
+msgstr "none"
+
+# дождаться одобрения заявки
+msgid "faq_c18_b6"
+msgstr "none"
+
+# получить API для интеграции на Ваш сайт
+msgid "faq_c18_b7"
+msgstr "none"
+
+# Как быстро рассматривается заявка на Мерчант?
+msgid "faq_c19_t"
+msgstr "none"
+
+# При наличии всех необходимых документов - 1 рабочий день.
+msgid "faq_c19_b"
+msgstr "none"
+
+# Для каких видов бизнеса вы открываете мерчант аккаунт?
+msgid "faq_c20_t"
+msgstr "none"
+
+# Для любых, не противоречащих международному законодательству.
+msgid "faq_c20_b"
+msgstr "none"
+
+# Существуют ли ограничения и лимиты при оплате на мерчант аккаунт?
+msgid "faq_c21_t"
+msgstr "none"
+
+# Ограничений по поступлению средств на мерчант аккаунт нет.
+msgid "faq_c21_b"
+msgstr "none"
+
+# Какие возможны валюты мерчант аккаунта?
+msgid "faq_c22_t"
+msgstr "none"
+
+# Вы можете выбрать одну валюту: американский доллар либо евро. Если необходимы обе валюты, требуется открыть два аккаунта под каждую из них.
+msgid "faq_c22_b"
+msgstr "none"
+
+# Есть ли какие-то специальные требования к сайту на который будет в дальнейшем подключатся мерчант?
+msgid "faq_c23_t"
+msgstr "none"
+
+# На сайте должны быть:
+msgid "faq_c23_b1"
+msgstr "none"
+
+# информация об операторе сайта
+msgid "faq_c23_b2"
+msgstr "none"
+
+# полные контактные данные
+msgid "faq_c23_b3"
+msgstr "none"
+
+# правила и положения, где определены все существенные условия отношений компании и клиента
+msgid "faq_c23_b4"
+msgstr "none"
+
+# privacy policy
+msgid "faq_c23_b5"
+msgstr "none"
+
+# Какая комиссия по мерчант аккаунту?
+msgid "faq_c24_t"
+msgstr "none"
+
+# Стандартная комиссия для операций в мерчант-аккаунте QMC - от 3%.Для каждого вида бизнеса комиссия определяется индивидуально
+msgid "faq_c24_b"
+msgstr "none"
+
+# Как быстро поступают средства на мерчант аккаунт?
+msgid "faq_c25_t"
+msgstr "none"
+
+# Поступление средств на мерчант аккаунт производятся мгновенно при наличии у клиента необходимой суммы.
+msgid "faq_c25_b"
+msgstr "none"
+
+# Криптовалюта
+msgid "faq_gt4"
+msgstr "none"
+
+# Как пополнить свой аккаунт криптовалютой?
+msgid "faq_c26_t"
+msgstr "none"
+
+# Вы можете пополнить свой счет криптовалютой, предварительно сгенерировав собственный криптоадрес. После получения перевода на криптоадрес доступный баланс в EUR/USD отобразится в Вашем профиле.
+msgid "faq_c26_b"
+msgstr "none"
+
+# Как вывести средства с аккаунта на криптоадресс?
+msgid "faq_c27_t"
+msgstr "none"
+
+# Для вывода средств на криптоаккаунт ВТС, Вам необходимо заполнить заявку на вывод с указанием криптоадреса.
+msgid "faq_c27_b1"
+msgstr "none"
+
+# После одобрения заявки биткоины переводятся на указанный криптоадрес.
+msgid "faq_c27_b2"
+msgstr "none"
+
+# Можно отправлять биткоины на чужой криптоадрес?
+msgid "faq_c28_t"
+msgstr "none"
+
+# Да, можно. Никто не может проверить, кому принадлежит криптоадрес.
+msgid "faq_c28_b"
+msgstr "none"
+
+# Могу ли я передать сгенерированный  криптоадрес своего аккаунта третьему лицу для пополнения моего аккаунта?
+msgid "faq_c29_t"
+msgstr "none"
+
+# Да, можете, если это касается криптоадреса, но пополнять Ваш аккаунт банковским переводом или банковской картой третьи лица не могут.
+msgid "faq_c29_b"
+msgstr "none"
+
+# Переводы внутри QMC
+msgid "table4_r1c1"
+msgstr "Transfer between QMC accounts"
+
+# Между своими счетами
+msgid "table4_r2c1"
+msgstr "Between your QMC accounts"
+
+# Между клиентами QMC без конвертации
+msgid "table4_r3c1"
+msgstr "Between QMC accounts  in the same currency"
+
+# Между клиентами QMC c конвертацией
+msgid "table4_r4c1"
+msgstr "Between QMC accounts in different currencies"
+
+# Мерчант аккаунт
+msgid "table4_r5c1"
+msgstr "Merchant account"

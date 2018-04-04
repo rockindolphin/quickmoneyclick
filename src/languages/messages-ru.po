@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-21 08:27+0000\n"
-"PO-Revision-Date: 2018-03-21 13:35+0000\n"
+"PO-Revision-Date: 2018-04-04 14:33+0000\n"
 "Last-Translator: \n"
 "Language-Team: Russian (Russia)\n"
 "Language: ru\n"
@@ -912,3 +912,7 @@ msgstr "Между клиентами QMC без конвертации"
 # Между клиентами QMC c конвертацией
 msgid "table4_r4c1"
 msgstr "Между клиентами QMC c конвертацией"
+
+# Мерчант аккаунт
+msgid "table4_r5c1"
+msgstr "Мерчант аккаунт"

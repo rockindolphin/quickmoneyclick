@@ -193,6 +193,7 @@
 		window.translateHelper = function(lang){
 			translate(lang);
 		}
+	
 
 	});	
 
