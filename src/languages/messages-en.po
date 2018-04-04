@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-21 08:28+0000\n"
-"PO-Revision-Date: 2018-03-21 08:28+0000\n"
+"PO-Revision-Date: 2018-04-04 13:12+0000\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -17,167 +17,178 @@ msgstr ""
 
 # Войти
 msgid "login"
-msgstr "none"
+msgstr "Sign in"
 
 # Зарегистрироваться
 msgid "signin"
-msgstr "none"
+msgstr "Sign up"
 
 # Бизнес-аккаунт
 msgid "business"
-msgstr "none"
+msgstr "Business registration"
 
 # Ваш персональный счет
 msgid "personal"
-msgstr "none"
+msgstr "Your personal business account"
 
 # Взаиморасчёты
 msgid "mutual_settlements"
-msgstr "none"
+msgstr "Mutual settlements"
 
 # Валюта расчёта доллар, евро, чешская крона
 msgid "currency_calculation"
-msgstr "none"
+msgstr "Accounts in different currencies: US Dollar, Euro and Czech crown"
 
 # Все сегменты бизнеса
 msgid "business_segments"
-msgstr "none"
+msgstr "All businesses"
 
 # Персонализированный подход
 msgid "personalized_approach"
-msgstr "none"
+msgstr "Fully customizable"
 
 # Узнать больше
 msgid "learn_more"
-msgstr "none"
+msgstr "More info"
 
 # Открыть аккаунт
 msgid "open_account"
-msgstr "none"
+msgstr "Create account"
 
 # Блокчейн технологии
 msgid "blockchain"
-msgstr "none"
+msgstr "Blockchain technology"
 
 # Технологичные транзакции
 msgid "transactions"
-msgstr "none"
+msgstr "Digital transactions"
 
 # Пополнение аккаунта USD и EUR криптовалютой
 msgid "replenishment"
-msgstr "none"
+msgstr "Top up your account balance in USD, EUR or cryptocurrencies"
 
 # Выплаты на криптоадреса
 msgid "crypto_address"
-msgstr "none"
+msgstr "Payments to crypto wallets"
 
 # Генерация собственного криптоадреса
 msgid "own_crypto"
-msgstr "none"
+msgstr "Generate your own crypto address"
 
 # Автоконвертация криптовалюты в USD и EUR
 msgid "auto_convert"
-msgstr "none"
+msgstr "Automatic exchange of received cryptocurrency payments into USD or EUR"
 
 # Мерчант-аккаунт
 msgid "merchant_account"
-msgstr "none"
+msgstr "Merchant account"
 
 # Решения для Вашего бизнеса
 msgid "solutions"
-msgstr "none"
+msgstr "Solutions right for your business"
 
 # Прием онлайн платежей на Ваш ресурс со всего мира
 msgid "receiving_payments"
-msgstr "none"
+msgstr "We accept online payments from around the world"
 
 # Обратные выплаты
 msgid "reverse_payouts"
-msgstr "none"
+msgstr "Payment returns"
 
 # Работа с различными видами бизнеcа
 msgid "different_business"
-msgstr "none"
+msgstr "We work with all businesses"
 
 # Индивидуальные решения
 msgid "customized_solutions"
-msgstr "none"
+msgstr "Individual solutions"
 
 # Возможности QMC
 msgid "features"
-msgstr "none"
+msgstr "QMC options"
 
 # Лучше, чем банк!
 msgid "better_than_bank"
-msgstr "none"
+msgstr "Best for you. Better than a bank."
 
-# Открытие аккаунта 
+# Открытие аккаунта
 msgid "account_opening"
-msgstr "none"
+msgstr "Create account"
 
 # Пополнение аккаунта
 msgid "account_replenishment"
-msgstr "none"
+msgstr "Top up account"
 
 # Вывод средств
 msgid "withdrawal_of_funds"
-msgstr "none"
+msgstr "Withdraw funds"
 
 # Мгновенные переводы
 msgid "instant_translations"
-msgstr "none"
+msgstr "Instant transfers"
 
 # Электронный кошелек для бизнес решений
 msgid "electronic_wallet"
-msgstr "none"
+msgstr "e-Wallet for your business"
 
 # Комиссии и сборы
 msgid "commissions"
-msgstr "none"
+msgstr "Fees and charges"
 
 # Условия и положения
 msgid "terms"
-msgstr "none"
+msgstr "Terms and сonditions"
 
 # Политика конфиденциальности
 msgid "policy"
-msgstr "none"
+msgstr "Privacy policy"
 
 # Электронные кошельки предоставляются: FSV Money Pte. Ltd (Сингапур), владеющий правом stored value facility (SVF).
 msgid "copy_1"
-msgstr "none"
+msgstr ""
+"e-Wallets are provided by: FSV Money Pte. Ltd is regarded as a stored value "
+"facility under Singapore law."
 
 # Регистрационный номер 201619216W. FATCA GIIN:CZCKZE.99999.SL.702
 msgid "copy_2"
-msgstr "none"
+msgstr "Registration number 201619216W. FATCA GIIN:CZCKZE.99999.SL.702"
 
 # Принимайте криптовалюту за товары, работы, услуги без открытия криптоаккаунта. Риски большой волатильности курса отсутствуют.
 msgid "popup4_list1"
-msgstr "none"
+msgstr ""
+"You don’t need receive cryptocurrencies for your services or goods. No high "
+"volatility risks."
 
 # При получении криптовалюты она по текущему курсу отображается у вас на аккаунте в долларах или евро.
 msgid "popup4_list2"
-msgstr "none"
+msgstr ""
+"Customer’s cryptocurrencies automatically exchange to your QMC account "
+"currency"
 
 # Рассчитывайтесь в криптовалюте без наличия криптоаккаунта. У вас есть на аккаунте QMC доллары или евро: подайте заявку на вывод с указанием криптоадреса вашего продавца.
 msgid "popup4_list3"
-msgstr "none"
+msgstr ""
+"You can accept cryptocurrencies even if you don’t have your own crypto "
+"address. Need to send eur or usd from your QMC account to a crypto address? "
+"Just fill out crypto address in  the withdrawal  form."
 
 # Откройте счет и начните работу
 msgid "start_work"
-msgstr "none"
+msgstr "Open QMC account and make your payments easier"
 
 # Наши возможности
 msgid "our_capabilities"
-msgstr "none"
+msgstr "Our options"
 
 # Открытие аккаунта. Доллары, Евро, Чешская крона.
 msgid "account_opening2"
-msgstr "none"
+msgstr "Open account. Dollars, Euro, Czech crown."
 
 # Пополнение аккаунта: банковской картой, банковским переводом, криптовалютой.
 msgid "account_replenishment2"
-msgstr "none"
+msgstr ""
+"You can top up your QMC account with bank card, bank transfer or crypto-"
+"currency"
 
 # Вывод с аккаунта: на банковскую карту, на банковский счёт или на криптоаккаунт.
 msgid "withdrawal_of_funds2"
@@ -185,255 +196,262 @@ msgstr "none"
 
 # Мгновенные переводы. Внутри аккаунта - между своими счетами. Между аккаунтами в системе QMC.
 msgid "instant_translations2"
-msgstr "none"
+msgstr ""
+"Instant transfers. Transfer funds among your QMC accounts. Transfer to a QMC "
+"customer. "
 
 # Открыть мерчант аккаунт
 msgid "merchant_open"
-msgstr "none"
+msgstr "Open merchant account"
 
 # Кликните по ссылке ниже, чтобы скачать форму заявки.
 msgid "popup3-2_list1"
-msgstr "none"
+msgstr "Click the link below to download the application"
 
 # Заполните ее и отправьте на почту info@quickmoneyclik.com
 msgid "popup3-2_list2"
-msgstr "none"
+msgstr "Fill it out and send to us by email info@quickmoneyclik.com"
 
 # Дождитесь одобрения заявки.
 msgid "popup3-2_list3"
-msgstr "none"
+msgstr "Wait for approval"
 
 # Получите API для интеграции на Ваш сайт.
 msgid "popup3-2_list4"
-msgstr "none"
+msgstr "Get API for integration into your website"
 
 # Начните получать платежи и делать выплаты на своем сайте.
 msgid "popup3-2_list5"
-msgstr "none"
+msgstr "Start to receive and send payments from clients worldwide"
 
 # Скачать форму
 msgid "popup3-2_list6"
-msgstr "none"
+msgstr "Download application"
 
 # Мерчант аккаунт
 msgid "merchant_account3"
-msgstr "none"
+msgstr "Merchant account"
 
 # Счет торговца для бизнеса в интернете в системе QMC
 msgid "merchant_for_business"
-msgstr "none"
+msgstr ""
+"A merchant account allows you to accept and process payment card transactions"
 
 # Обычный аккаунт с одной валютой и статусом мерчант
 msgid "popup3_list1"
-msgstr "none"
+msgstr ""
+"Choose settlement currency for your account and accept payments around the "
+"world"
 
 # Неограниченные возможности по выплатам с мерчант аккаунта
 msgid "popup3_list2"
-msgstr "none"
+msgstr "Transfer straight into QMC account from your merchant account "
 
 # Решения для бизнеса
 msgid "popup2_title"
-msgstr "none"
+msgstr "Solution for your business"
 
 # Взаиморасчеты в сегментах b2b, b2p, p2p
 msgid "popup2_subtitle"
-msgstr "none"
+msgstr "B2B, P2B or B2P transactions"
 
 # Взаиморасчеты между покупателем и продавцом без участия банковских структур.
 msgid "popup2_list1"
-msgstr "none"
+msgstr ""
+"Transfer your funds from customer to seller directly. Without any bank "
+"involvement"
 
 # Выплаты за работы, услуги
 msgid "popup2_list2"
-msgstr "none"
+msgstr "Pay for services or goods"
 
 # Оптимизация налогообложения при использования QMC
 msgid "popup2_list3"
-msgstr "none"
+msgstr "Tax optimisation"
 
 # Кошелёк покупателя
 msgid "scheme-2_1-1"
-msgstr "none"
+msgstr "Customer’s e-Wallet"
 
 # Кошелёк продавца
 msgid "scheme-2_1-2"
-msgstr "none"
+msgstr "Seller’s e-Wallet"
 
 # Продавец
 msgid "scheme-2_1-3"
-msgstr "none"
+msgstr "Seller"
 
 # Покупатель
 msgid "scheme-2_1-4"
-msgstr "none"
+msgstr "Customer"
 
 # Работодатель
 msgid "scheme-2_2-1"
-msgstr "none"
+msgstr "Employer"
 
 # Фрилансер
 msgid "scheme-2_2-2"
-msgstr "none"
+msgstr "Freelancer"
 
 # Дизайнер
 msgid "scheme-2_2-3"
-msgstr "none"
+msgstr "Designer"
 
 # Строитель
 msgid "scheme-2_2-4"
-msgstr "none"
+msgstr "Builder"
 
 # До
 msgid "scheme-2_3-1"
-msgstr "none"
+msgstr "Before"
 
 # После
 msgid "scheme-2_3-2"
-msgstr "none"
+msgstr "After"
 
 # Перевод между
 msgid "scheme-3_1-1"
-msgstr "none"
+msgstr "Transfer money between "
 
 # аккаунтами внутри QMC
 msgid "scheme-3_1-2"
-msgstr "none"
+msgstr "QMC accounts"
 
 # Запрос на оплату
 msgid "scheme-3_1-3"
-msgstr "none"
+msgstr "Seller payment"
 
 # через QMC
 msgid "scheme-3_1-4"
-msgstr "none"
+msgstr "inquiry"
 
 # Мерчант аккаунт
 msgid "scheme-3_1-5"
-msgstr "none"
+msgstr "Merchant account"
 
 # Кошельки клиентов QMC
 msgid "scheme-3_1-6"
-msgstr "none"
+msgstr "Customers’ e-Wallets"
 
 # Сайт продавца
 msgid "scheme-3_1-7"
-msgstr "none"
+msgstr "Seller’s site"
 
 # Интеграция Мерчант аккаунта по API
 msgid "scheme-3_1-8"
-msgstr "none"
+msgstr "API integration"
 
 # Уведомление продавцу о поступлении средств
 msgid "scheme-3_1-9"
-msgstr "none"
+msgstr "Sellers get notifications about receipt of funds"
 
 # Мерчант аккаунт
 msgid "scheme-3_2-1"
-msgstr "none"
+msgstr "Merchant account"
 
 # Кошельки клиентов QMC
 msgid "scheme-3_2-2"
-msgstr "none"
+msgstr "QMC customers’ e-Wallets"
 
 # Все виды бизнеса
 msgid "scheme-3_2_1-1"
-msgstr "none"
+msgstr "All businesses"
 
 # Удобные способы
 msgid "scheme-3_2_1-2"
-msgstr "none"
+msgstr "Convenient way to "
 
 # снятия и пополнения
 msgid "scheme-3_2_1-3"
-msgstr "none"
+msgstr "withdraw or deposit funds"
 
 # Выберите валюту:
 msgid "scheme-3_2_1-4"
-msgstr "none"
+msgstr "Choose a currency"
 
 # USD или EURO
 msgid "scheme-3_2_1-5"
-msgstr "none"
+msgstr "USD or EURO"
 
 # Минимальные
 msgid "scheme-3_2_1-6"
-msgstr "none"
+msgstr "Small fees"
 
 # размеры комиссии
 msgid "scheme-3_2_1-7"
-msgstr "none"
+msgstr " "
 
 # Аккаунт в QMC
 msgid "scheme-4_1-1"
-msgstr "none"
+msgstr "QMC account"
 
 # Генератор
 msgid "scheme-4_1-2"
-msgstr "none"
+msgstr "QR code"
 
 # QR кода
 msgid "scheme-4_1-3"
-msgstr "none"
+msgstr "generator"
 
 # Отправьте
 msgid "scheme-4_1-4"
-msgstr "none"
+msgstr "Send"
 
 # криптоадрес
 msgid "scheme-4_1-5"
-msgstr "none"
+msgstr "your crypto wallet address "
 
 # покупателю
 msgid "scheme-4_1-6"
-msgstr "none"
+msgstr "to your customer"
 
 # Покупатель
 msgid "scheme-4_1-7"
-msgstr "none"
+msgstr "Customer "
 
 # оплачивает
 msgid "scheme-4_1-8"
-msgstr "none"
+msgstr "pays "
 
 # в криптовалюте
 msgid "scheme-4_1-9"
-msgstr "none"
+msgstr "cryptocurrency"
 
 # Автоперевод криптовалюты в USD и EUR
 msgid "scheme-4_1-10"
-msgstr "none"
+msgstr "Cryptocurrencies are automatically converted to USD and EUR"
 
 # Автоконвертация
 msgid "scheme-4_2-1"
-msgstr "none"
+msgstr "Auto-Convert"
 
 # Аккаунт в QMC
 msgid "scheme-4_3-1"
-msgstr "none"
+msgstr "QMC account"
 
 # Заявка на вывод
 msgid "scheme-4_3-2"
-msgstr "none"
+msgstr "Withdrawal form"
 
 # USD или EUR
 msgid "scheme-4_3-3"
-msgstr "none"
+msgstr " "
 
 # на криптоадресс
 msgid "scheme-4_3-4"
-msgstr "none"
+msgstr " "
 
 # Продавец
 msgid "scheme-4_3-5"
-msgstr "none"
+msgstr "Recipient"
 
 # получает
 msgid "scheme-4_3-6"
-msgstr "none"
+msgstr "get"
 
 # криптовалюту
 msgid "scheme-4_3-7"
-msgstr "none"
+msgstr "cryptocurrency"
 
 # Коммисия и сборы
 msgid "table1_title"

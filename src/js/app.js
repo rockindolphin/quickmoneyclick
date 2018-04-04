@@ -183,10 +183,16 @@
 		}
 
 		$('.translate').click(function(e) {
-			translate( $(this).attr('data-lang') );
+			var curr_lang = $.cookie("default_lang");
+			var new_lang = $(this).attr('data-lang');
+			if( curr_lang == 'ru' && new_lang == 'en' || curr_lang == 'en' && new_lang == 'ru' ){
+				translate( new_lang );			
+			}
 		});				
 
-		
+		window.translateHelper = function(lang){
+			translate(lang);
+		}
 
 	});	
 

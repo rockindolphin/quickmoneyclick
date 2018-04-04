@@ -55,8 +55,8 @@
 
 @font-face {
     font-family: Circe;
-    src: 	'../fonts/Circe/CirceRegular.woff',
-    		'../fonts/Circe/CirceRegular.woff2';
+    src: 	url('../fonts/Circe/CirceRegular.woff'),
+    		url('../fonts/Circe/CirceRegular.woff2');
     font-style: normal;
     font-weight: var(--fw-normal);
 }
@@ -64,16 +64,16 @@
 @font-face {
     font-family: Circe;
     font-style: normal;
-    src: 	'../fonts/Circe/CirceBold.woff',
-    		'../fonts/Circe/CirceBold.woff2';
+    src: 	url('../fonts/Circe/CirceBold.woff'),
+    		url('../fonts/Circe/CirceBold.woff2');
     font-weight: var(--fw-bold);
 }
 
 @font-face {
     font-family: Circe;
     font-style: normal;
-    src: 	'../fonts/Circe/CirceLight.woff',
-    		'../fonts/Circe/CirceLight.woff2';
+    src: 	url('../fonts/Circe/CirceLight.woff'),
+    		url('../fonts/Circe/CirceLight.woff2');
     font-weight: var(--fw-light);
 }
 
